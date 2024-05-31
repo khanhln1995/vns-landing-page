@@ -1,0 +1,211 @@
+.courses-container .course-path__box .course-info__container .course-info__sideinfo {
+    z-index: 1;
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu1 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(200, 255, 222) 13.57%, rgb(53, 142, 239) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu2 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(255, 215, 138) 13.57%, rgb(244, 118, 45) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu3 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(85, 194, 250) 13.57%, rgb(13, 124, 240) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu4 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(255, 115, 115) 13.57%, rgb(73, 30, 184) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu5 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(0, 23, 45) 13.57%, rgb(41, 45, 87) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu6 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(219, 204, 255) 13.57%, rgb(86, 3, 173) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu7 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(255, 215, 138) 13.57%, rgb(244, 118, 45) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu8 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(75, 190, 255) 13.57%, rgb(33, 107, 218) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu9 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(111, 247, 232) 13.57%, rgb(31, 126, 161) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu10 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(159, 127, 229) 13.57%, rgb(78, 153, 227) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu11 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(65, 47, 175) 13.57%, rgb(81, 198, 234) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu12 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(255, 180, 111) 13.57%, rgb(230, 97, 55) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu12-2 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(211, 126, 230) 13.57%, rgb(73, 38, 173) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu13 .course-info__container {
+    background: linear-gradient(-304.21deg, rgb(65, 47, 175) 13.57%, rgb(81, 198, 234) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu14 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(255, 180, 111) 13.57%, rgb(230, 97, 55) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu15 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(65, 108, 226) 13.57%, rgb(86, 215, 222) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu16 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(81, 213, 255) 13.57%, rgb(98, 79, 209) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu17 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(67, 22, 219) 13.57%, rgb(144, 118, 231) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu18 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(238, 184, 109) 13.57%, rgb(153, 70, 178) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu19 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(65, 108, 226) 13.57%, rgb(224, 229, 255) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__illu20 .course-info__container {
+    background: linear-gradient(209.21deg, rgb(57, 19, 184) 13.57%, rgb(67, 83, 255) 98.38%);
+}
+
+.courses-container .course-box__column .course-path__box.course-path__group1 .course-info__container {
+    background: url('../uploads/2021/02/pencils.jpg');
+}
+
+.courses-container .course-box__column .course-path__box.course-path__group2 .course-info__container {
+    background: url('../uploads/2021/02/lightbulb.jpg');
+}
+
+.courses-container .course-box__column .course-path__box.course-path__group3 .course-info__container {
+    background: url('../uploads/2021/02/codetag.jpg');
+    background-position: 20% 30%;
+}
+
+.courses-container .course-box__column .course-path__box.course-path__group3 .course-info__container h2 {
+    color: black;
+}
+
+.courses-path-info__container {
+  margin-top: 20px;
+}
+
+.courses-path-info__container .courses-info__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.courses-path-info__container .courses-info__container .courses-info__top {
+  max-width: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.courses-path-info__container .courses-info__container .courses-info__top h6 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.courses-path-info__container .courses-info__container .courses-info__top h2 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-bottom: 22px;
+  margin-top: 10px;
+}
+
+.courses-path-info__container .courses-info__container .courses-info__top p {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  margin: 0px;
+}
+
+.courses-path-info__container .courses-info__container .courses-info__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: fit-content;
+  justify-content: center;
+}
+
+.courses-path-info__container .courses-info__container .courses-info__bottom .courses-info__tech {
+  width: 36px;
+  height: 36px;
+  padding: 3px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.courses-path-info__container .courses-info__container .courses-info__bottom .courses-info__tech .courses-info__logo {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 586px) {
+  .courses-path-info__container .courses-info__container .courses-info__top h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .courses-path-info__container .courses-info__container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: unset;
+  } 
+  .courses-path-info__container .courses-info__container .courses-info__top {
+    align-items: unset;
+    text-align: unset;
+  } 
+  .courses-path-info__container .courses-info__container .courses-info__bottom {
+    max-width: 225px;
+    margin-top: 0px;
+    justify-content: flex-end;
+  }
+}
+
+.courses-container__wrapper.section-sidemargins .zn_section_size.full_width {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (min-width: 1480px) {
+    clipPath#clip {
+       transform: scale(1.4,1);
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    clipPath#clip {
+        transform: scale(2,1);
+    }
+}

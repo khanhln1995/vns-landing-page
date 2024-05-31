@@ -1,0 +1,199 @@
+.custom_form_dinhHuong .znColumnElement-innerWrapper-eluid5e9e3cc1 {
+  border: none;
+}
+.custom_form_dinhHuong .znColumnElement-innerWrapper-eluidd73c58be {
+  border: none;
+  background: #fff;
+  padding: 45px 42px 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px rgba(11, 31, 39, 0.08);
+}
+@media screen and (max-width: 992px) {
+  .custom_form_dinhHuong {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .custom_form_dinhHuong .dhvc-form-submit-label {
+    font-size: 13px;
+  }
+}
+
+.admision {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.admision .colLeft {
+  text-align: center;
+  width: 50%;
+}
+.admision .colLeft h1 {
+  font-size: 52px;
+}
+.admision .colLeft .content {
+  padding: 40px 100px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.631372549);
+  border-radius: 4px;
+}
+.admision .colLeft .content .item {
+  text-align: left;
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 50px;
+}
+.admision .colLeft .content .item::before {
+  content: "1";
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: 250% auto;
+  background-image: linear-gradient(
+    to left,
+    #227df9 0%,
+    #7462f9 25%,
+    #df3ef8 50%,
+    #7462f9 75%,
+    #227df9 100%
+  );
+  color: #fff;
+}
+.admision .colLeft .content .item:nth-child(2)::before {
+  content: "2";
+}
+.admision .colLeft .content .item:nth-child(3)::before {
+  content: "3";
+}
+.admision .colLeft .content .item:nth-child(4)::before {
+  content: "4";
+}
+.admision .colLeft .content .item::after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.admision .colLeft .content .item p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.admision .colLeft .content .item p b {
+  display: block;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+.admision .colLeft .content .item p a {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+}
+.admision .colRight {
+  text-align: center;
+}
+.admision .colRight .logo {
+  margin-bottom: 30px;
+}
+.admision .colRight .logo img {
+  width: 50%;
+}
+.admision .colRight .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.admision .colRight .content .item {
+  width: 50%;
+  margin-bottom: 40px;
+}
+.admision .colRight .content .item h4 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1180px) {
+  .admision {
+    display: block;
+  }
+  .admision .colLeft {
+    width: 100%;
+  }
+  .admision .colRight {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .admision .colLeft h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  .admision .colLeft .content {
+    padding: 20px 20px 20px 40px;
+  }
+  .admision .colLeft .content .item p {
+    font-size: 15px;
+  }
+  .admision .colLeft .content .item p b {
+    font-size: 18px;
+  }
+  .admision .colRight .content .item h4 {
+    font-size: 40px;
+  }
+  .admision .colRight .content .item p {
+    font-size: 16px;
+  }
+  .admision .colRight .logo img {
+    width: 80%;
+  }
+  .fix_title_dinh_huong {
+    padding-bottom: 20px !important;
+  }
+  .fix_content_dinh_huong {
+    padding-bottom: 20px !important;
+  }
+} 
+
+.custom_button_test_dinh_huong {
+  background-size: 250% auto !important;
+  background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%) !important;
+  transition: all 0.5s ease !important;
+  transition-timing-function: ease, ease !important;
+  text-align: center;
+  border-radius: 4px !important;
+  text-align: center;
+  border-radius: 2px;
+  width: 100%;
+  font-size: 18px;
+  height: 65px;
+  padding: 15px 45px;
+  box-shadow: 0px 6px 6px rgb(11 31 39 / 8%) !important;
+  color: #fff !important;
+  border: none;
+  vertical-align: middle;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+
+}
+
+.custom_button_test_dinh_huong:hover {
+  background-position: right center !important;
+  border: none !important;
+  outline: none !important;
+}

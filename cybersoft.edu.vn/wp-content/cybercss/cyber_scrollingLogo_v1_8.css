@@ -1,0 +1,108 @@
+.cyber_scrollingLogo {
+  background: #ffffff;
+}
+.scrollingLogo {
+  margin: 0 auto;
+  position: relative;
+  height: 360px;
+  transform: translate3d(0, 0, 0);
+  overflow: hidden;
+}
+
+.scrollingLogo::before {
+  background: linear-gradient(270deg, hsl(0deg 0% 100% / 0%), #fff 70%);
+  content: "";
+  height: 100%;
+  width: 300px;
+  left: -60px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.scrollingLogo::after {
+  background: linear-gradient(90deg, hsl(0deg 0% 100% / 0%), #fff 65%);
+  content: "";
+  height: 100%;
+  width: 356px;
+  right: -137px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.scrollingLogoContent {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  position: relative;
+  height: 460px;
+  max-height: 460px;
+}
+
+.scrollingLogoItem {
+  align-items: center;
+  display: flex;
+  height: 77px;
+  justify-content: center;
+  width: 200px;
+  padding: 10px;
+}
+.scrollingLogoItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.scrollingLogo > div {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.scrollingLogo .scrollingLogoContent {
+  animation-delay: 0;
+  animation: moveSlideshow 90s linear infinite;
+}
+
+.scrollingLogo .scrollingLogoContent:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 576px) {
+  .scrollingLogo::before {
+    background: linear-gradient(270deg, hsl(0deg 0% 100% / 0%), #fff 85%);
+    width: 240px;
+  }
+  .scrollingLogo::after {
+    background: linear-gradient(90deg, hsl(0deg 0% 100% / 0%), #fff 70%);
+    width: 240px;
+    right: -90px;
+  }
+}
+
+.firstScrollLogo .scrollingLogo {
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  overflow: hidden;
+}
+
+.firstScrollLogo .scrollingLogo::before {
+  display: none;
+}
+
+.firstScrollLogo .scrollingLogo::after {
+  display: none;
+}
+
+@keyframes moveSlideshow {
+  0% {
+    left: 0;
+  }
+  to {
+    left: -120%;
+  }
+}

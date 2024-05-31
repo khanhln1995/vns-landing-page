@@ -1,0 +1,55 @@
+/* dark-theme sidebar */
+body.page.page-id-726 .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.wpfm-icon-block i::before {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+body.page.page-id-726 .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.wpfm-icon-block,
+.page-id-726 .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li {
+    background: white !important;
+}
+
+body.page.page-id-726 .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.name.wpfm-menu-name {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+/* light-theme sidebar */
+body.page .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.wpfm-icon-block i::before {
+    background: white;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+
+body.page .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.wpfm-icon-block {
+    background: linear-gradient(to left, #227df9, #7462f9, #b752f1) !important;
+}
+
+.wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8) !important;
+
+}
+
+body.page .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.name.wpfm-menu-name {
+    background: white;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+   
+body.page .wpfm-floating-wh-wrapper nav#wpfm-floating-menu-nav.wpfm-menu-nav.wpfm.wpfm-position-right ul li {
+    -webkit-box-shadow: 0 0 20px 0px rgb(113 124 255 / 20%); 
+    box-shadow: 0 0 20px 0px rgb(113 124 255 / 20%);
+}
+
+.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.wpfm-icon-block {
+    background: linear-gradient(to left, #227df9, #7462f9, #b752f1) !important;
+}
+
+.wpfm.wpfm-position-right ul li a.wpfm-menu-link span.wpfm-icon-block i {
+    color: white;
+    -webkit-text-fill-color: unset;
+}

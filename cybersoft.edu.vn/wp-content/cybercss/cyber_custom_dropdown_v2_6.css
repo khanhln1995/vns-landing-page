@@ -1,0 +1,137 @@
+.customDropdown .acc--default-style {
+  border: none;
+}
+
+.customDropdown .acc--default-style .acc-group {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 6px 8px rgba(42, 104, 129, 0.06);
+  display: block;
+  margin-bottom: 20px;
+  min-height: 70px;
+  padding: 10px 30px;
+  border-bottom: none;
+  width: 100%;
+}
+
+.customDropdown .acc--default-style .acc-group .acc-tgg-button {
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 0px;
+  font-size: 18px;
+  padding: 10px 60px 10px 25px;
+  padding-right: 45px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+}
+
+.acc--default-style .acc-group .acc-tgg-button:hover {
+  background: transparent;
+  color: black;
+}
+
+.acc--default-style .acc-content {
+  background: #fff;
+}
+
+.acc--default-style .acc-tgg-button.collapsed {
+  color: black;
+}
+
+.acc--default-style .acc-tgg-button:not(.collapsed) {
+  border-bottom: none;
+}
+
+.acc--default-style .acc-tgg-button {
+  color: black;
+  background: #fff;
+}
+
+.acc--default-style .acc-tgg-button:before,
+.acc--default-style .acc-tgg-button:after {
+  position: absolute;
+  content: " ";
+  width: 10px;
+  height: 2px;
+  display: block;
+  background: #ddd;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.acc--default-style .acc-tgg-button:after {
+  right: 25px;
+  top: 50%;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.acc--default-style .acc-tgg-button.collapsed:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.acc--default-style .acc-tgg-button:before {
+  right: 31px;
+  top: 50%;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.acc--default-style .acc-tgg-button.collapsed:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.acc--default-style .acc-tgg-button:before,
+.acc--default-style .acc-tgg-button:after {
+  background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+}
+
+.zn_accordion_element .acc--default-style .acc-content {
+  padding: 10px 10px;
+}
+
+.acc-content .znColumnElement {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.zn_accordion_element .acc--default-style .acc-panel-collapse {
+  padding: 0 15px;
+}
+
+@media (max-width: 576px) {
+  .customDropdown .acc--default-style .acc-group .acc-tgg-button {
+    padding: 0px 60px 0px 0px;
+    font-size: 14px;
+  }
+
+  .customDropdown .acc--default-style .acc-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .customDropdown .acc-panel-title {
+    width: 100%;
+  }
+
+  .zn_accordion_element .acc--default-style .acc-content {
+    padding: 20px 0 0;
+  }
+
+  .zn_accordion_element .acc--default-style .acc-panel-collapse {
+    padding: 0;
+  }
+
+  .customDropdown .zn_text_box p {
+    font-size: 14px;
+  }
+  .customRegister .acc-content {
+    margin: 0;
+  }
+}

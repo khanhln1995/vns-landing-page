@@ -1,0 +1,492 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 16 May 2024 15:07:12 at https://cybersoft.edu.vn/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://cybersoft.edu.vn/ -O1 "C:\Users\aduyn\Desktop\vns" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:08:41	Error: 	"Method Not Allowed" (405) at link https://cybersoft.edu.vn/xmlrpc.php (from https://cybersoft.edu.vn/)
+15:09:42	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://cybersoft.edu.vn/)
+15:12:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/lo-trinh-hoc/
+15:12:31	Warning: 	File has moved from https://cybersoft.edu.vn/lo-trinh-hoc/ to https://cybersoft.edu.vn/danh-sach-khoa-hoc/
+15:13:45	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/hanh-trinh-cuc-chay-va-thanh-cong-tu-chang-trai-trai-nganh-cybersoft/ (from https://cybersoft.edu.vn/)
+15:13:56	Warning: 	File not parsed, looks like binary: https://cybersoft.edu.vn/wp-content/plugins/revslider/public/assets/css/openhand.cur
+15:13:56	Warning: 	File not parsed, looks like binary: https://cybersoft.edu.vn/wp-content/plugins/revslider/public/assets/css/closedhand.cur
+15:13:56	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/Genericons.eot (from https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/genericons.css)
+15:13:56	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/Genericons.eot? (from https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/genericons.css)
+15:13:56	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/Genericons.ttf (from https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/genericons.css)
+15:13:56	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/Genericons.svg (from https://cybersoft.edu.vn/wp-content/plugins/wp-floating-menu-pro/css/genericons.css)
+15:13:57	Warning: 	Moved Permanently for cybersoft.edu.vn/robots.txt
+15:13:57	Warning: 	Redirected link is identical because of 'URL Hack' option: cybersoft.edu.vn/robots.txt and https://cybersoft.edu.vn/robots.txt
+15:13:57	Warning: 	Warning moved treated for cybersoft.edu.vn/robots.txt (real one is https://cybersoft.edu.vn/robots.txt)
+15:13:58	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/images/icon-phone.png (from cybersoft.edu.vn/wp-content/uploads/zn_dynamic.css)
+15:13:58	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/cybercss/img/logo-cyber-nav.svg (from https://cybersoft.edu.vn/wp-content/cybercss/style__navbar.css?v=2.2.9)
+15:13:58	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/cybercss/fonts/la-brands-400.svg (from https://cybersoft.edu.vn/wp-content/cybercss/line-awesome_v1.css)
+15:13:59	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/cybercss/fonts/slick.eot (from https://cybersoft.edu.vn/wp-content/cybercss/cyber_slick_theme_v1_1.css)
+15:13:59	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/cybercss/fonts/slick.eot? (from https://cybersoft.edu.vn/wp-content/cybercss/cyber_slick_theme_v1_1.css)
+15:13:59	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/cybercss/fonts/slick.woff (from https://cybersoft.edu.vn/wp-content/cybercss/cyber_slick_theme_v1_1.css)
+15:13:59	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/cybercss/fonts/slick.ttf (from https://cybersoft.edu.vn/wp-content/cybercss/cyber_slick_theme_v1_1.css)
+15:13:59	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/cybercss/fonts/slick.svg (from https://cybersoft.edu.vn/wp-content/cybercss/cyber_slick_theme_v1_1.css)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/POST (from https://connect.facebook.net/en_US/fbevents.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/schema.org/ (from https://connect.facebook.net/en_US/fbevents.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/b.resolvedLink (from https://connect.facebook.net/en_US/fbevents.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+15:14:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/chrome-extension://
+15:14:02	Warning: 	Redirected link is identical because of 'URL Hack' option: https://cybersoft.edu.vn/chrome-extension:// and https://cybersoft.edu.vn/chrome-extension:/
+15:14:02	Warning: 	File has moved from https://cybersoft.edu.vn/chrome-extension:// to https://cybersoft.edu.vn/chrome-extension:/
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/^([^:/? (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/GET (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/restserver.php (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/dialog/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/LiveChatEvent/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+15:14:02	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/rsrc.php/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+15:14:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=8322
+15:14:02	Warning: 	File has moved from https://cybersoft.edu.vn/?p=8322 to https://cybersoft.edu.vn/danh-cho-doanh-nghiep/
+15:14:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/lap-trinh-back-end-java-web-chuyen-nghiep/
+15:14:02	Warning: 	File has moved from https://cybersoft.edu.vn/lap-trinh-back-end-java-web-chuyen-nghiep/ to https://cybersoft.edu.vn/bootcamp-lap-trinh-back-end-java-tu-zero-co-viec-lam/
+15:14:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=220
+15:14:02	Warning: 	File has moved from https://cybersoft.edu.vn/?p=220 to https://cybersoft.edu.vn/blog/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=10478
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=10478 to https://cybersoft.edu.vn/bai-kiem-tra-dinh-huong-nghe/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=4018
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=4018 to https://cybersoft.edu.vn/bootcamp-lap-trinh-front-end-tu-zero-co-viec-lam/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=4084
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=4084 to https://cybersoft.edu.vn/bootcamp-lap-trinh-fullstack-javascript-tu-zero-co-viec-lam/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13951
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13951 to https://cybersoft.edu.vn/ky-su-lap-trinh-fullstack-cao-cap-tu-zero-den-duoc-tra-tien/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=10652
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=10652 to https://cybersoft.edu.vn/bootcamp-lap-trinh-back-end-java-tu-zero-co-viec-lam/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=4299
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=4299 to https://cybersoft.edu.vn/bootcamp-ban-ngay-lap-trinh-fullstack-javascript-tu-zero-co-viec-lam/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=2422
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=2422 to https://cybersoft.edu.vn/lap-trinh-back-end-nodejs-viet-api-thuc-te/
+15:15:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3125
+15:15:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3125 to https://cybersoft.edu.vn/stories/
+15:15:44	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=216
+15:15:44	Warning: 	File has moved from https://cybersoft.edu.vn/?p=216 to https://cybersoft.edu.vn/thu-vien-anh/
+15:15:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=8092
+15:15:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=8092 to https://cybersoft.edu.vn/cam-nhan-hoc-vien/
+15:15:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=8191
+15:15:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=8191 to https://cybersoft.edu.vn/cam-ket-dau-ra/
+15:15:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/feedback-company-student/
+15:15:45	Warning: 	File has moved from https://cybersoft.edu.vn/feedback-company-student/ to /cam-nhan-hoc-vien/
+15:15:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=10524
+15:15:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=10524 to https://cybersoft.edu.vn/gioi-thieu-cybersoft/
+15:15:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=222
+15:15:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=222 to https://cybersoft.edu.vn/lien-he/
+15:15:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13215
+15:15:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13215 to https://cybersoft.edu.vn/thong-tin-cong-bo-mao-danh-cybersoft/
+15:15:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=726
+15:15:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=726 to https://cybersoft.edu.vn/danh-sach-khoa-hoc/
+15:15:47	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=199
+15:15:47	Warning: 	File has moved from https://cybersoft.edu.vn/?p=199 to https://cybersoft.edu.vn/gioi-thieu/
+15:16:03	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=2583
+15:16:03	Warning: 	File has moved from https://cybersoft.edu.vn/?p=2583 to https://cybersoft.edu.vn/le-anh-tu/
+15:16:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/chuyen-gia-fullstack-javascript-voi-reactjs-nodejs/
+15:16:31	Warning: 	File has moved from https://cybersoft.edu.vn/chuyen-gia-fullstack-javascript-voi-reactjs-nodejs/ to /chuyen-gia-fullstack-javascript/
+15:16:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3027
+15:16:31	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3027 to https://cybersoft.edu.vn/le-diem-chi/
+15:16:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=2843
+15:16:31	Warning: 	File has moved from https://cybersoft.edu.vn/?p=2843 to https://cybersoft.edu.vn/nguyen-nhat-dang-duy/
+15:17:25	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14753
+15:17:25	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14753 to https://cybersoft.edu.vn/top-6-extensions-vs-code-danh-cho-front-end-developer-dan-dau-2024/
+15:18:14	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14740
+15:18:14	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14740 to https://cybersoft.edu.vn/chinh-phuc-hanh-trinh-hoc-tap-va-bat-dau-su-nghiep-tai-metapolis/
+15:18:14	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14736
+15:18:14	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14736 to https://cybersoft.edu.vn/code-review-checklist-ma-back-end-developer-nhat-dinh-phai-biet/
+15:18:14	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14729
+15:18:14	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14729 to https://cybersoft.edu.vn/4-best-practices-danh-cho-best-back-end-developer-2024/
+15:18:14	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14679
+15:18:14	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14679 to https://cybersoft.edu.vn/ai-cuop-viec-nhung-nguoi-khong-biet-ve-chung-2/
+15:18:43	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/tieu-de-hanh-tritieu-de-hanh-trinh-chinh-phuc-back-end-nodejs-va-kham-pha-su-nghiep-tai-vtl-viet-namnh-day-kien-nhan-va-su-hung-khoi-cua-huynh-thien-ba-trong-khoa-hoc-full-stack-tai-cybersoft/ (from https://cybersoft.edu.vn/category/cau-chuyen-thanh-cong/)
+15:20:23	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14707
+15:20:23	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14707 to https://cybersoft.edu.vn/tong-hop-tai-nguyen-ma-moi-lap-trinh-vien-deu-can/
+15:20:23	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14640
+15:20:23	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14640 to https://cybersoft.edu.vn/co-nen-hoc-lap-trinh-huong-doi-tuong-tang-tu-duy-chuan-bi-phong-van/
+15:20:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14624
+15:20:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14624 to https://cybersoft.edu.vn/chinh-phuc-hanh-trinh-lap-trinh-cung-bui-trung-hieu-tu-cybersoft-den-zeus-technology/
+15:20:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14616
+15:20:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14616 to https://cybersoft.edu.vn/ky-nang-doc-giup-nang-trinh-web-developer-nhanh-nhat/
+15:20:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14600
+15:20:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14600 to https://cybersoft.edu.vn/xin-viec-front-end-developer-nhanh-nhu-chop-khi-gioi-10-ky-nang-sau/
+15:20:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14601
+15:20:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14601 to https://cybersoft.edu.vn/hoc-vien-luu-minh-tien-khat-vong-no-luc-va-thanh-cong/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3048
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3048 to https://cybersoft.edu.vn/trinh-thi-phuong-dung/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=2902
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=2902 to https://cybersoft.edu.vn/nguyen-duy-thai/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3062
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3062 to https://cybersoft.edu.vn/vo-thanh-nhon/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=2879
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=2879 to https://cybersoft.edu.vn/nguyen-duc-thai/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3079
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3079 to https://cybersoft.edu.vn/le-van-phuong/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3182
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3182 to https://cybersoft.edu.vn/phan-ngoc-tuan-anh/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3083
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3083 to https://cybersoft.edu.vn/le-phuoc-thanh/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3075
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3075 to https://cybersoft.edu.vn/tran-phuong-nam/
+15:21:39	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/wp-content/svgimages/icon/Javascript-shield.svg (from https://cybersoft.edu.vn/wp-content/svgimages/icon/js-icon.svg)
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=280
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=280 to https://cybersoft.edu.vn/lap-trinh-front-end-chuyen-nghiep/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3409
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3409 to https://cybersoft.edu.vn/chuyen-gia-lap-trinh-di-dong-react-native/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=2295
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=2295 to https://cybersoft.edu.vn/tu-duy-thuat-toan-phan-tich-bai-toan/
+15:21:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/chuyen-gia-fullstack-javascript/
+15:21:39	Warning: 	File has moved from https://cybersoft.edu.vn/chuyen-gia-fullstack-javascript/ to /lap-trinh-back-end-nodejs-viet-api-thuc-te/
+15:22:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14553
+15:22:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14553 to https://cybersoft.edu.vn/khai-giang-bootcamp68/
+15:22:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14422
+15:22:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14422 to https://cybersoft.edu.vn/lap-trinh-chia-khoa-tuong-lai-cho-moi-linh-vuc/
+15:22:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14414
+15:22:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14414 to https://cybersoft.edu.vn/khai-giang-bootcamp66/
+15:22:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14377
+15:22:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14377 to https://cybersoft.edu.vn/khai-giang-bootcamp-cap-toc-11/
+15:22:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14362
+15:22:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14362 to https://cybersoft.edu.vn/chinh-phuc-muc-tieu-lap-trinh-voi-cybersoft-hanh-trinh-tuyet-voi-tu-nguoi-trai-nganh/
+15:22:16	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/14209-layout.css
+15:24:14	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/12953-layout.css
+15:24:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14559
+15:24:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14559 to https://cybersoft.edu.vn/hoc-lap-trinh-gia-tang-thu-nhap-tu-nghe-tay-trai-cung-cybersoft/
+15:25:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14520
+15:25:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14520 to https://cybersoft.edu.vn/buoc-khoi-dau-tuyet-voi-cho-su-nghiep-phat-trien-phan-mem/
+15:25:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13702
+15:25:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13702 to https://cybersoft.edu.vn/cybersoft-cung-supercoder-ky-ket-hop-tac-rong-duong-viec-lam-cho-dan-lap-trinh/
+15:25:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13596
+15:25:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13596 to https://cybersoft.edu.vn/cach-de-u30-co-viec-tot-luong-cao/
+15:25:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13314
+15:25:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13314 to https://cybersoft.edu.vn/lap-trinh-web-voi-python/
+15:25:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13248
+15:25:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13248 to https://cybersoft.edu.vn/lam-dau-bep-lieu-co-the-chuyen-nghe-lap-trinh/
+15:25:44	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/niem-tin-chinh-phuc-nganh-lap-trinh/ (from https://cybersoft.edu.vn/category/cau-chuyen-thanh-cong/page/2/)
+15:26:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14593
+15:26:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14593 to https://cybersoft.edu.vn/tiep-noi-dong-luc-cho-cac-ban-sinh-vien-theo-nganh-cong-nghe-thong-tin-hoac-sap-buoc-vao-chuyen-nganh/
+15:26:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14348
+15:26:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14348 to https://cybersoft.edu.vn/chang-duong-hoc-back-end-nodejs-tai-cybersoft-ngon-lua-dam-me-va-thanh-cong-di-lam-viec/
+15:26:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14343
+15:26:02	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14343 to https://cybersoft.edu.vn/hanh-trinh-no-luc-gat-hai-ngot-ngao-cua-viet-bao/
+15:26:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14334
+15:26:02	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14334 to https://cybersoft.edu.vn/danh-gia-ve-bao-long-hanh-trinh-day-no-luc-va-thanh-cong-trong-lap-trinh-front-end/
+15:26:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14317
+15:26:02	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14317 to https://cybersoft.edu.vn/chinh-phuc-chuyen-doi-nganh-cau-chuyen-day-dong-luc-tu-chuyen-gia-front-end-tai-cybersoft/
+15:27:30	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/13183-layout.css
+15:27:40	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/13165-layout.css
+15:28:15	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/de-thanh-cong-trong-cong-viec-ban-can-lam-gi-2/ (from https://cybersoft.edu.vn/category/cau-chuyen-thanh-cong/page/5/)
+15:28:21	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14580
+15:28:21	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14580 to https://cybersoft.edu.vn/meo-go-code-nhu-gio-danh-rieng-cho-dan-lap-trinh/
+15:28:21	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14570
+15:28:21	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14570 to https://cybersoft.edu.vn/luong-it-nam-2024-gay-sot/
+15:28:21	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14534
+15:28:21	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14534 to https://cybersoft.edu.vn/do-tieng-anh-co-lam-lap-trinh-duoc-khong/
+15:28:21	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14531
+15:28:21	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14531 to https://cybersoft.edu.vn/dan-code-nhat-dinh-phai-nam-long-truoc-khi-di-phong-van/
+15:28:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14566
+15:28:31	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14566 to https://cybersoft.edu.vn/nguyen-minh-tien-da-co-mot-hanh-trinh-day-an-tuong-va-day-dong-luc-tai-cybersoft-trong-qua-trinh-hoc-khoa-front-end-react-js/
+15:28:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14502
+15:28:31	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14502 to https://cybersoft.edu.vn/dong-luc-tu-hanh-trinh-cua-pham-gia-huy-tu-cybersoft-den-choi-xanh-media/
+15:28:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14436
+15:28:31	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14436 to https://cybersoft.edu.vn/di-dung-lo-trinh-voi-su-ho-tro-tu-cybersoft/
+15:28:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14402
+15:28:31	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14402 to https://cybersoft.edu.vn/hanh-trinh-ngoan-muc-tu-trai-nganh-den-vi-tri-software-engineer/
+15:28:38	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14248
+15:28:38	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14248 to https://cybersoft.edu.vn/khai-giang-bootcamp-java-04-2/
+15:28:38	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13857
+15:28:38	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13857 to https://cybersoft.edu.vn/khai-giang-bootcamp-java-04/
+15:28:38	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13458
+15:28:38	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13458 to https://cybersoft.edu.vn/khai-giang-java21-2/
+15:28:38	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13207
+15:28:38	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13207 to https://cybersoft.edu.vn/toimangtrongminhhoaibaovoinghe/
+15:28:38	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13021
+15:28:38	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13021 to https://cybersoft.edu.vn/khai-giang-java21/
+15:28:38	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12702
+15:28:38	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12702 to https://cybersoft.edu.vn/bien-gio-ranh-thanh-thu-nhap-phuong-phap-hoc-lap-trinh-hieu-qua-cho-dan-trai-nganh-2/
+15:28:45	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11619
+15:28:45	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11619 to https://cybersoft.edu.vn/toi-co-nen-hoc-lap-trinh/
+15:28:46	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14479
+15:28:46	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14479 to https://cybersoft.edu.vn/chang-duong-hoc-it-tai-cybersoft-chat-luong-giang-day-va-thuc-hanh-mo-ra-canh-cua-cong-viec-cho-ngo-huy-cuong/
+15:29:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14528
+15:29:02	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14528 to https://cybersoft.edu.vn/dung-chi-code-hay-la-1-lap-trinh-vien-co-tu-duy-lap-trinh/
+15:29:02	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14506
+15:29:02	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14506 to https://cybersoft.edu.vn/meo-nho-giup-newbie-developer-chinh-phuc-du-an-lon/
+15:29:03	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14499
+15:29:03	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14499 to https://cybersoft.edu.vn/lo-trinh-su-nghiep-cua-lap-trinh-vien-dau-tu-cang-som-tuong-lai-cang-khoe/
+15:29:04	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14485
+15:29:04	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14485 to https://cybersoft.edu.vn/biet-som-tips-sau-sinh-vien-it-xin-viec-dau-nam-nop-dau-trung-do/
+15:29:04	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14441
+15:29:04	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14441 to https://cybersoft.edu.vn/bi-kip-danh-bay-he-thong-loc-cv-tu-dong-len-trinh-cv-ngay-va-luon/
+15:29:04	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14428
+15:29:04	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14428 to https://cybersoft.edu.vn/outsource-hay-product-dau-la-su-lua-chon-toi-uu-danh-cho-cac-fresher-developer/
+15:29:04	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14410
+15:29:04	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14410 to https://cybersoft.edu.vn/muon-co-viec-ngon-sau-tet-day-la-top-nhung-viec-can-lam-ngay-tu-bay-gio/
+15:29:04	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14407
+15:29:04	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14407 to https://cybersoft.edu.vn/c-va-c-nhung-dieu-co-the-ban-chua-biet/
+15:29:06	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14373
+15:29:06	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14373 to https://cybersoft.edu.vn/api-nao-la-cap-bai-trung-cua-cac-new-developer/
+15:29:06	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14370
+15:29:06	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14370 to https://cybersoft.edu.vn/top-5-project-giup-nang-trinh-front-end-developer-vu-vu/
+15:29:06	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14358
+15:29:06	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14358 to https://cybersoft.edu.vn/top-7-sai-lam-can-ne-gap-khi-hoc-nodejs-cach-khac-phuc/
+15:29:06	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14339
+15:29:06	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14339 to https://cybersoft.edu.vn/loi-ich-cua-viec-fix-bugs-va-fix-rat-nhieu-bugs/
+15:29:06	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14331
+15:29:06	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14331 to https://cybersoft.edu.vn/dau-ngay-phong-van-fresher-voi-cac-tuyet-chieu-duoi-day/
+15:29:06	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14326
+15:29:06	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14326 to https://cybersoft.edu.vn/con-ac-mong-that-nghiep-cua-sinh-vien-it-sap-tot-nghiep/
+15:29:06	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14314
+15:29:06	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14314 to https://cybersoft.edu.vn/cach-de-code-het-chan-va-met/
+15:29:24	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14303
+15:29:24	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14303 to https://cybersoft.edu.vn/khai-giang-bootcamp65/
+15:29:24	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14261
+15:29:24	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14261 to https://cybersoft.edu.vn/tai-sao-lap-trinh-mobile-ngay-cang-hot-lo-trinh-tro-thanh-mobile-developer-tu-so-0/
+15:29:24	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14242
+15:29:24	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14242 to https://cybersoft.edu.vn/khai-giang-data-analysts-12/
+15:29:46	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14208
+15:29:46	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14208 to https://cybersoft.edu.vn/nguoi-moi-dan-than-vao-back-end-va-nhung-dieu-nhat-dinh-phai-biet/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14209
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14209 to https://cybersoft.edu.vn/workshop-lam-the-nao-de-tao-profile-duoc-nhan-viec-ngay-khac-biet-canh-tranh/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14202
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14202 to https://cybersoft.edu.vn/khai-giang-bootcamp62/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14193
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14193 to https://cybersoft.edu.vn/5-sai-lam-khien-cv-cua-ban-roi-vao-sot-rac-nha-tuyen-dung-2/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14187
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14187 to https://cybersoft.edu.vn/code-sach-va-bi-kip-tro-thanh-better-developer/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14182
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14182 to https://cybersoft.edu.vn/lap-trinh-bi-bi-code-va-cach-khac-phuc-nhanh-nhat/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14166
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14166 to https://cybersoft.edu.vn/lap-trinh-vien-giua-tam-bao-suy-thoai-trong-cai-kho-lo-cai-tich-cuc/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14137
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14137 to https://cybersoft.edu.vn/top-ky-nang-lap-trinh-front-end-can-co-de-de-xin-viec/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14124
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14124 to https://cybersoft.edu.vn/dung-de-tach-phong-van-chi-vi-cau-truc-du-lieu-va-giai-thuat/
+15:29:48	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14120
+15:29:48	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14120 to https://cybersoft.edu.vn/chuan-bi-di-xin-viec-it-ma-chua-co-kinh-nghiem-nhat-dinh-phai-doc/
+15:30:14	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/13657-layout.css
+15:30:19	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/13650-layout.css
+15:30:23	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/13634-layout.css
+15:30:28	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/13618-layout.css
+15:30:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14113
+15:30:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14113 to https://cybersoft.edu.vn/khai-giang-bootcamp-cap-toc-10/
+15:30:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14110
+15:30:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14110 to https://cybersoft.edu.vn/thuat-toan-va-cau-truc-du-lieu-quan-trong-ra-sao-khi-di-lam/
+15:30:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14104
+15:30:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14104 to https://cybersoft.edu.vn/khai-giang-nodejs-37/
+15:30:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14097
+15:30:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14097 to https://cybersoft.edu.vn/khai-giang-bootcamp61/
+15:30:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14087
+15:30:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14087 to https://cybersoft.edu.vn/pass-ngay-phong-van-voi-top-cau-hoi-phong-van-front-end-hay-gap-nhat-hien-nay/
+15:30:39	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14079
+15:30:39	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14079 to https://cybersoft.edu.vn/rat-nhieu-dan-trai-nganh-da-chuyen-sang-lam-lap-trinh-chi-vi-ly-do-nay/
+15:30:40	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13989
+15:30:40	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13989 to https://cybersoft.edu.vn/co-nen-theo-duoi-full-stack-web-giua-bao-lay-off/
+15:30:40	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13939
+15:30:40	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13939 to https://cybersoft.edu.vn/tai-sao-cau-truc-du-lieu-va-giai-thuat-duoc-xem-la-sinh-mang-cua-lap-trinh-vien/
+15:30:40	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13929
+15:30:40	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13929 to https://cybersoft.edu.vn/khai-giang-bootcamp63/
+15:30:40	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13915
+15:30:40	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13915 to https://cybersoft.edu.vn/lap-trinh-huong-doi-tuong-oop-cau-hoi-huyen-thoai-tai-cac-buoi-phong-van-tuyen-dung/
+15:31:14	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12953
+15:31:14	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12953 to https://cybersoft.edu.vn/mot-nam-khoi-dau-bang-mua-xuantuoi-tre-khoi-dau-bang-nhung-lua-chon/
+15:31:14	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12253
+15:31:14	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12253 to https://cybersoft.edu.vn/5-cach-dan-trai-nganh-tang-thu-nhap-nho-hoc-lap-trinh/
+15:31:14	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11363
+15:31:14	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11363 to https://cybersoft.edu.vn/danh-cho-sinh-vien-cntt-mat-goc-chi-3h-ngay-lay-lai-goc-tu-tin-vao-chuyen-sau/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11308
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11308 to https://cybersoft.edu.vn/lam-sao-de-tro-thanh-mot-back-end-nodejs-developer/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11222
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11222 to https://cybersoft.edu.vn/hoc-lap-trinh-tu-zero-den-hero-that-de/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=10690
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=10690 to https://cybersoft.edu.vn/lam-sao-de-tro-thanh-mot-back-end-java-developer/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=9619
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=9619 to https://cybersoft.edu.vn/hoc-lap-trinh-di-lam-tu-con-so-0-2/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14284
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14284 to https://cybersoft.edu.vn/tieu-de-hanh-trinh-day-kien-nhan-va-su-hung-khoi-cua-huynh-thien-ba-trong-khoa-hoc-full-stack-tai-cybersoft/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=14279
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=14279 to https://cybersoft.edu.vn/niem-tin-chinh-phuc-nganh-lap-trinh-2/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13945
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13945 to https://cybersoft.edu.vn/dieu-ma-ban-tin-rang-ban-co-the-ban-deu-co-the-hanh-trinh-nghe-si-lap-trinh-cua-luong-cong-nhut/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13905
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13905 to https://cybersoft.edu.vn/kho-khan-cua-sinh-vien-cong-nghe-thong-tin-khi-hoc-lap-trinh-la-gi/
+15:31:18	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3952
+15:31:18	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3952 to https://cybersoft.edu.vn/8-trang-web-tang-tu-duy-lap-trinh/
+15:32:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13899
+15:32:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13899 to https://cybersoft.edu.vn/niem-tin-chay-bong-va-tinh-than-hoc-tap-vuot-troi-cua-dinh-son/
+15:32:08	Warning: 	Retry after error -4 (No data (connection closed)) at link https://cybersoft.edu.vn/?p=13851 (from https://cybersoft.edu.vn/hoc-lap-trinh-doi-voi-nu-co-kho-khan-khong/)
+15:32:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13706
+15:32:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13706 to https://cybersoft.edu.vn/bay-gia-tri-khi-ban-hoc-lap-trinh-som/
+15:32:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13687
+15:32:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13687 to https://cybersoft.edu.vn/su-ki-luat-la-nen-mong-de-hoc-tot-lap-trinh/
+15:32:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13590
+15:32:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13590 to https://cybersoft.edu.vn/hoc-lap-trinh-la-mot-cuoc-hanh-trinh-day-thach-thuc-va-co-hoi/
+15:32:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13570
+15:32:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13570 to https://cybersoft.edu.vn/vuon-len-voi-niem-dam-me-hanh-trinh-thanh-cong-cua-quoc-ngu-trong-linh-vuc-front-end/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13550
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13550 to https://cybersoft.edu.vn/hoc-lap-trinh-thu-vi-the-nao/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13543
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13543 to https://cybersoft.edu.vn/vi-sao-ban-nen-hoc-lap-trinh-som/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13501
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13501 to https://cybersoft.edu.vn/phainututinvoinghelaptrinh/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13493
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13493 to https://cybersoft.edu.vn/dam-me-lap-trinh-2/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13482
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13482 to https://cybersoft.edu.vn/dam-me-lap-trinh/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13477
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13477 to https://cybersoft.edu.vn/dam-me-nhiet-huyet-luon-la-ngon-duoc-chay-ruc-o-chang-trai-quoc-bao/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13468
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13468 to https://cybersoft.edu.vn/dam-me-giup-minh-tu-nganh-xay-dung-thanh-dev/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13435
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13435 to https://cybersoft.edu.vn/dat-muc-tieu-cao-su-thanh-cong-trong-tam-tay/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13431
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13431 to https://cybersoft.edu.vn/la-phu-nu-co-nen-hoc-lap-trinh/
+15:32:09	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13388
+15:32:09	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13388 to https://cybersoft.edu.vn/kien-tri-la-chia-khoa-dan-den-thanh-cong-2/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13425
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13425 to https://cybersoft.edu.vn/y-chi-ve-thanh-cong-2/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13300
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13300 to https://cybersoft.edu.vn/y-chi-ve-thanh-cong/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13267
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13267 to https://cybersoft.edu.vn/tien-buoc-voi-tu-tin-hanh-trinh-thanh-cong-cua-vo-ngoc-tin-trong-linh-vuc-front-end/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13180
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13180 to https://cybersoft.edu.vn/lap-trinh-vua-cua-moi-nghe/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13194
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13194 to https://cybersoft.edu.vn/dam-me-va-no-luc/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13183
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13183 to https://cybersoft.edu.vn/buc-pha-ban-than-boc-pha-gioi-han/
+15:32:10	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/buc-pha-ban-than-boc-pha-gioi-han/B%e1%bb%a8C%20PH%c3%81%20B%e1%ba%a2N%20TH%c3%82N-B%e1%bb%98C%20PH%c3%81%20GI%e1%bb%9aI%20H%e1%ba%a0N (from https://cybersoft.edu.vn/buc-pha-ban-than-boc-pha-gioi-han/)
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13166
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13166 to https://cybersoft.edu.vn/hoc-frontend-buoc-dem-vung-chac-2/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13165
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13165 to https://cybersoft.edu.vn/hoc-lap-trinh-co-bi-quyet-that-de-dang/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13030
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13030 to https://cybersoft.edu.vn/ban-co-nen-hoc-lap-trinh/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12963
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12963 to https://cybersoft.edu.vn/muc-tieu-trong-cuoc-song-ban-la-gi/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12859
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12859 to https://cybersoft.edu.vn/chang-trai-sinh-vien-duoc-va-cu-chuyen-nganh-day-ngoan-muc/
+15:32:10	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11609
+15:32:10	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11609 to https://cybersoft.edu.vn/tu-mat-dinh-huong-den-luong-8-so/
+15:32:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11932
+15:32:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11932 to https://cybersoft.edu.vn/5-api-can-thiet-ma-lap-trinh-vien-front-end-can-biet/
+15:32:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12535
+15:32:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12535 to https://cybersoft.edu.vn/mot-so-mau-figma-mien-phi-danh-cho-lap-trinh-front-end/
+15:32:34	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13893
+15:32:34	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13893 to https://cybersoft.edu.vn/khai-giang-bootcamp64/
+15:32:34	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13859
+15:32:34	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13859 to https://cybersoft.edu.vn/viet-nam-se-thieu-hut-tu-150-000-200-000-lap-trinh-vien-moi-nam-nang-luc-it-viet-thuoc-top-dau-khu-vuc/
+15:32:34	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13841
+15:32:34	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13841 to https://cybersoft.edu.vn/nghi-thuat-toan-chan-kho-ban-se-lo-co-hoi-vao-facebook-google-twitter/
+15:32:46	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): cybersoft.edu.vn/wp-content/uploads/zion-builder/cache/13339-layout.css
+15:32:51	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13828
+15:32:51	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13828 to https://cybersoft.edu.vn/khai-giang-bootcamp60/
+15:32:55	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13793
+15:32:55	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13793 to https://cybersoft.edu.vn/ngon-ngu-lap-trinh-nao-phu-hop-voi-tung-vi-tri-cong-viec-hoc-gi-de-dung-du-yeu-cau-doanh-nghiep/
+15:32:58	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13780
+15:32:58	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13780 to https://cybersoft.edu.vn/tra-loi-muot-nhu-nhung-10-cau-hoi-phong-van-web-developer-kinh-dien/
+15:32:58	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13763
+15:32:58	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13763 to https://cybersoft.edu.vn/hoc-front-end-hay-back-end-tot-hon-hieu-ro-va-du-de-quyet-dinh-cho-dung/
+15:32:58	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13756
+15:32:58	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13756 to https://cybersoft.edu.vn/khai-giang-nodejs-35/
+15:33:00	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13743
+15:33:00	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13743 to https://cybersoft.edu.vn/top-20-laptop-laptrinh-ngon-bo-re-cho-lap-trinh-vien/
+15:33:27	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/khai-giang-nodejs-29/ (from https://cybersoft.edu.vn/category/cac-hoat-dong-cua-cybersoft/page/8/)
+15:33:31	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13733
+15:33:31	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13733 to https://cybersoft.edu.vn/tu-duy-nhu-mot-lap-trinh-vien-ky-nang-giai-quyet-van-de-dat-gia/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13724
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13724 to https://cybersoft.edu.vn/khai-giang-data-analysts-11/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13719
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13719 to https://cybersoft.edu.vn/khai-giang-nodejs-34/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13694
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13694 to https://cybersoft.edu.vn/khai-giang-bootcamp-cap-toc-09/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13674
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13674 to https://cybersoft.edu.vn/newbie-phai-biet-so-sanh-uu-va-nhuoc-diem-cua-cac-ngon-ngu-lap-trinh-pho-bien-nhat-hien-nay/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13657
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13657 to https://cybersoft.edu.vn/5-dieu-khong-nen-tiet-lo-cho-chatgpt/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13650
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13650 to https://cybersoft.edu.vn/xu-huong-micro-certificate-nganh-lap-trinh/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13634
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13634 to https://cybersoft.edu.vn/chua-tung-tiet-lo-huong-dan-tim-job-nang-cao-thu-nhap-cho-dan-lap-trinh/
+15:33:32	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13618
+15:33:32	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13618 to https://cybersoft.edu.vn/cybersoft-career-day-2023/
+15:33:32	Error: 	"Not Found" (404) at link https://cybersoft.edu.vn/khaitruongbinhduong/ (from https://cybersoft.edu.vn/category/cac-hoat-dong-cua-cybersoft/page/9/)
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13577
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13577 to https://cybersoft.edu.vn/khai-giang-bootcamp58/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13564
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13564 to https://cybersoft.edu.vn/khai-giang-nodejs-33/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13517
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13517 to https://cybersoft.edu.vn/doi-doi-nho-hoc-lap-trinh/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13507
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13507 to https://cybersoft.edu.vn/khai-giang-bootcamp57/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13450
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13450 to https://cybersoft.edu.vn/khai-giang-bootcamp51-2/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13442
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13442 to https://cybersoft.edu.vn/khai-giang-bootcamp52-3-2/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13413
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13413 to https://cybersoft.edu.vn/khai-giang-bootcamp52-3/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13414
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13414 to https://cybersoft.edu.vn/khai-giang-bootcamp52-2/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12148
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12148 to https://cybersoft.edu.vn/tu-duy-thay-doi-cuoc-doi/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12800
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12800 to https://cybersoft.edu.vn/45-cau-hoi-phong-van-mau-ai-cung-nen-biet/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=4218
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=4218 to https://cybersoft.edu.vn/8-ghi-nho-de-ban-co-the-tro-thanh-mot-senior-lap-trinh-thuc-thu/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3959
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3959 to https://cybersoft.edu.vn/mot-so-cau-hoi-phong-van-front-end-phan-1/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3948
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3948 to https://cybersoft.edu.vn/khong-can-su-dung-vong-lap-trong-javascript-learn/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3931
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3931 to https://cybersoft.edu.vn/top-20-plugin-2020-front-end-dev-phai-biet/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3747
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3747 to https://cybersoft.edu.vn/ux-trong-lap-trinh-front-end-react-native/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3274
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3274 to https://cybersoft.edu.vn/front-end-hieu-ung-parallax-header-cuc-dep/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3269
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3269 to https://cybersoft.edu.vn/hieu-ung-lat-trang-su-dung-reactjs-va-js/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=3260
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=3260 to https://cybersoft.edu.vn/hieu-ung-carousel-3d-su-dung-html-css-js-va-thu-vien-tweenmax-js/
+15:34:01	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13851
+15:34:01	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13851 to https://cybersoft.edu.vn/hoc-lap-trinh-doi-voi-nu-co-kho-khan-khong/
+15:34:03	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12307
+15:34:03	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12307 to https://cybersoft.edu.vn/7-meo-huu-ich-de-cai-thien-web-accessibility-kha-nang-truy-cap-web/
+15:34:03	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11126
+15:34:03	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11126 to https://cybersoft.edu.vn/5-ly-do-ma-ban-nen-hoc-front-end/
+15:34:08	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=9923
+15:34:08	Warning: 	File has moved from https://cybersoft.edu.vn/?p=9923 to https://cybersoft.edu.vn/50-tip-giup-anh-em-front-end-ui-ux-pro-hon/
+15:34:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13400
+15:34:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13400 to https://cybersoft.edu.vn/lap-trinh-vien-khong-co-bang-dai-hoc/
+15:34:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13367
+15:34:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13367 to https://cybersoft.edu.vn/trung-tam-day-lap-trinh-uy-tin/
+15:34:12	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13339
+15:34:12	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13339 to https://cybersoft.edu.vn/cach-hoc-lap-trinh-tren-dien-thoai/
+15:34:15	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13292
+15:34:15	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13292 to https://cybersoft.edu.vn/khai-giang-nodejs-29-2/
+15:34:15	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13119
+15:34:15	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13119 to https://cybersoft.edu.vn/khai-giang-bootcamp52/
+15:34:15	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13094
+15:34:15	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13094 to https://cybersoft.edu.vn/khai-giang-bootcamp51/
+15:34:15	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13086
+15:34:15	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13086 to https://cybersoft.edu.vn/khai-giang-bootcampsang07/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=13036
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=13036 to https://cybersoft.edu.vn/khai-giang-bootcamp47/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12970
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12970 to https://cybersoft.edu.vn/khai-giang-bootcamp46/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12922
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12922 to https://cybersoft.edu.vn/khai-giang-bootcamp50/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12909
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12909 to https://cybersoft.edu.vn/workshop-cybersoft-binh-duong/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=12407
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=12407 to https://cybersoft.edu.vn/khai-giang-data-analytics-08-online/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11818
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11818 to https://cybersoft.edu.vn/khai-giang-bootcamp44/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11535
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11535 to https://cybersoft.edu.vn/khai-giang-bootcamp45/
+15:34:16	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11347
+15:34:16	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11347 to https://cybersoft.edu.vn/khai-giang-nodejs27/
+15:34:17	Warning: 	Moved Permanently for https://cybersoft.edu.vn/?p=11956
+15:34:17	Warning: 	File has moved from https://cybersoft.edu.vn/?p=11956 to https://cybersoft.edu.vn/nen-chon-tailwind-css-hay-bootstrap-css/
+
+HTTrack Website Copier/3.49-2 mirror complete in 27 minutes 5 seconds : 3037 links scanned, 2785 files written (562091242 bytes overall) [492531878 bytes received at 303096 bytes/sec], 92960770 bytes transferred using HTTP compression in 1288 files, ratio 18%, 11.6 requests per connection
+(33 errors, 448 warnings, 0 messages)

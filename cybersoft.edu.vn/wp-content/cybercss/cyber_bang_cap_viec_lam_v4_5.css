@@ -1,0 +1,123 @@
+.certificate_work .cyber_spacing--bottom {
+    padding: 15px 0;
+}
+
+.cyber_jobCol {
+    padding: 0 50px;
+}
+
+.certificate_work .tbk__title {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.certificate_work .tbk__subtitle {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.certificate_work,
+.certificate_work.zn_section {
+    width: 100%;
+    background: #343754;
+    color: #fff;
+}
+
+.certificate_work .kl-iconbox__inner .kl-iconbox__title {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.certificate_work .work_item {
+    padding: 30px;
+    background: rgb(255 255 255 / 10%);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.certificate_work .work_item i {
+    margin-right: 5px;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #dfe7ff 1%, #ff00fc);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.certificate_work .work_item h3 {
+    font-size: 26px;
+
+}
+
+.certificate_work .work_item p {
+    margin-bottom: 15px;
+
+}
+
+.cyber_job .cyber_jobLeft .znColumnElement-innerContent {
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+@media screen and (min-width:1600px) {
+    .certificate_work .cardstack-box {
+
+        width: 75%;
+        height: 75%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .certificate_work .cardstack-box {
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:765px) {
+    .certificate_work .cardstack-box {
+        height: 500px;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+    .cyber_job .znColumnElement-innerContent {
+        height: 200px;
+    }
+
+    .cyber_job {
+        margin-bottom: 25px;
+    }
+
+    .certificate_work .work_item h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .certificate_work .kl-iconbox__inner .kl-iconbox__title {
+        font-size: 18px;
+    }
+
+    .cyber_job .cyber_jobLeft .znColumnElement-innerContent{
+        height: 200px;
+    }
+    .cyberjob_spacing{
+       /* display: none; */
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .cyber_job .cyber_jobLeft .znColumnElement-innerContent {
+        height: 300px;
+    }
+
+}

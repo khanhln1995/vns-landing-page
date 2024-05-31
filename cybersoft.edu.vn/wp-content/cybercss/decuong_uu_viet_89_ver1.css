@@ -1,0 +1,84 @@
+/***************** 8. Box đề cuơng và Menu line-bar ******************/
+@media (min-width: 768px) {
+    .timeline-bar--right .timeline-box:after {
+      border-right-color: #a599ff;
+    }
+    .timeline-box:after {
+      border-left-color: #a599ff;
+    }
+  }
+  
+  .timeline_box.timeline-box {
+    color: white;
+    background-size: 250% auto;
+    background-image: linear-gradient(137deg, #3388ff, #a599ff, #ed79ff, #a599ff, #3388ff);
+    transition: all 0.5s ease;
+  }
+  
+  .timeline_box.timeline-box:hover {
+    background-position: right center;
+  }
+  
+  .main-nav>ul>.logo-menu-wrapper:nth-child(1)::before, 
+  .main-nav>ul>.menu-item:nth-child(1)::before, 
+  .site-header.kl-center-menu .main-nav>ul>li:nth-child(1)::before {
+    display: none;
+  }
+  
+  .btn-element.btn-lined.lined-custom.btn--square::after {
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  .btn-element.btn-lined.lined-custom.btn--square:hover::after {
+    right: 0px;
+    width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    .timeline_box.timeline-box .timeline-box-icon { 
+      background-image: unset;
+      background: white;
+      border-radius: 50%;
+    }
+  
+    .timeline_box.timeline-box .timeline-box-icon::before {
+      color: #227df9;
+    }
+  }
+  
+  /***************** 9. Điểm ưu việt Icon ******************/
+  .home .zn_pb_wrapper :nth-child(5) .services_box.servicebox-sch--light.services_box--modern .services_box__icon {
+    box-shadow: inset 0 0 0 2px #7462f9;
+  }
+  
+  .home .zn_pb_wrapper :nth-child(5) .services_box.servicebox-sch--light.services_box--modern .services_box__fonticon {
+    color: white;
+  }
+  
+  .home .zn_pb_wrapper :nth-child(5) [data-zn_icon]:before {
+    background: linear-gradient(to top, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent; 
+  }
+  
+  .home .zn_pb_wrapper :nth-child(5) .services_box.servicebox-sch--light.services_box--modern:hover .services_box__icon {
+    box-shadow: inset 0 0 0 40px #7462f9;
+  }
+  
+  .home .zn_pb_wrapper :nth-child(5) .services_box.servicebox-sch--light.services_box--modern:hover .services_box__icon [data-zn_icon]:before {
+    background: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+  }
+  
+  .home .zn_pb_wrapper :nth-child(5) .tbk__title {
+    background: linear-gradient(to bottom, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+  }

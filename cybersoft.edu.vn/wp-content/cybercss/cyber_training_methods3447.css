@@ -1,0 +1,379 @@
+.cyber_method_learning {
+    background-image: url("../uploads/2022/08/bg_phuong_phap.jpg");
+    background-size: cover;
+}
+
+.cyber_method_learning .tbk__title {
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.cyber_method_learning .tbk__subtitle {
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+#method_learning .method_title {
+    padding: 80px;
+}
+
+#method_learning .method_title h3 {
+    font-size: 34px;
+}
+
+#method_learning .method_title p {
+    padding: 50px;
+    font-size: 22px;
+}
+
+#method_learning .values {
+
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#method_learning .values .title {
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#method_learning .values .container {
+    padding: 40px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#method_learning .values .container .item {
+    transition: 0.3s;
+    width: 28%;
+    padding: 20px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#method_learning .values .container .item::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    content: "";
+}
+
+#method_learning .values .container .item .content {
+    transition: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+}
+
+#method_learning .values .container .item .content img {
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+#method_learning .values .container .item .content .content__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#method_learning .values .container .item .content p {
+    width: 75%;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 5px;
+}
+
+#method_learning .values .container .item .content span {
+    flex-shrink: 0;
+    color: white;
+    font-size: 50px;
+}
+
+#method_learning .values .container .item1::after {
+    background-image: url("../uploads/2022/08/bg_1_v1.png");
+    transform: rotate(0deg);
+    transition: 0.2s;
+}
+
+#method_learning .values .container .item1:hover::after {
+    transform: scale(1.02) rotate(-30deg);
+}
+
+#method_learning .values .container .item1 .content {
+    background: #4fcfb9;
+}
+
+#method_learning .values .container .item2::after {
+    background-image: url("../uploads/2022/08/bg_2_v2.png");
+    transform: rotate(-30deg);
+    transition: 0.2s;
+}
+
+#method_learning .values .container .item2:hover::after {
+    transform: scale(1.02) rotate(-60deg);
+}
+
+#method_learning .values .container .item2 .content {
+    background: #5379e3;
+}
+
+#method_learning .values .container .item3::after {
+    background-image: url("../uploads/2022/08/bg_3_v1.png");
+    transform: rotate(-60deg);
+    transition: 0.2s;
+    width: 100%;
+}
+
+#method_learning .values .container .item3:hover::after {
+    transform: scale(1.02) rotate(-90deg);
+}
+
+#method_learning .values .container .item3 .content {
+    background: #907bea;
+}
+
+#method_learning .values .container .item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: black;
+    opacity: 0.5;
+    -webkit-filter: blur(10px);
+    -webkit-transform: scale(1, 0.2) translateX(-50%);
+}
+
+
+#method_learning .item i {
+    font-size: 50px;
+}
+
+#method_learning .values .container .item .content span.method_learning--nowrap {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 1200px) {
+    div#method_learning div.values div.container div.item div.content {
+        padding: 10px;
+    }
+
+    div#method_learning div.values div.container div.item div.content span {
+        font-size: 40px;
+    }
+
+    div#method_learning div.values div.container div.item div.content p,
+    #method_learning .values .container .item .content span.method_learning--nowrap {
+        font-size: 13px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    div#method_learning div.method_title h3 {
+        font-size: 28px;
+    }
+
+    div#method_learning div.method_title p {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    div#method_learning div.values div.container .item {
+        margin-bottom: 30px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cyber_method_learning .tbk__title {
+        font-size: 25px;
+
+    }
+
+    .cyber_method_learning .tbk__subtitle {
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+
+    }
+
+    #method_learning .values .title {
+        font-size: 20px;
+    }
+
+    div#method_learning div.method_title {
+        padding: 40px;
+    }
+
+    div#method_learning div.method_title p {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    div#method_learning div.values div.container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#method_learning div.values div.container .item {
+        margin-bottom: 30px;
+        width: 250px;
+        height: 250px;
+    }
+
+    div#method_learning div.values div.container div.item div.content {
+        padding: 10px;
+    }
+
+    div#method_learning div.values div.container div.item div.content span {
+        font-size: 40px;
+    }
+
+    div#method_learning div.values div.container div.item div.content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    div#method_learning div.values div.container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    div#method_learning div.values div.container .item {
+
+        width: 110px;
+        height: 110px;
+        padding: 5px;
+    }
+
+    #method_learning .item i {
+
+        display: none;
+    }
+
+    #method_learning .values .container .item .content .content__main {
+        flex-direction: column;
+    }
+
+    div#method_learning div.values div.container div.item div.content span {
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+    div#method_learning div.values div.container div.item div.content p {
+        font-size: 14px;
+        line-height: 16px;
+
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/* SAFARI on MAC*/
+@media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+
+
+        #method_learning .values .container .item.safari_only {
+            padding: 0px;
+            width: 30%;
+        }
+
+        #method_learning .values .container .item.safari_only .content {
+            width: 90%;
+            height: 90%;
+        }
+
+        @media screen and (max-width: 768px) {
+            div#method_learning div.values div.container .item.safari_only {
+
+                width: 250px;
+                height: 250px;
+            }
+
+        }
+
+        @media screen and (max-width: 576px) {
+            div#method_learning div.values div.container .item.safari_only {
+
+                width: 110px;
+                height: 110px;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+
+
+/* CSS specific to iOS devices */
+@supports (-webkit-touch-callout: none) {
+
+
+    #method_learning .values .container .item.safari_only {
+        padding: 0px;
+        width: 30%;
+    }
+
+    #method_learning .values .container .item.safari_only .content {
+        width: 90%;
+        height: 90%;
+    }
+
+    @media screen and (max-width: 768px) {
+        div#method_learning div.values div.container .item.safari_only {
+
+            width: 250px;
+            height: 250px;
+        }
+
+    }
+
+    @media screen and (max-width: 576px) {
+        div#method_learning div.values div.container .item.safari_only {
+
+            width: 110px;
+            height: 110px;
+            padding: 5px;
+        }
+    }
+}
+

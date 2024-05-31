@@ -1,0 +1,367 @@
+.infoCourse ul {
+  list-style: none;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+
+.infoCourse {
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+  font-size: 16px;
+}
+
+.infoCourse .container {
+  display: flex;
+  width: 100%;
+    padding-left: 29px;
+
+}
+.infoCourse .container .content {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  width: 50%;
+  position: relative;
+}
+.infoCourse .container .img {
+  width: 50%;
+}
+.infoCourse .container .img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.infoCourse .content_Info .listInfo {
+  list-style: none;
+}
+
+.infoCourse .content_Info ul.listInfo li {
+  display: flex;
+}
+
+.infoCourse .content_Info ul.listInfo li .cover {
+  margin: 0;
+  max-width: 160px;
+  width: 160px;
+
+  padding-right: 0.75rem;
+}
+
+.infoCourse .content_Info ul.listInfo li .content_Title {
+  position: relative;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 800;
+  font-weight: 800;
+  background: linear-gradient(45deg, #7462f9 35%, #df3ef8 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.infoCourse .content_Info ul.listInfo .cover span {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  margin-top: -0.4rem;
+}
+
+.infoCourse .content_Info .note {
+  color: #7d7d7d;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-left: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.infoCourse .note .report {
+  color: #05aae1;
+  text-decoration: none;
+}
+
+.infoCourse .content_Info button {
+  border: none;
+  padding: 1.4rem 2.3rem;
+  border-radius: 0.25rem;
+  background-image: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.infoCourse .container .img > div {
+  width: 100%;
+  height: 100%;
+  max-width: 356px;
+  max-height: 316px;
+  float: right;
+  border-radius: 0.4rem;
+}
+
+@media screen and (min-width: 1125px) {
+  .infoCourse {
+    padding: 0;
+    transform: translateX(4%);
+    width: 59vw;
+  }
+  .infoCourse .container {
+    padding: 0;
+    display: flex;
+    padding-top: 28px;
+    padding-left: 29px;
+  }
+  .infoCourse .listInfo_tablet {
+    display: none;
+  }
+
+  .infoCourse .container .img {
+    width: 50%;
+  }
+  .infoCourse .container .img img {
+    height: 100%;
+    display: block;
+  }
+  .infoCourse .container .img > div {
+    width: 100%;
+    height: 100%;
+    max-width: 356px;
+    max-height: 316px;
+    float: right;
+    border-radius: 0.4rem;
+  }
+
+  .infoCourse .content {
+    position: relative;
+    padding-left: 0;
+  }
+  .infoCourse .content .headArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100.3%;
+    height: 93%;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  .infoCourse .content::before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-top: 147px solid transparent;
+    border-left: 72px solid #fff;
+    border-bottom: 147px solid transparent;
+  }
+  .infoCourse .content .content_Info {
+    transform: translateY(2.2rem);
+    margin-left: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .infoCourse .content_Info ul.listInfo .cover > span {
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+  }
+  .infoCourse .content_Info ul.listInfo li {
+    margin-bottom: 0.5rem;
+  }
+  .infoCourse .content_Info .note_container {
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .infoCourse .content_Info .note {
+    max-width: 330px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .infoCourse .content .button {
+    transform: translateY(-1rem);
+  }
+}
+
+@media screen and (min-width: 531px) and (max-width: 1124px) {
+  .infoCourse .container {
+    display: block;
+  }
+  .infoCourse .container .content {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    position: relative;
+  }
+  .infoCourse .container .content::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    right: -20px;
+    top: -30%;
+    bottom: 28px;
+    background-color: white;
+    border-radius: 4px;
+    z-index: -1;
+  }
+
+  .infoCourse .container .img {
+    width: 100%;
+    position: relative;
+  }
+  .infoCourse .container .img::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    right: -20px;
+    top: 45%;
+    bottom: 0;
+    background-color: white;
+    border-radius: 4px;
+    z-index: -1;
+  }
+
+  .infoCourse .content_Info .listInfo {
+    display: none;
+  }
+
+  .infoCourse .content_Info .listInfo_tablet {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+  }
+  .infoCourse .content_Info ul.listInfo_tablet .cover {
+    display: block;
+    max-width: 150px;
+    padding-right: 1rem;
+  }
+  .infoCourse .content_Info ul.listInfo_tablet .cover:first-child {
+    padding-left: 1rem;
+  }
+  .infoCourse .content_Info ul.listInfo_tablet .cover:last-child {
+    padding-right: 1rem;
+  }
+  .infoCourse .content_Info ul.listInfo_tablet li .content_Title {
+    color: #05aae1;
+    font-size: 24px;
+    font-weight: 800;
+    display: inline-block;
+    background: linear-gradient(45deg, #7462f9, #df3ef8 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .infoCourse .content_Info ul.listInfo_tablet .cover span {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    display: inline-block;
+  }
+  .infoCourse .content_Info .note_container {
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  .infoCourse .content_Info .note {
+    width: auto;
+  }
+  .infoCourse .content_Info .button {
+    text-align: center;
+    margin-top: 1.8rem;
+  }
+  .infoCourse .content_Info button {
+    text-align: center;
+    margin-left: 0;
+    padding: 1.5rem 3rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .infoCourse {
+    padding: 1rem;
+  }
+  .infoCourse .listInfo_tablet {
+    display: none;
+  }
+  .infoCourse .block-pc {
+    display: none;
+  }
+  .infoCourse .container {
+    display: block;
+  }
+  .infoCourse .container .img {
+    width: 100%;
+    position: relative;
+  }
+  .infoCourse .container .img::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    right: -20px;
+    top: 45%;
+    bottom: 0;
+    background-color: white;
+    border-radius: 4px;
+    z-index: -1;
+  }
+  .infoCourse .container .content {
+    width: 100%;
+    position: relative;
+  }
+
+  .infoCourse .container .content::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    right: -20px;
+    top: -30%;
+    bottom: 28px;
+    background-color: white;
+    border-radius: 4px;
+    z-index: -1;
+  }
+  .infoCourse .content_Info {
+    width: 100%;
+  }
+  .infoCourse .content_Info .listInfo {
+    margin-top: 1rem;
+  }
+  .infoCourse .content_Info ul.listInfo li .content_Title {
+    font-size: 1.5rem;
+  }
+  .infoCourse .content_Info ul.listInfo .cover span {
+    line-height: 1.5;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .infoCourse .content_Info ul.listInfo li .cover {
+    width: 150px;
+  }
+  .infoCourse .content_Info ul.listInfo li {
+    margin-bottom: 0.8rem;
+    justify-content: space-evenly;
+  }
+  .infoCourse .note_container {
+    text-align: center;
+    transform: translateX(-1rem);
+  }
+  .infoCourse .note_container .note {
+    margin-bottom: 0.5rem;
+    padding-left: 0;
+  }
+
+  .infoCourse .content_Info .button {
+    text-align: center;
+  }
+  .infoCourse .content_Info button {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}

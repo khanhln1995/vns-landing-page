@@ -1,0 +1,146 @@
+#investing {
+    padding: 50px;
+}
+
+#investing .title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+#investing .title span {
+    color: #000;
+}
+
+#investing .content {
+    color: #333;
+    height: 431.11px;
+    margin: 70px auto 0;
+    width: 467.5px;
+    position: relative;
+    background: url("../../../cutecdn.codingdojo.com/new_design_image/corporate_training/win_cycle.png") no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+
+#investing .content .desc {
+    width: 208px;
+    position: absolute;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#investing .content .desc>p {
+    margin: 0;
+    line-height: 1.3;
+}
+
+#investing .content .desc i {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#investing .content .desc_1 {
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    top: -50px;
+}
+
+#investing .content .desc_2 {
+    bottom: 105px;
+    right: -94px;
+}
+
+#investing .content .desc_3 {
+    bottom: 104px;
+    left: -88px;
+}
+
+@media screen and (max-width:1200px) {
+    #investing .title {
+
+        font-size: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    #investing .title {
+        font-size: 30px;
+        padding: 0;
+        line-height: 1.5;
+
+        position: relative;
+
+    }
+
+    #investing .content .desc_2 .tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #investing .title {
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+
+    #investing {
+        padding: 50px 15px;
+    }
+
+    #investing .content {
+        width: 100%;
+        margin-top: -60px;
+        height: 431.11px;
+        position: relative;
+        /* background-size: cotain;
+        background-position: top center; */
+        background: none;
+    }
+
+
+
+    #investing .content .desc {
+        width: 220px;
+    }
+
+    #investing .content .desc_1 {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        top: -25px;
+    }
+
+    #investing .content .desc_2 {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        bottom: 180px;
+    }
+
+    #investing .content .desc_3 {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        top: 300px;
+    }
+
+    #investing .content .desc i {
+        margin-bottom: 12px;
+    }
+
+}

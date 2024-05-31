@@ -1,0 +1,83 @@
+#homeBaBuoc #procedure {
+  padding: 0;
+}
+#homeBaBuoc #procedure .banner h3 {
+  padding-left: 0;
+  font-size: 35px;
+}
+#homeBaBuoc #procedure .banner img {
+    width: 100%;
+  margin: 0;
+margin-bottom : 20px;
+}
+#homeBaBuoc #procedure .list .item .content .skill .title h3 {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  #homeBaBuoc #procedure .container1 {
+    display: block;
+  }
+  #homeBaBuoc #procedure .container1 .banner {
+    width: 100%;
+    display: block;
+  }
+  #homeBaBuoc #procedure .container1 .banner img {
+    display: none;
+  }
+  #homeBaBuoc #procedure .container1 .list {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #homeBaBuoc #procedure .container1 .list .item .line {
+    display: none;
+  }
+}
+
+#tuVanDinhHuong {
+  margin-top: 30px;
+  text-align: center;
+}
+#tuVanDinhHuong a {
+  background-size: 250% auto !important;
+  background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%) !important;
+  transition: all 0.5s ease;
+  transition-timing-function: ease, ease;
+  text-align: center;
+  border-radius: 8px;
+  text-align: center;
+  border-radius: 2px;
+  width: 100%;
+  font-size: 14px;
+  height: 45px;
+  padding: 15px 35px;
+  box-shadow: 0px 6px 6px rgba(11, 31, 39, 0.08);
+  color: #fff !important;
+  border: none;
+  vertical-align: middle;
+    text-transform: uppercase;
+
+  cursor: pointer;
+font-weight: 700;
+}
+
+#tuVanDinhHuong a:hover {
+  background-position: right center;
+}
+
+
+#homeBaBuoc #procedure .container1 .banner h3:hover {
+  -webkit-text-fill-color: unset;
+}
+
+#homeBaBuoc #procedure .container1 .list .item {
+  display: flex;
+  align-items: center;
+}
+
+#homeBaBuoc #procedure .container1 .list .item .number {
+  width: 15%;
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=homeBaBuoc.css.map */

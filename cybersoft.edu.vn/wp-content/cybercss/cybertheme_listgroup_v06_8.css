@@ -1,0 +1,111 @@
+/*
+    List group
+*/
+
+.cyber_list_default .znListItems {
+    margin: 0;
+    padding: 0;
+}
+
+.cyber_list_default .znListItems-text {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* List Font */
+.cyber_list_fs18 .znListItems-text {
+    font-size: 18px;
+}
+
+/* List Style */
+
+.cyber_list_style ul li {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.cyber_list_style ul li:before {
+    content: '';
+    background-color: #CCC;
+    border-radius: 100%;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 6px;
+}
+
+.cyber_list_style .znListItems-text {
+    padding-left: 10px;
+}
+
+.cyber_list_icon .znListItems-icon {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cyber_list_style .cyberSubList li:before {
+    border-radius: 0;
+}
+
+
+.cyber_list_style .cyberSubList li {
+    padding-bottom: 10px;
+}
+
+.cyber_list_style .cyberSubList .znListItems-text {
+    padding-left: 20px;
+}
+
+/* List Style  Blog*/
+.menuBlogDetail {
+    padding: 20px 30px;
+    margin: 10px 0px 30px;
+    border-radius: 25px;
+    background: rgb(246, 246, 251);
+}
+
+.custom_xemChiTiet .menuBlogDetail .menuBlogDetail__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(76, 15, 251);
+margin:0;
+}
+
+.listBlogDettail li {
+    font-weight: 700;
+}
+
+.listBlogDettail li::marker {
+    color: rgb(76, 15, 251);
+    font-weight: 700;
+}
+
+.custom_xemChiTiet ul.subListBlogDetail li {
+    list-style-type: none;
+    margin: 5px 0px 10px;
+    font-weight: 400;
+}
+
+.custom_detailBlog ul.listBlogDettail a,
+.subListBlogDetail a {
+    background: transparent;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+    text-decoration-line: underline;
+    color: black;
+    -webkit-text-fill-color: black;
+}
+
+.custom_detailBlog ul.listBlogDettail a:hover {
+    text-decoration-thickness: 2px;
+}
+
+.custom_detailBlog .listBlog--style1 li::marker {
+    color: rgb(76, 15, 251);
+}

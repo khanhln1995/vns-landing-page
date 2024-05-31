@@ -1,0 +1,59 @@
+.page-id-222 table.tblBK.table > tbody > tr > th {
+  vertical-align: middle;
+}
+
+
+.sub__footer--container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.sub__footer--copyright {
+   margin-bottom: 10px;
+}
+
+.footer-copyright {
+   display: flex;
+}
+
+.sub__footer--tags {
+   width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+#footer .site-footer .kl-newsletter-submit {
+width: fit-content;
+}
+#footer .site-footer .kl-newsletter-field {
+width: calc(100% - 150px);
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+#footer .site-footer .kl-newsletter-submit {
+width: fit-content;
+}
+#footer .site-footer .kl-newsletter-field {
+width: calc(100% - 167px);
+}
+}
+
+
+
+@media screen and (min-width: 768px) {
+   .sub__footer--container {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-right: 10px;
+   }
+   .sub__footer--tags {
+      width: 50%;
+   }
+}
+
+@media screen and (min-width: 991px) {
+   .sub__footer--container {
+      padding-right: 10%;
+   }
+}

@@ -1,0 +1,570 @@
+    .targetCourseSection {
+        background-image: url(../uploads/2022/09/17.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+    .targetCourse .imgMobile {
+        display: none;
+        position: relative;
+    }
+
+    .targetCourse .imgMobile img {
+        width: 100%;
+    }
+
+    .targetCourse .imgMobile h2 {
+        position: absolute;
+        z-index: 5;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .imgMobile h2 {
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .imgMobile h2 {
+            display: block;
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .imgMobile {
+            display: block;
+            width: 80%;
+            margin: 15px auto;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .targetCourse .imgMobile {
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+        }
+    }
+
+    .targetCourse .targetCourseContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 800px;
+        background-image: url("../uploads/2022/08/vongXoayMiddle2.png");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+
+    @media (max-width: 1480px) {
+        .targetCourse .targetCourseContent {
+            height: 580px;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .targetCourse .targetCourseContent {
+            height: 500px;
+        }
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent {
+            height: 350px;
+            background-image: unset;
+            gap: 20px;
+        }
+    }
+
+    @media (max-width: 922px) {
+        .targetCourse .targetCourseContent {
+            height: 350px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent {
+            /* display: block; */
+            height: 100%;
+            background-image: unset;
+            margin-top: 50px;
+
+            display: flex;
+            align-items: baseline;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        text-align: right;
+        height: 100%;
+        position: relative;
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent .colLeft {
+            width: 50%;
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colLeft {
+            width: 100%;
+            height: -webkit-max-content;
+            height: -moz-max-content;
+            height: max-content;
+            row-gap: 0;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-bottom: 50px;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem {
+        display: flex;
+        position: absolute;
+        align-items: center;
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent .colLeft .colItem {
+            position: unset;
+            margin-bottom: 20px;
+            flex-direction: row-reverse;
+            text-align: left;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colLeft .colItem {
+            padding-left: 0px;
+            padding-right: 0px;
+            flex-direction: column-reverse;
+            width: 50%;
+            padding: 0 2px;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem .colItemTitle {
+        line-height: 30px;
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colLeft .colItem .colItemTitle {
+            line-height: 20px;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem .colItemTitle p {
+        color: white;
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colLeft .colItem .colItemTitle p {
+            font-size: 15px;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem .itemCol {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem .itemCol .borderGlass {
+        filter: blur(0.6);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+        backdrop-filter: blur(16.3px);
+        -webkit-backdrop-filter: blur(16.3px);
+        transition: all 0.5s ease-out;
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem .itemCol .borderGlass .itemColGlass {
+        width: 75px;
+        height: 75px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        border-radius: 50%;
+        background: white;
+        transition: all 0.5s ease-out;
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem .itemCol .borderGlass .itemColGlass i {
+        background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.5s ease-out;
+        font-size: 25px;
+    }
+  .targetCourse .targetCourseContent .colLeft .targetItemMobile {
+      display: none;
+  }
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colLeft .colItem .itemCol .borderGlass .itemColGlass {
+            width: 55px;
+            height: 55px;
+            font-size: 25px;
+        }
+
+        .targetCourse .targetCourseContent .colLeft .colItem .itemCol .borderGlass {
+            width: 60px;
+            height: 60px;
+        }
+
+        .targetCourse .targetCourseContent .colLeft .targetItemMobile {
+            display: flex;
+        }
+    }
+
+
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent .colLeft .colItem .itemCol {
+            margin-left: 0;
+            margin-right: 15px;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem:nth-child(1) {
+        top: 22%;
+        right: 1%;
+        transform: translateY(-22%);
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colLeft .colItem:nth-child(1) {
+            top: 25%;
+            right: 0%;
+            transform: translateY(-30%);
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colLeft .colItem:nth-child(1) {
+            transform: unset;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem:nth-child(2) {
+        top: 50%;
+        right: 15%;
+        transform: translateY(-50%);
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colLeft .colItem:nth-child(2) {
+            transform: unset;
+
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem:nth-child(3) {
+        top: 78%;
+        right: 1%;
+        transform: translateY(-78%);
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colLeft .colItem:nth-child(3) {
+            top: 75%;
+            right: 0%;
+            transform: translateY(-70%);
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colLeft .colItem:nth-child(3) {
+            transform: unset;
+        }
+
+        .targetCourse .targetCourseContent .colLeft .colItem .itemCol {
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem:hover .borderGlass {
+        background: white;
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem:hover .itemColGlass {
+        box-shadow: inset 0 0 0 40px #7462f9;
+    }
+
+    .targetCourse .targetCourseContent .colLeft .colItem:hover .itemColGlass i {
+        background: white !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+
+    .targetCourse .targetCourseContent .colMiddle {
+        width: 30%;
+        position: relative;
+    }
+
+    .targetCourse .targetCourseContent .colMiddle img {
+        width: 100%;
+    }
+
+    .targetCourse .targetCourseContent .colMiddle h2 {
+        position: absolute;
+        font-size: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 0px;
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colMiddle h2 {
+            font-size: 30px;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .targetCourse .targetCourseContent .colMiddle h2 {
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent .colMiddle {
+            display: none;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        text-align: left;
+        height: 100%;
+        position: relative;
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent .colRight {
+            width: 50%;
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colRight {
+            width: 50%;
+            margin-top: 15px;
+            padding-right: 15px;
+            row-gap: 15px;
+            margin-bottom: 30px;
+            display: none;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        position: absolute;
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent .colRight .colItem {
+            position: unset;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem .colItemTitle {
+        width: calc(100% - 80px);
+        line-height: 30px;
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colRight .colItem .colItemTitle {
+            line-height: 20px;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem .colItemTitle p {
+        color: white;
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colRight .colItem .colItemTitle p {
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colRight .colItem .colItemTitle {
+            width: 100%;
+        }
+
+        .targetCourse .targetCourseContent .colRight .colItem {
+            flex-direction: column-reverse;
+        }
+
+        .targetCourse .targetCourseContent .colRight .colItem .itemCol {
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem .itemCol {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem .itemCol .borderGlass {
+        filter: blur(0.6);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+        backdrop-filter: blur(16.3px);
+        -webkit-backdrop-filter: blur(16.3px);
+        transition: all 0.5s ease-out;
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem .itemCol .borderGlass .itemColGlass {
+        width: 75px;
+        height: 75px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        border-radius: 50%;
+        background: white;
+        transition: all 0.5s ease-out;
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem .itemCol .borderGlass .itemColGlass i {
+        background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.5s ease-out;
+        font-size: 25px;
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colRight .colItem .itemCol .borderGlass .itemColGlass {
+            width: 55px;
+            height: 55px;
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colRight .colItem .itemCol .borderGlass {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    @media (max-width: 1180px) {
+        .targetCourse .targetCourseContent .colRight .colItem .itemCol {
+            margin-left: 0;
+            margin-right: 15px;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem:nth-child(1) {
+        top: 22%;
+        left: 1%;
+        transform: translateY(-22%);
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colRight .colItem:nth-child(1) {
+            top: 25%;
+            left: 0%;
+            transform: translateY(-30%);
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colRight .colItem:nth-child(1) {
+            transform: unset;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem:nth-child(2) {
+        top: 50%;
+        left: 15%;
+        transform: translateY(-50%);
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colRight .colItem:nth-child(2) {
+            transform: unset;
+
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem:nth-child(3) {
+        top: 78%;
+        left: 1%;
+        transform: translateY(-78%);
+    }
+
+    @media (max-width: 1440px) {
+        .targetCourse .targetCourseContent .colRight .colItem:nth-child(3) {
+            top: 75%;
+            left: 0%;
+            transform: translateY(-70%);
+        }
+    }
+
+    @media (max-width: 576px) {
+        .targetCourse .targetCourseContent .colRight .colItem:nth-child(3) {
+            transform: unset;
+        }
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem:hover .borderGlass {
+        background: white !important;
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem:hover .itemColGlass {
+        box-shadow: inset 0 0 0 40px #7462f9;
+    }
+
+    .targetCourse .targetCourseContent .colRight .colItem:hover .itemColGlass i {
+        background: white !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }

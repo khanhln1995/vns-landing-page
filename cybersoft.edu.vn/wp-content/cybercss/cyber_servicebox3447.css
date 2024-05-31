@@ -1,0 +1,28 @@
+@media screen and (max-width: 576px) {
+    .cyber_benefit .services_box .services_box__inner {
+        display: flex;
+    }
+
+    .cyber_benefit .services_box__icon {
+        /* width: 20%; */
+        margin-top: 20px;
+        margin-right: 5px;
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .cyber_benefit .services_box--modern .services_box__fonticon {
+        line-height: 55px;
+        display: block;
+    }
+
+    .cyber_benefit .services_box__content {
+        width: 80%;
+        text-align: left;
+    }
+
+    .cyber_benefit .services_box__inner .services_box__icon .services_box__fonticon {
+        font-size: 30px;
+    }
+}

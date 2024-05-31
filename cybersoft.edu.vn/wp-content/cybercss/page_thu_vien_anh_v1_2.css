@@ -1,0 +1,35 @@
+.custom_img_page_thu_vien_anh_1 img {
+    height: 106px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom_img_page_thu_vien_anh_2 img {
+    height: 172px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom_img_page_thu_vien_anh_3 img {
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+    .custom_img_page_thu_vien_anh_3 img {
+        height: auto;
+
+    }
+    .custom_img_page_thu_vien_anh_2 img {
+        height: 124px;
+  
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .custom_img_page_thu_vien_anh_3 img {
+        height: auto;
+
+    }
+}

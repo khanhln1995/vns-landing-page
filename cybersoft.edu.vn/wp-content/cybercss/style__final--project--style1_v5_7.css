@@ -1,0 +1,255 @@
+.final__project__tabs.tabs_style1 {
+    background: transparent;
+    border: none;
+}
+
+.final__project__tabs>ul.nav {
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.final__project__tabs>ul.nav>li>a {
+    border: none;
+    color: #fff;
+    padding: 17px 0 !important;
+}
+
+.final__project__tabs>ul.nav>li.active>a {
+    position: relative;
+}
+
+.final__project__tabs>ul.nav>li.active>a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.final__project__tabs>ul.nav>li>a:hover {
+    background: transparent !important;
+}
+
+.final__project__tabs>ul.nav>li:first-child.active>a {
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+.final__project__tabs>ul.nav>li:first-child.active>a .tab__logo .tab__logo--img {
+    background: white;
+    border: 1px solid red;
+}
+
+.final__project__tabs>ul.nav>li:nth-child(2).active>a {
+    border: none;
+    background: transparent;
+}
+
+.final__project__tabs>ul.nav>li:nth-child(2).active>a .tab__logo .tab__logo--img {
+    background: white;
+    border: 1px solid blue;
+}
+
+.final__project__tabs>ul.nav>li:nth-child(3).active>a {
+    border: none;
+    background: transparent;
+}
+
+.final__project__tabs>ul.nav>li:nth-child(3).active>a .tab__logo .tab__logo--img {
+    background: white;
+    border: 1px solid #00a700;
+}
+
+.final__project__tabs>ul.nav>li:nth-child(4).active>a {
+    border: none;
+    background: transparent;
+}
+
+.final__project__tabs>ul.nav li.hr-tabs-nav-item:before {
+    background: transparent !important;
+}
+
+.final__project__tabs .tab__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600 !important;
+}
+
+.final__project__tabs .tab__logo .tab__logo--img {
+    margin-top: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 7px 5px rgba(171, 155, 155, 0.06);
+}
+
+.final__project__tabs .tab__logo .tab__logo--img img {
+    width: auto;
+    height: 50%;
+    object-fit: cover;
+}
+
+.final__project__tabs>.tab-content {
+    border-radius: 5px;
+    background: white;
+    box-shadow: 6px 4px 7px 5px rgba(171, 155, 155, 0.08);
+    padding: 35px 40px;
+}
+
+.final__project__tabs>.tab-content .overview__tech {
+    margin-bottom: 40px;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--heading {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--heading .divider {
+    margin: 0 14px;
+    width: 2px;
+    height: 24px;
+    background: #ababab;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--heading h5 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--heading h5.heading--desc {
+    color: #098cff;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--body {
+    margin-bottom: 20px;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--tech {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--tech h5 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #a5a5a5;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--tech .overview--tech__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--tech .course-info__tech {
+    width: 36px;
+    height: 36px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.final__project__tabs>.tab-content .overview__tech .overview__tech--tech .course-info__tech img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.final__project__tabs>.tab-content .what__you__learn .what__you__learn--heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.final__project__tabs>.tab-content .what__you__learn .what__you__learn--heading h5 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+.final__project__tabs>.tab-content .what__you__learn .what__you__learn--heading ._bar {
+    flex: 1;
+    height: 1px;
+    background: black;
+}
+
+.final__project__tabs>.tab-content .what__you__learn .what__you__learn--body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 45px;
+}
+
+
+
+.final__project__tabs>.tab-content .what__you__learn .what__you__learn--body .what__you__learn--box {
+    margin-bottom: 30px;
+}
+
+.final__project__tabs>.tab-content .what__you__learn .what__you__learn--body .what__you__learn--box h5 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.final__project__title {
+    padding-bottom: 0px;
+}
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+@media (min-width: 768px) {
+    .final__project__tabs>.tab-content .what__you__learn .what__you__learn--body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .final__project__tabs>.tab-content .what__you__learn .what__you__learn--body {
+        gap: 60px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 992px) {
+    .final__main--column{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .capstone__main--column {
+        padding: 20px;
+    }
+
+    .final__main--column {
+        padding: 40px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .final__project__tabs.tabbable.hr-tabs .hr-tabs-nav {
+        overflow-x: hidden !important;
+    }
+}
+

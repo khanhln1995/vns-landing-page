@@ -1,0 +1,79 @@
+.custom_buttonGroupHome {
+  justify-content: flex-start !important;
+}
+
+#listThongKe .title {
+  text-align: center;
+}
+#listThongKe .title h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+#listThongKe .title p {
+  font-size: 25px;
+}
+#listThongKe .list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#listThongKe .list .item {
+  display: flex;
+  align-items: center;
+}
+#listThongKe .list .item .icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 10px;
+}
+#listThongKe .list .item .icon img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#listThongKe .list .item .text h3 {
+  background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+}
+#listThongKe .list .item .text p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  #listThongKe .list .item {
+    flex-direction: column;
+  }
+  #listThongKe .list .item .icon {
+    margin-right: 0;
+  }
+  #listThongKe .list .item .text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  #listThongKe .title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  #listThongKe .list .item {
+    flex-direction: column;
+  }
+  #listThongKe .list .item .icon {
+    margin-right: 0;
+  }
+  #listThongKe .list .item .text {
+    text-align: center;
+  }
+  #listThongKe .list .item .text h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

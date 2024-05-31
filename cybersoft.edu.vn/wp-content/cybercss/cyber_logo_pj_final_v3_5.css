@@ -1,0 +1,83 @@
+.icon_final_pj .tab__logo--img {
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    border: 1px solid transparent;
+    position: relative;
+    z-index: -2;
+}
+
+.icon_final_pj .tab__logo--img i {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease-out;
+    font-size: 25px;
+    position: relative;
+    z-index: 4;
+}
+
+.tab__logo:hover .tab__logo--img i,.hr-tabs-nav-item.active .tab__logo .tab__logo--img i {
+    background: white !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.icon_final_pj .tab__logo--img::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    top: 1px;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.icon_final_pj .tab__logo--img:before {
+    position: absolute;
+    content: '';
+    background-color: #5044ac;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    z-index: 2;
+    transform: scale(0);
+    transition: all 0.3s;
+    border: 2px solid #fff;
+}
+
+/* .icon_final_pj .tab__logo--img:hover::before { 
+    z-index: 2;
+    transform: scale(1);
+}  */
+
+.icon_final_pj .tab__logo:hover .tab__logo--img::before,.hr-tabs-nav-item.active .tab__logo .tab__logo--img::before {
+    z-index: 3;
+    transform: scale(1);
+}
+
+
+.icon_final_pj>ul.nav>li:first-child.active>a .tab__logo .tab__logo--img {
+    border: 1px solid transparent;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+
+}
+
+
+.icon_final_pj>ul.nav>li:nth-child(2).active>a .tab__logo .tab__logo--img {
+    border: 1px solid transparent;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+}
+
+.icon_final_pj>ul.nav>li:nth-child(3).active>a .tab__logo .tab__logo--img {
+    border: 1px solid transparent;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+
+}
+
+.icon_final_pj .tab__logo .tab__logo--img img {
+    position: relative;
+    z-index: 3;
+}

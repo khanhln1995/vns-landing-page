@@ -1,0 +1,349 @@
+.formInformation {
+    margin: 0 0 32px 0;
+    transform: translateY(-10px);
+    border-radius: 8px;
+    position: relative;
+    width: 100%;
+}
+
+.formInformation .formInformationTitle {
+    background: #272634;
+    padding-left: 50px;
+    border-radius: 8px 8px 0 0;
+    padding-top: 10px;
+}
+
+.formInformation .formInformationTitle h3 {
+    display: inline-block;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    top: -10px;
+}
+
+.formInformation .formInformationContent {
+    padding: 0 15px;
+    background: #fff;
+}
+
+.formInformation .formInformationContent .locationBranch {
+    background: white;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.formInformation .formInformationContent .locationBranch h4 {
+    padding: 30px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formInformation .formInformationContent .classListStarted {
+    left: 0px;
+    list-style: none;
+    padding: 0px 0 0px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.formInformation .formInformationContent .classListStarted:last-child {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.formInformation .formInformationContent .classListStarted li {
+    margin: 25px 0 0 0;
+    position: relative;
+}
+
+.formInformation .formInformationContent .classListStarted li::after {
+    border-bottom: 1px solid #c4c4c4;
+    content: "";
+    margin: -5px 0 0 0;
+    position: absolute;
+    transform: translate(0px, 10px);
+    width: 100%;
+}
+
+.formInformation .formInformationContent .classListStarted li:last-child:after {
+    width: 0;
+}
+
+.formInformation .formInformationContent .classListStarted li h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formInformation .formInformationContent .classListStarted li p span {
+    padding: 0 8px;
+}
+
+.formInformation .formInformationContent .classListStarted li p{
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+    padding: 0;
+    position: unset;
+    /* opacity: 0.8; */
+    margin-bottom: 5px;
+}
+
+.formInformation .formInformationContent .classListStarted li p i {
+    margin-right: 10px;
+}
+
+.formInformation .formInformationContent .classListStarted li a{
+    text-decoration: none;
+    display: flex;
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    width: auto;
+}
+.resigterNow__mobile{
+    display: none;
+}
+.resigterNow__mobile a.resigterNow{
+    display: flex;
+    cursor: pointer;
+}
+.resigterNow__mobile a.resigterNow span{
+        background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 0.6px;
+        font-weight: 500;
+        font-size: 17px;
+}
+
+.resigterNow__mobile a.resigterNow:hover .arrowGoRight{
+    animation: arrowDown 1s infinite;
+}
+
+
+.formInformation .formInformationContent .classListStarted li .arrowGoRight i, .resigterNow__mobile .arrowGoRight i{
+    -webkit-text-fill-color: #df3ef8;
+    margin-left: 5px;
+}
+
+.formInformation .formInformationContent .classListStarted li a:hover .arrowGoRight {
+    animation: arrowGo 1s infinite;
+}
+
+.time_location_learn {
+    width: max-content;
+    background: white;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.time_location_learn .time_learn {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.time_location_learn .time_learn li {
+    margin-bottom: 10px;
+}
+
+.time_location_learn .time_learn li i {
+    margin-right: 10px;
+}
+
+.time_location_learn .title {
+    margin-bottom: 15px;
+}
+
+.time_location_learn .title h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.time_location_learn .col_right .listLocationCompany {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+
+.time_location_learn .col_right .listLocationCompany:last-child {
+    margin-bottom: 0;
+}
+
+.time_location_learn .col_right .locationCompany .countryLocation {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.time_location_learn .col_right .listLocationCompany li {
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.time_location_learn .col_right .listLocationCompany li i {
+    margin-right: 10px;
+}
+
+.formInformation .formInformationContent .courseDuration {
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.formInformation .formInformationContent .promotionCourse {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.formInformation .formInformationContent .promotionCourse h4 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.formInformation .formInformationContent .promotionCourse ul {
+    list-style: none;
+}
+
+.formInformation .formInformationContent .promotionCourse ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.formInformation .formInformationContent .promotionCourse ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.formInformation .formInformationContent .promotionCourse ul li b {
+    color: red;
+}
+
+.formInformation .formInformationContent .offlineCourse {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.formInformation .formInformationContent .offlineCourse span {
+    color: red;
+}
+
+.formInformation .formInformationContent .offlineCourse .dealCourse {
+    color: black;
+    text-decoration: line-through;
+}
+
+
+
+@media (max-width: 1280px) {
+    .formInformation {
+        margin: 0px 0 32px 0;
+    }
+
+    .formInformation .formInformationTitle {
+        padding-left: 20px;
+    }
+
+    .formInformation .formInformationContent {
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .formInformation {
+        margin: 30px 0 32px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .formInformation .formInformationContent .locationBranch h4 {
+        padding: 15px 0 0 0px;
+    }
+
+    .formInformation .formInformationContent .classListStarted li h4 {
+        font-size: 15px;
+    }
+
+    .formInformation .formInformationContent .classListStarted li a {
+        font-size: 13px;
+    }
+
+    .formInformation .formInformationContent .classListStarted li p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .formInformation .formInformationContent .classListStarted li p span {
+        padding: 0 2px;
+    }
+
+    .formInformation .formInformationContent ul {
+        padding: 1px 30px 30px;
+    }
+
+    .formInformation .formInformationContent ul li h4 {
+        margin: 10px 0 0px;
+    }
+
+    .formInformation .formInformationContent ul li p {
+        color: black;
+        opacity: 0.8;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .formInformation .formInformationContent ul li p span {
+        padding: 0 4px;
+    }
+
+    .formInformation .formInformationContent ul li::before {
+        transform: translate(0px, 130px);
+    }
+
+    .formInformation .formInformationContent ul li a {
+        position: relative;
+        right: 0;
+    }
+    .resigterNow__mobile{
+        display: block;
+    }
+}
+
+@keyframes arrowGo {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+}
+
+@keyframes arrowDown {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+}

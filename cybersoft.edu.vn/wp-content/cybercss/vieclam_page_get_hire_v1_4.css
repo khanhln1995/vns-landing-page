@@ -1,0 +1,174 @@
+
+
+.get_hire ul {
+  list-style: none;
+  padding: 0;
+}
+.get_hire .tabTitle {
+  position: relative;
+}
+.get_hire .tabTitle ul {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  gap: 20px;
+}
+.get_hire .curriculumIcon > i {
+  font-size: 40px;
+  color: #ccc;
+}
+.get_hire .tabTitle ul li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.get_hire li.contentItem h4 {
+  font-size: 24px;
+  line-height: 1.3;
+}
+.get_hire .tabTitle ul li .itemContent {
+  cursor: pointer;
+  position: relative;
+}
+.get_hire .tabTitle ul li .itemContent .tabItemTitle h5 {
+  margin-bottom: 10px;
+}
+.get_hire .tabTitle ul li .itemContent .tabItemTitle h4 {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+  line-height: 1.3;
+}
+.get_hire .tabTitle ul li .itemContent .arrowAfter {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.get_hire .tabTitle ul li .itemContent .arrowAfter::after {
+  background-image: url(https://cutecdn.codingdojo.com/new_design_image/new_programs/new_programs_icons_sprite.svg);
+  background-position: -155px -205px;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 32px;
+  left: 0;
+  margin: 0 auto;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 115px;
+  transition: 0.2s;
+  vertical-align: top;
+  width: 67px;
+}
+.get_hire .tabTitle ul li .curriculumIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.get_hire .tabTitle ul .activeArrow {
+  opacity: 1 !important;
+  transition: all 0.5s;
+}
+.get_hire .tabTitle ul .active .curriculumIcon {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+}
+.get_hire .tabTitle .tabTitleLine {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  display: block;
+  height: 9px;
+  position: absolute;
+  top: 65px;
+  vertical-align: top;
+  width: 100%;
+}
+.get_hire .tabTitle .tabTitleLine span {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  border-radius: 12px;
+  display: block;
+  height: 9px;
+  transition: 0.21s;
+}
+.get_hire .tabTitle .tabTitleLine::before {
+  background-image: url(https://cutecdn.codingdojo.com/new_design_image/new_programs/new_programs_icons_sprite.svg);
+  background-position: -131px -205px;
+  bottom: -13px;
+  content: "";
+  display: inline-block;
+  height: 32px;
+  position: absolute;
+  right: -8px;
+  vertical-align: top;
+  width: 23px;
+}
+.get_hire .tabContent {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  margin-top: 45px;
+  height: max-content;
+  width: 100%;
+}
+.get_hire .tabContent ul li {
+  display: none;
+  padding: 30px;
+}
+.get_hire .tabContent ul .contentItem.active {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .get_hire .tabContent {
+    margin-top: 12px;
+  }
+  .get_hire .tabTitle ul {
+    gap: 0;
+    display: inline-flex;
+    padding-right: 24px;
+  }
+  .get_hire .tabTitle ul li .itemContent {
+    padding: 0 6px;
+  }
+  .get_hire .curriculumIcon > i {
+    font-size: 24px;
+  }
+  .get_hire .tabTitle ul li .itemContent .tabItemTitle h4 {
+    font-size: 12px;
+    height: 32px;
+  }
+  .get_hire .tabTitle ul li .curriculumIcon {
+    height: 36px;
+    width: 36px;
+  }
+  .get_hire .tabTitle ul .curriculumIcon img {
+    width: 20px;
+  }
+  .get_hire .tabTitle .tabTitleLine {
+    top: 65px;
+  }
+  .get_hire .tabTitle ul li .itemContent .arrowAfter::after {
+    top: 97px;
+    left: -6px;
+  }
+  .get_hire .tabTitle ul li .itemContent .arrowAfter::after {
+    height: 20px;
+  }
+  .get_hire li.contentItem h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .get_hire li.contentItem span {
+    font-size: 14px;
+  }
+}

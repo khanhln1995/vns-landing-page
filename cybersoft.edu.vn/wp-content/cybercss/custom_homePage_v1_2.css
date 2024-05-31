@@ -1,0 +1,16 @@
+.banner_atHomePage {
+  color: black !important;
+}
+
+.banner_atHomePage .slogan {
+  background: white !important;
+
+}
+
+.banner_atHomePage .slogan .content h4 {
+  color: black !important;
+}
+
+.banner_atHomePage .slogan .content p {
+  color: black !important;
+}

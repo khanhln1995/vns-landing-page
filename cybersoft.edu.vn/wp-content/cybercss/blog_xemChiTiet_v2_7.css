@@ -1,0 +1,140 @@
+.custom_xemChiTiet .kl-blog-single-head-wrapper {
+    display: none;
+}
+
+.custom_xemChiTiet .kl-blog-single-head-wrapper .kl-blog-post-img {
+    height: 100%;
+}
+
+.custom_xemChiTiet .kl-blog-single-head-wrapper .kl-blog-post-img img {
+    height: 100%;
+}
+
+.custom_xemChiTiet .page-title {
+    font-size: 36px;
+}
+
+.custom_xemChiTiet .kl-blog-related-post-title {
+    margin-top: 10px;
+}
+
+.custom_xemChiTiet .kl-blog-related-post-title .kl-blog-related-post-title-link {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.custom_xemChiTiet .itemBody h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 60px 0 30px;
+}
+
+.custom_xemChiTiet .itemBody h3 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.custom_xemChiTiet .itemBody h4 {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.custom_xemChiTiet .itemBody ul,
+.custom_xemChiTiet .itemBody li {
+    list-style-type: initial;
+}
+
+
+
+.custom_xemChiTiet .itemTagsBlock {
+    display: none;
+}
+
+.custom_xemChiTiet .custom_blogLienQuan {
+    padding: 0 15px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.custom_xemChiTiet .custom_blogLienQuan img {
+    width: 20%;
+}
+
+.custom_xemChiTiet .custom_blogLienQuan::before {
+    content: "";
+    width: 98%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+}
+
+
+
+
+
+.custom_xemChiTiet .itemSocialSharing {
+    display: flex;
+    align-items: center;
+}
+
+.custom_xemChiTiet .itemSocialSharing li {
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_xemChiTiet .itemSocialSharing .facebook_share {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-right: 10px;
+}
+
+.custom_xemChiTiet .itemSocialSharing .facebook_share button {
+    background: #1877f2;
+    color: white;
+    font-size: 10px;
+    padding: 5px 5px;
+    width: 25px;
+    border-radius: 2px;
+    height: 25px;
+}
+
+.custom_xemChiTiet .itemSocialSharing .linkedin_share {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.custom_xemChiTiet .itemSocialSharing .linkedin_share button {
+    background: #1877f2;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    width: 25px;
+    border-radius: 2px;
+    height: 25px;
+}
+
+.custom_xemChiTiet .itemSocialSharing .itemGooglePlusOneButton,
+.custom_xemChiTiet .itemSocialSharing .kl-blog-post-socsharing-pin,
+.custom_xemChiTiet .itemSocialSharing .itemTwitterButton {
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .custom_xemChiTiet .itemBody h2 {
+    
+        margin: 40px 0 30px;
+    }
+}

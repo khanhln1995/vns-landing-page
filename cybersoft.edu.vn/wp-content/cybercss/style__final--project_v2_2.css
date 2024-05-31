@@ -1,0 +1,57 @@
+.final__project--section {
+    background-color: #2F2B42;
+    pointer-events: none;
+    padding-top: 0;
+}
+
+.final__project--section .final__main--column {
+    pointer-events: all;
+}
+
+.final__project--section .final__project__box {
+    margin-top: 20px;
+}
+
+.final__project--section .final__project__box .final__project--summary {
+    font-weight: 500;
+}
+
+.final__project--section .final__project__box .final__project--image,
+.final__project--section .final__project__box .capstone__project__box--image {
+    width: 50%;
+    margin: initial;
+}
+
+.final__project--section .final__project__desc--items .final__project__desc--item {
+    border: 1px solid #A7A7A7;
+    border-radius: 15px 15px 0px 0px;
+    background: #fff;
+    padding: 0;
+}
+
+.final__project--section .final__project__desc--items .final__project__desc--item .final__project__box--heading {
+    padding: 10px 20px;
+    border-radius: 14px 14px 0px 0px;
+    background: #835ef7;
+    /* background: linear-gradient(to right, #7461f9 0%, #8e5bf9 47.78%, #db40f8 100%); */
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+}
+
+.final__project--section .final__project__desc--items .final__project__desc--item>.row>.znColumnElement:nth-child(2) {
+    width: 100%;
+}
+
+.final__project--section .final__project__desc--items .final__project__desc--item .final__project__box--desc {
+    padding: 10px;
+}
+
+.final__project--section .tbk__title,.final__project--section .tbk__subtitle{
+    color: white;
+}

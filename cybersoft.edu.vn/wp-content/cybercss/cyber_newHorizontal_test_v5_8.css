@@ -1,0 +1,412 @@
+.horizontalContent {
+  background-image: url("../uploads/2022/11/AA3.png");
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: 60% -25%;
+}
+.horizontalContent ul {
+  padding-left: 10px;
+}
+.horizontalContent ul li {
+  margin-bottom: 5px;
+  list-style-type: disc;
+  line-height: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.968627451);
+}
+.horizontalContent h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.968627451);
+}
+.horizontalContent .giaoTrinh {
+  position: absolute;
+  right: -8%;
+  top: 0;
+  background: linear-gradient(270deg, rgb(80, 81, 112) 18%, rgb(126, 127, 166) 86%);
+  background-size: 200%;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 8px;
+  width: 35%;
+}
+.horizontalContent .mentor {
+  position: absolute;
+  right: 0;
+  top: 55%;
+  background: linear-gradient(270deg, rgb(80, 81, 112) 18%, rgb(126, 127, 166) 86%);
+  background-size: 200%;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 8px;
+  width: 35%;
+}
+.horizontalContent .hoTroHocTap {
+  position: absolute;
+  left: 0;
+  display: flex;
+  top: 0;
+  width: 40%;
+  align-items: flex-start;
+  justify-content: end;
+}
+.horizontalContent .hoTroHocTap .content {
+  background: linear-gradient(270deg, rgb(80, 81, 112) 18%, rgb(126, 127, 166) 86%);
+  background-size: 200%;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 8px;
+  width: 60%;
+  margin-right: 15px;
+}
+.horizontalContent .hoTroHocTap img {
+  width: 30%;
+  margin-right: 30px;
+}
+.horizontalContent .elearning {
+  position: absolute;
+  left: 6%;
+  display: flex;
+  width: 50%;
+  top: 55%;
+  align-items: center;
+}
+.horizontalContent .elearning .content {
+  background: linear-gradient(270deg, rgb(80, 81, 112) 18%, rgb(126, 127, 166) 86%);
+  background-size: 200%;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.horizontalContent .elearning img {
+  width: 35%;
+  margin-right: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.horizontalContentMobile {
+  display: none;
+  margin-bottom: 30px;
+}
+.horizontalContentMobile .tabLearning ul {
+  list-style: none;
+}
+.horizontalContentMobile .tabLearning .tabTitle {
+  position: relative;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  gap: 20px;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li .itemContent {
+  cursor: pointer;
+  position: relative;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .tabItemTitle h5 {
+  margin-bottom: 10px;
+  display: none;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .tabItemTitle h4 {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px 0;
+  line-height: 20px;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .arrowAfter {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .arrowAfter::after {
+  background-image: url(https://cutecdn.codingdojo.com/new_design_image/new_programs/new_programs_icons_sprite.svg);
+  background-position: -155px -205px;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 32px;
+  left: 50%;
+  margin: 0 auto;
+  opacity: 1;
+  position: absolute;
+  transform: translateX(-50%);
+  right: 0;
+  text-align: center;
+  bottom: -40%;
+  transition: 0.21s;
+  width: 67px;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li .curriculumIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul li .curriculumIcon img {
+  width: 40px;
+  height: 40px;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul .activeArrow {
+  opacity: 1 !important;
+  transition: all 0.5s;
+}
+.horizontalContentMobile .tabLearning .tabTitle ul .active .curriculumIcon {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+}
+.horizontalContentMobile .tabLearning .tabTitle .tabTitleLine {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  display: block;
+  height: 9px;
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+}
+.horizontalContentMobile .tabLearning .tabTitle .tabTitleLine span {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  border-radius: 12px;
+  display: block;
+  height: 9px;
+  transition: 0.21s;
+}
+.horizontalContentMobile .tabLearning .tabTitle .tabTitleLine::before {
+  background-image: url(https://cutecdn.codingdojo.com/new_design_image/new_programs/new_programs_icons_sprite.svg);
+  background-position: -131px -205px;
+  bottom: -13px;
+  content: "";
+  display: inline-block;
+  height: 32px;
+  position: absolute;
+  right: -8px;
+  vertical-align: top;
+  width: 23px;
+}
+.horizontalContentMobile .tabLearning .tabContent {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  margin-top: 25px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  position: relative;
+  z-index: 3;
+}
+.horizontalContentMobile .tabLearning .tabContent ul {
+  padding-left: 0;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem {
+  display: none;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent img {
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .phoneMobile {
+  width: 400px;
+  max-height: 400px;
+  margin-right: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .learningImage {
+  margin-right: 20px;
+  width: 300px;
+  max-height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .itemText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .itemText h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: bold;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .itemText ul li {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .itemText ul li span {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-right: 5px;
+}
+.horizontalContentMobile .tabLearning .tabContent .active {
+  display: block;
+}
+
+@media screen and (max-width: 1535px) {
+  .horizontalContent .mentor {
+    top: 50%;
+  }
+  .horizontalContent .elearning {
+    top: 50%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .horizontalContent {
+    background-position: 60% 0;
+    background-image: url("../uploads/2022/12/AA31.png");
+  }
+  .horizontalContent .giaoTrinh {
+    right: -2%;
+    width: 30%;
+  }
+  .horizontalContent .elearning {
+    top: 53%;
+  }
+  .horizontalContent .mentor {
+    top: 57%;
+    width: 40%;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .horizontalContent .mentor {
+    top: 56%;
+  }
+  .horizontalContent .elearning {
+    top: 53%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .horizontalContent {
+    display: none;
+  }
+  .horizontalContentMobile {
+    display: block;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .arrowAfter::after {
+    bottom: -30%;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .tabItemTitle h4 {
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .horizontalContentMobile .tabLearning .tabTitle ul {
+    padding-left: 0;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .tabItemTitle h5 {
+    display: none;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .tabItemTitle h4 {
+    font-size: 12px;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul .curriculumIcon img {
+    width: 30px;
+    height: 30px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent {
+    display: block;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent {
+    padding: 20px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .phoneMobile {
+    width: 100%;
+    max-height: 300px;
+    margin-right: 20px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .learningImage {
+    margin-right: 20px;
+    width: 100%;
+    max-height: 300px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 576px) {
+  .horizontalContentMobile {
+    display: block;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .arrowAfter::after {
+    bottom: -40%;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .tabItemTitle h4 {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .curriculumIcon {
+    width: 36px;
+    height: 36px;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .curriculumIcon img {
+    width: 20px;
+    height: 20px;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle .tabTitleLine {
+    height: 6px;
+    width: 102%;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle .tabTitleLine span {
+    height: 6px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .itemText h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .itemText ul li {
+    font-size: 14px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent {
+    padding: 10px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .phoneMobile {
+    width: 100%;
+    max-height: 200px;
+  }
+  .horizontalContentMobile .tabLearning .tabContent .contentItem .ItemContent .learningImage {
+    width: 100%;
+    max-height: 200px;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .horizontalContentMobile .tabLearning .tabTitle ul li .itemContent .tabItemTitle {
+    height: 60%;
+  }
+}/*# sourceMappingURL=style.css.map */

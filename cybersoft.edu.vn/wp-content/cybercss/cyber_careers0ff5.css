@@ -1,0 +1,52 @@
+.jobopening__title {
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: white;
+    font-size: 35px;
+}
+
+.jobopening__summary {
+    background: #272634;
+    /* margin-bottom: 40px; */
+    font-weight: 600;
+    color: white;
+    padding: 20px 40px 20px 50px;
+    line-height: 2;
+}
+
+.jobopening__summary i {
+    color: white;
+}
+
+.jobopening__desc h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.jobopening__desc ul {
+    background: #272634;
+
+    padding: 20px 40px 20px 50px;
+    line-height: 2;
+}
+
+.jobopening__desc ul li {
+    list-style: square;
+    color: white;
+}
+
+#job_page.jobopening__cover .header {
+    background-image: url(../uploads/2023/03/jobopening.jpg);
+    /* color: #272634; */
+
+}
+
+#job_page.jobopening__cover .header .header__overlay {
+    background: rgba(16, 29, 66, 0.3);
+}
+
+#job_page.jobopening__cover .header .content .header__description {
+        font-weight: 500;
+}

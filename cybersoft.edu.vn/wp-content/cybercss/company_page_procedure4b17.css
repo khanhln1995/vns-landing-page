@@ -1,0 +1,479 @@
+#procedure {
+    padding: 0 50px 50px 50px;
+    position: relative;
+}
+
+
+#procedure p.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 50px;
+}
+
+#procedure .container1 {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#procedure .container1 .banner {
+    padding-right: 50px;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+#procedure .container1 .banner h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    transition: all 0.5s linear;
+
+}
+
+#procedure .container1 .banner h3:hover {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#procedure .container1 .banner h3 span {
+    font-weight: 900;
+    display: inline-block;
+}
+
+#procedure .container1 .banner img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#procedure .container1 .list {
+    width: 50%;
+}
+
+#procedure .container1 .list .item {
+    padding-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+#procedure .container1 .list .item .line {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    transform: translateX(-50%);
+    left: 35px;
+}
+
+#procedure .container1 .list .item .line.active {
+    width: 3px;
+}
+
+#procedure .container1 .list .item .number {
+    position: relative;
+    z-index: 2;
+    margin-top: 16px;
+    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#procedure .container1 .list .item .content {
+    cursor: pointer;
+    padding: 18px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: all 1s;
+    margin: 20px 15px;
+    width: 100%;
+}
+
+#procedure .container1 .list .item .content .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#procedure .container1 .list .item .content .title h3 {
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+    line-height: 1.3;
+    transition: all 0.3s linear;
+    margin: 0;
+}
+
+#procedure .container1 .list .item .content .title:hover h3 {
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#procedure .container1 .list .item .content .title:hover i {
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#procedure .container1 .list .item .content .title button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+
+#procedure .container1 .list .item .content .title button>i {
+    font-size: 32px;
+
+}
+
+#procedure .container1 .list .item .content .desc {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s;
+}
+
+#procedure .container1 .list .item .content .desc.active {
+    max-height: 500px;
+    line-height: 24px;
+}
+
+#procedure .container1 .list .item .content .desc h3 {
+    margin: 12px 0px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+
+
+#procedure .container1 .list .item:last-child {
+    padding-bottom: 0;
+}
+
+#procedure .container1 .list .item-final {
+    margin-top: 45px;
+    cursor: unset;
+}
+
+#procedure .container1 .list .item .content-item {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#procedure .container1 .list .item .content-item .icon-img img {
+    width: 22px;
+    max-width: none !important;
+}
+
+#procedure .container1 .list .item .content-item p {
+    line-height: 1.3;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+#procedure .container1 .list .item .btn-download {
+    width: 60%;
+    box-shadow: none;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+#procedure .container1 .list .item .btn-download a {
+    padding: 20px 40px;
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    background: #5364ff;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-size: 250% auto;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    transition: all 0.5s ease;
+    transition-timing-function: ease, ease;
+}
+
+#procedure .container1 .list .item .btn-download a:hover {
+    background-position: right center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    #procedure {
+        padding: 0 28px 50px 0px;
+    }
+
+    #procedure .container1 .banner {
+        padding-right: 0;
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    #procedure .container1 .list .item .number {
+        margin-right: 15px;
+    }
+
+    #procedure .container1 .banner h3 {
+        padding: 0 64px 0 80px;
+    }
+
+    #procedure .itemCol {
+        margin-top: 0;
+    }
+
+    #procedure .container1 .list .item .content .desc.active {
+        max-height: fit-content;
+    }
+
+    #procedure .container1 .list .item .btn-download {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    #procedure .container1 .list .item .number {
+        margin-right: 16px;
+    }
+
+
+    #procedure .container1 .list .item .content .desc.active {
+        max-height: fit-content;
+    }
+
+
+
+
+}
+
+
+
+/* css cho ph&#7847;n tr&#432;&#7907;t xu&#7889;ng */
+
+#procedure .drop {
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+#procedure .drop .drop-item {
+
+    max-height: 0px;
+
+    transition: all 1s 0s;
+
+    position: relative;
+}
+
+#procedure .skill.active .drop .drop-item {
+    max-height: 2000px !important;
+}
+
+#procedure .skill.active .drop {
+    height: auto;
+}
+
+/* css cho các s&#7889; th&#7913; t&#7921; 1,2,3,4 */
+
+#procedure .itemCol {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+#procedure .itemCol:hover .borderGlass {
+    background-color: #fff;
+}
+
+#procedure .itemCol:hover .itemColGlass {
+    box-shadow: inset 0 0 0 60px #7462f9;
+}
+
+#procedure .itemCol:hover span {
+    color: #fff;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    background-color: transparent !important;
+    background-image: none;
+    -webkit-text-fill-color: unset;
+
+}
+
+#procedure .borderGlass {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    backdrop-filter: blur(16.3px);
+    -webkit-backdrop-filter: blur(16.3px);
+    transition: all 0.5s ease-out;
+}
+
+#procedure .itemColGlass {
+    width: 75px;
+    height: 75px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.4s ease-out;
+    position: relative;
+}
+
+#procedure .itemColGlass span {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.4s ease-out;
+    font-size: 25px;
+}
+
+
+.fixQuyTrinhCacBuoc #procedure .container1 .banner {
+    width: 40%;
+}
+
+.fixQuyTrinhCacBuoc #procedure .container1 .list {
+    width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    #procedure {
+        padding: 12px;
+    }
+
+    #procedure .itemCol {
+        margin-top: -20px !important;
+    }
+
+    #procedure .container1 .banner,
+    #procedure .container1 .list .item .line {
+        display: none;
+    }
+
+    #procedure .container1 .list .item {
+        display: block;
+        text-align: left;
+    }
+
+    #procedure .container1 .list .item .content {
+        margin-bottom: 40px;
+    }
+
+    #procedure .container1 .list .item .content .desc {
+        /* max-height: fit-content; */
+    }
+
+    #procedure .container1 .list .item .content .desc.active {
+        max-height: fit-content;
+    }
+
+    #procedure .container1 .list .item .number {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #procedure .container1 .list .item .number span {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    #procedure .container1 .list .item .content .title button i {
+        font-weight: 900;
+    }
+
+    #procedure .container1 .list .item .content .title h3 {
+        font-weight: 600;
+        padding: 0 0px;
+    }
+
+    #procedure .container1 .list .item .content .title button>svg {
+        width: 14px;
+    }
+
+    #procedure p.title {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    #procedure .container1 .list .item-final {
+        margin-top: -36px;
+    }
+
+    #procedure .container1 .list .item .content-item {
+        flex-direction: column;
+    }
+
+    #procedure .container1 .list .item .content-item p {
+        text-align: center;
+    }
+
+    #procedure .container1 .list .item .content-item .icon-img img {
+        width: 40px;
+    }
+
+    #procedure .container1 .list .item .btn-download {
+        margin-top: 64px;
+        width: 100%;
+        padding: unset;
+        display: flex;
+        justify-content: center;
+    }
+
+    #procedure .container1 .list .item .btn-download a {
+        float: unset;
+    }
+
+    #procedure .container1 .list .item-final .icon-img {
+        margin-bottom: 12px;
+    }
+
+    .page_doanhnghiep_procedure #procedure .container1 .list {
+        width: 95%;
+        margin: auto;
+    }
+
+    .page_doanhnghiep_procedure #procedure .container1 .list .item .content {
+        margin: 20px 0;
+    }
+}

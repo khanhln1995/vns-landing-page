@@ -1,0 +1,33 @@
+    .cyber_btn_action1 {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 100%;
+    }
+
+    .cyber_btn_action1 .btn.btn-fullcolor {
+        margin-right: 1em;
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+
+    .cyber_btn_action1 .btn-element.btn-lined.lined-custom.btn--square {
+        padding: 16px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    @media screen and (max-width:576px) {
+
+        .cyber_btn_action1.cyber_btn_custome1 {
+            transform: translate(-50%, 50%);
+            /* transform: translate(-50%, 115%); */
+        }
+
+        .cyber_btn_action1 .btn.btn-fullcolor,
+        .cyber_btn_action1 .btn-element.btn-lined.lined-custom.btn--square {
+            font-size: 12px !important;
+            padding: 12px 14px;
+        }
+    }

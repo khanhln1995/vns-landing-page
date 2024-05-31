@@ -1,0 +1,25 @@
+.cyber_banner--style{
+   background-color:#d6edf6; 
+padding-top:60px;
+padding-bottom:60px;
+}
+
+.cyber_banner--style h3{
+  font-size:30px;
+   line-height:60px;
+font-weight:700;
+}
+
+.cyber_banner--style h4{
+  font-size:38px;
+   line-height:55px;
+
+}
+
+.cyber_banner--style .znColumnElement-innerWrapper{
+  padding-left:50px;
+   padding-right:50px;
+}
+.cyber_banner--style .btn.btn-fullcolor{
+   margin-right:1em;
+}

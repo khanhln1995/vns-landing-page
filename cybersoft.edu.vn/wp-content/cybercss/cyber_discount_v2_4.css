@@ -1,0 +1,235 @@
+/* .customDiscount div.customDiscountCol {
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+@media (max-width: 992px) {
+    /* .customDiscount div.customDiscountCol {
+        padding-left: 0;
+        padding-right: 0;
+    } */
+}
+
+@media (max-width: 576px) {
+    .customDiscount div.customDiscountCol {
+        /* padding-left: 0px; */
+        margin-bottom: 30px;
+    }
+}
+
+.discountCourse {
+    background: white;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    padding: 0 20px;
+    align-items: flex-start;
+    display: flex;
+    min-height: 205px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1280px) {
+    .discountCourse {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .discountCourse {
+        flex-wrap: wrap;
+    }
+}
+
+.discountCourse .timeLearn {
+    width: 20%;
+    display: inline-block;
+    height: 100%;
+    font-size: 18px;
+    padding: 20px;
+    min-height: 205px;
+}
+
+@media (max-width: 1280px) {
+    .discountCourse .timeLearn {
+        padding-right: 0px;
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .discountCourse .timeLearn {
+        padding: 0 20px 20px 20px;
+        min-height: unset;
+        width: 100%;
+    }
+}
+
+.discountCourse .promotionCourse {
+    width: 40%;
+    padding: 20px;
+    border-right: 1px solid #ebebeb;
+    min-height: 205px;
+}
+
+@media (max-width: 1280px) {
+    .discountCourse .promotionCourse {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .discountCourse .promotionCourse {
+        width: 50%;
+        border: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .discountCourse .promotionCourse {
+        width: 100%;
+        min-height: 180px;
+    }
+}
+
+.discountCourse .promotionCourse h4 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.discountCourse .promotionCourse ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.discountCourse .promotionCourse ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.discountCourse .promotionCourse ul li i {
+    margin-right: 10px;
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.discountCourse .tuitionCourse {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    width: 40%;
+    height: 100%;
+    padding: 20px 20px;
+    border-right: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 205px;
+}
+
+@media (max-width: 1280px) {
+    .discountCourse .tuitionCourse {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .discountCourse .tuitionCourse {
+        width: 50%;
+        border: none;
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .discountCourse .tuitionCourse {
+        width: 100%;
+        padding: 20px 20px 0px;
+        min-height: 165px;
+    }
+
+}
+
+.discountCourse .tuitionCourse span {
+    font-size: 24px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.discountCourse .tuitionCourse .bigPromotion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.discountCourse .tuitionCourse .bigPromotion .tuitionPrice {
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.discountCourse .tuitionCourse .bigPromotion .oldTuitionCourse {
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+
+.discountCourse .tuitionCourse .bigPromotion .dealCourse {
+    color: black;
+    text-decoration: line-through;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.discountCourse .tuitionCourse .bigPromotion img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.discountCourse .tuitionCourse .lastPromotion {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+
+.discountCourse .tuitionCourse .lastPromotion span {
+    font-size: 15px;
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-name: blinker;
+    animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes blinker {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

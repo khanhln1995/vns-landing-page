@@ -1,0 +1,224 @@
+
+.shapeCustomArrow {
+  position: relative;
+  display: flex;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 100px;
+}
+@media (max-width: 1280px) {
+  .shapeCustomArrow {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow {
+    height: unset;
+    display: block;
+  }
+}
+.shapeCustomArrow .imgLeft {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .imgLeft {
+    width: 100%;
+    text-align: center;
+  }
+}
+.shapeCustomArrow .imgLeft img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .imgLeft img {
+    width: 95%;
+  }
+}
+.shapeCustomArrow .shapeContent {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  padding: 40px 0 10px 25px;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeContent {
+    width: 100%;
+    padding: 20px 25px 10px 25px;
+  }
+}
+@media (max-width: 576px) {
+  .shapeCustomArrow .shapeContent {
+    padding: 0px 25px 10px 25px;
+  }
+}
+.shapeCustomArrow .shapeContent .topContent {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeContent .topContent {
+    flex-wrap: unset;
+    position: unset;
+    top: unset;
+    transform: unset;
+  }
+}
+@media (max-width: 576px) {
+  .shapeCustomArrow .shapeContent .topContent {
+    flex-wrap: wrap;
+  }
+}
+.shapeCustomArrow .shapeContent .topContent .item {
+  width: calc(50% - 30px);
+  display: inline-block;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeContent .topContent .item {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .shapeCustomArrow .shapeContent .topContent .item {
+    width: 50%;
+  }
+}
+.shapeCustomArrow .shapeContent .topContent .item h3 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 40px;
+  background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 1280px) {
+  .shapeCustomArrow .shapeContent .topContent .item h3 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 576px) {
+  .shapeCustomArrow .shapeContent .topContent .item h3 {
+    font-size: 30px;
+  }
+}
+.shapeCustomArrow .shapeContent .topContent .item p {
+  color: #333;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 576px) {
+  .shapeCustomArrow .shapeContent .topContent .item p {
+    font-size: 14px;
+  }
+}
+.shapeCustomArrow .shapeContent .bottomContent {
+  margin-top: 10px;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeContent .bottomContent {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .shapeCustomArrow .shapeContent .bottomContent br:last-child {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .shapeCustomArrow .shapeContent .bottomContent {
+    margin-top: 20px;
+  }
+}
+.shapeCustomArrow .shapeContent .bottomContent p {
+  color: #7d7d7d;
+  font-size: 12px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  line-height: 20px;
+}
+.shapeCustomArrow .shapeContent .buttonView {
+  transform: translate(20%,20%);
+  position: absolute;
+  bottom: 0;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeContent .buttonView {
+    display: flex;
+    justify-content: center;
+    position: unset;
+    top: unset;
+    transform: translateY(30px);
+  }
+}
+.shapeCustomArrow .shapeContent .buttonView a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 22px 36px;
+  border-radius: 4px;
+      background-size: 250% auto;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    transition: all 0.5s ease;
+    transition-timing-function: ease, ease;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.shapeCustomArrow .shapeContent .buttonView a:hover {
+  background-position: right center;
+}
+
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeContent .buttonView a {
+    margin-left: 0;
+  }
+}
+.shapeCustomArrow .shapeArrow {
+  width: 95%;
+  height: 90%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeArrow {
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    top: unset;
+    transform: unset;
+    bottom: 10px;
+  }
+}
+.shapeCustomArrow .shapeArrow::after {
+  position: absolute;
+  right: -140px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 180px solid transparent;
+  border-bottom: 180px solid transparent;
+  border-left: 140px solid #fff;
+}
+@media (max-width: 992px) {
+  .shapeCustomArrow .shapeArrow::after {
+    display: none;
+  }
+}

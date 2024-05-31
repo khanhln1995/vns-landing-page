@@ -1,0 +1,46 @@
+.cyber_custom_duanthucte .customGridRealProject .gridContent .item:nth-child(2),
+.cyber_custom_duanthucte .customGridRealProject .gridContent .item:nth-child(3) {
+    grid-column: 3 / span 2;
+}
+
+.cyber_custom_duanthucte_3item .customGridRealProject .gridContent .item:first {
+    grid-row: 1 / span 2
+}
+
+.cyber_custom_duanthucte_golang .customGridRealProject .gridContent .item:nth-child(2) {
+    grid-row: 1 / span 2;
+}
+
+.upversion_cache {
+    position: relative;
+}
+#eluidc9e24ab1.upversion_cache {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+.custom_hotrohoctap {
+    padding-left: 20px !important;
+}
+.d-none {
+    display: none !important;
+}
+@media screen and (min-width: 993px) {
+    .padding-t-0 {
+        padding-top: 0;
+    }
+
+    .padding-b {
+        padding-bottom: 0;
+    }
+
+    .margin-t-0 {
+        margin-top: 0;
+    }
+
+    .margin-b-0 {
+        margin-bottom: 0;
+    }
+}

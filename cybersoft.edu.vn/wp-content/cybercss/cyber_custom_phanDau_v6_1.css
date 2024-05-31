@@ -1,0 +1,504 @@
+.buttonContent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buttonContent .buttonGroupShow {
+    display: flex;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 0px 0 20px;
+}
+
+.buttonContent .buttonGroupShow a {
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    transition-timing-function: ease, ease;
+}
+
+.buttonContent .buttonGroupShow a i {
+    margin-left: 5px;
+}
+
+.buttonContent .buttonGroupShow a:hover {
+    background-position: right center;
+}
+
+.buttonContent .buttonGroupShow a:first-child {
+    background-size: 250% auto;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    transition: all 0.5s ease;
+    transition-timing-function: ease, ease;
+    padding: 10px 15px;
+}
+
+.buttonContent .buttonGroupShow a:last-child {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px 15px;
+}
+
+
+.header_topics {
+    margin-top: 50px;
+}
+
+
+.newCourseBegin {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.newCourseBegin .content {
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    width: 65%;
+    justify-content: space-between;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.newCourseBegin .content .item {
+    width: 20%;
+    border-right: 2px solid #ebebeb;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newCourseBegin .content .item a {
+    text-decoration: none;
+    -webkit-text-fill-color: transparent;
+    background-size: 250% auto;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    -webkit-background-clip: text;
+    font-weight: 600;
+    display: flex;
+    transition: all 0.5s;
+}
+
+.newCourseBegin .content .item a .arrowGoRight {
+    margin-left: 5px;
+}
+
+.newCourseBegin .content .item a:hover {
+    background-position: right center;
+}
+
+.newCourseBegin .content .item a:hover .arrowGoRight {
+    -webkit-animation: arrowGo 1s infinite;
+    animation: arrowGo 1s infinite;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.newCourseBegin .content .item h3 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.newCourseBegin .content .item:first-child {
+    width: 25%;
+}
+
+.newCourseBegin .content .item:last-child {
+    width: 35%;
+    border-right: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: unset;
+}
+
+.newCourseBegin .content .discountBefore p {
+    font-weight: 700;
+    margin: 0px 0;
+    font-size: 12px;
+}
+
+.newCourseBegin .content .discountBefore h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.newCourseBegin .content .buttonDiscount a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    transition-timing-function: ease, ease;
+    background-size: 250% auto;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: unset;
+    transition: all 0.5s ease;
+    transition-timing-function: ease, ease;
+    padding: 15px 10px;
+}
+
+.newCourseBegin .content .buttonDiscount a i {
+    margin-left: 5px;
+}
+
+.newCourseBegin .content .buttonDiscount a:hover {
+    background-position: right center;
+}
+
+@media screen and (max-width: 1460px) {
+    .newCourseBegin .content {
+        width: 75%;
+    }
+
+    .newCourseBegin .content .item h3 {
+        font-size: 15px;
+    }
+
+    .newCourseBegin .content .item a {
+        font-size: 14px;
+    }
+
+    .newCourseBegin .content .item .discountBefore h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .newCourseBegin .content {
+        width: 75%;
+    }
+
+    .newCourseBegin .content .item {
+        width: 23%;
+    }
+
+    .newCourseBegin .content .item h3 {
+        width: 100%;
+        font-weight: 600;
+    }
+
+    .newCourseBegin .content .item .buttonDiscount a {
+        padding: 10px 5px;
+    }
+
+    .newCourseBegin .content .item:first-child {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .newCourseBegin {
+        width: 80%;
+    }
+
+    .newCourseBegin .content {
+        bottom: -110%;
+    }
+
+    .newCourseBegin .content .discountBefore h3 {
+        font-size: 20px;
+    }
+
+    .newCourseBegin .content .discountBefore p {
+        font-size: 11px;
+    }
+
+    .newCourseBegin .content .buttonDiscount {
+        font-size: 14px;
+    }
+
+    .newCourseBegin .content .buttonDiscount a i {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .newCourseBegin .content {
+        width: 85%;
+        bottom: -150%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header_topics {
+        margin-top: 100px;
+    }
+
+    .newCourseBegin {
+        width: 100%;
+    }
+
+    .newCourseBegin .content {
+        flex-wrap: wrap;
+        bottom: unset;
+        top: 50%;
+    }
+
+    .newCourseBegin .content .item {
+        width: 35%;
+    }
+
+    .newCourseBegin .content .item h3 {
+        margin-top: 0px;
+    }
+
+    .newCourseBegin .content .item:first-child {
+        width: 30%;
+    }
+
+    .newCourseBegin .content .item:nth-child(3) {
+        border-right: unset;
+    }
+
+    .newCourseBegin .content .item:last-child {
+        width: 100%;
+        flex-direction: unset;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header_topics {
+        margin-top: 130px;
+    }
+
+    .newCourseBegin {
+        width: 100%;
+        transform: unset;
+        position: relative;
+        display: flex;
+        height: 100px;
+    }
+
+    .newCourseBegin .content {
+        padding: 10px 10px;
+        width: 100%;
+        top: 0;
+    }
+
+    .newCourseBegin .content .item {
+        width: 50%;
+        border-right: unset;
+        border-bottom: 2px solid #ebebeb;
+    }
+
+    .newCourseBegin .content .item:first-child {
+        width: 100%;
+    }
+
+    .newCourseBegin .content .item:last-child {
+        width: 100%;
+        border-bottom: unset;
+    }
+
+    .newCourseBegin .content .item .discountBefore p {
+        font-size: 12px;
+    }
+
+    .newCourseBegin .content .item .buttonDiscount i {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+.logoTechnical {
+    margin: 20px 0;
+}
+
+.logoTechnical ul {
+    display: flex;
+    padding-right: 50px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.logoTechnical ul li {
+    list-style: none;
+    width: 10%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logoTechnical ul li .borderLogo {
+    border-radius: 50%;
+    padding: 5px;
+    background: #1A2051;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 40px;
+    width: 40px;
+    margin: 5px auto;
+}
+
+.logoTechnical ul li .borderLogo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.logoTechnical ul li .tooltipText {
+    display: none;
+}
+
+.logoTechnical ul li:nth-child(4) .borderLogo {
+    background: white;
+}
+
+.logoTechnical ul li:nth-child(9) .borderLogo {
+    background: white;
+}
+
+.logoTechnical ul li:nth-child(19) .borderLogo {
+    background: white;
+}
+
+@media screen and (max-width: 1280px) {
+    .logoTechnical ul {
+        padding-left: 0;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logoTechnical ul li .borderLogo {
+        width: 35px;
+        height: 35px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logoTechnical ul {
+        padding: 0px 50px;
+    }
+
+    .logoTechnical ul li {
+        width: 10%;
+    }
+
+  .newCourseBegin .content .item:last-child {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    .logoTechnical {
+        margin: 10px 0;
+    }
+
+    .logoTechnical ul {
+        padding: 0;
+        /* margin: 25px 0 0 0; */
+    }
+
+    .logoTechnical ul li {
+        width: 20%;
+    }
+
+    .logoTechnical ul li:nth-child(9) {
+        display: none;
+    }
+
+    .logoTechnical ul li:nth-child(11) {
+        display: none;
+    }
+
+    .logoTechnical ul li:nth-child(15) {
+        display: none;
+    }
+
+    .logoTechnical ul li:nth-child(18) {
+        display: none;
+    }
+
+    .logoTechnical ul li:nth-child(20) {
+        display: none;
+    }
+
+    .buttonContent .buttonGroupShow a {
+        white-space: nowrap;
+    }
+
+
+}
+
+
+
+.cybertag__custome {
+    padding-right: 50px;
+}
+
+
+
+
+
+.tech-slideGioiThieu {
+  height: 100px;
+  margin: 0 auto;
+  top: 45px;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideGioiThieu::before {
+  background: linear-gradient(270deg, hsl(0deg 0% 100% / 0%), #fff 70%);
+  content: "";
+  height: 100%;
+  width: 300px;
+  left: -60px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.tech-slideGioiThieu::after {
+  background: linear-gradient(90deg, hsl(0deg 0% 100% / 0%), #fff 65%);
+  content: "";
+  height: 100%;
+  width: 356px;
+  right: -137px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.tech-slideGioiThieu>.mover {
+  width: 4296px;
+  background: url('../uploads/2022/10/logoIcon-3.png');
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideGioiThieu .mover {
+  animation: moveSlideshow 90s linear infinite;
+}

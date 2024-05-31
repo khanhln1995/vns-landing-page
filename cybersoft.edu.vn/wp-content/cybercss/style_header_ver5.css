@@ -1,0 +1,28 @@
+#header #main-menu ul#menu-restaurant-menu li.main-menu-item-top:last-child a::after,
+#zn-nav-overlay .znNavOvr-menuWrapper #zn-overlay-menu li.main-menu-item-top:last-child .main-menu-link::after {
+    display: none !important;
+}
+
+#header #main-menu ul#menu-restaurant-menu li.main-menu-item-top:last-child a span,
+#zn-nav-overlay .znNavOvr-menuWrapper #zn-overlay-menu li.main-menu-item-top:last-child a span {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    padding: 7px;
+}
+
+#zn-nav-overlay .znNavOvr-menuWrapper #zn-overlay-menu li.main-menu-item-top:last-child .main-menu-link {
+    width: 100%;
+}
+
+#zn-nav-overlay .znNavOvr-menuWrapper #zn-overlay-menu li.main-menu-item-top:last-child .main-menu-link span {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    width: 100%;
+    padding: 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* header */
+.main-nav ul#menu-restaurant-menu li.main-menu-item-top.hide-bar__before::before,
+.main-nav ul#menu-restaurant-menu li.main-menu-item-top.hide-bar__after::after {
+    content: none;
+}

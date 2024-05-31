@@ -1,0 +1,118 @@
+.feedback__item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.feedback__item::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: block;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 100%);
+    transform: skewX(-25deg);
+    transition: all .75s;
+}
+
+
+
+.feedback__item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 23%);
+    opacity: 0;
+    transition: all .75s;
+}
+
+.editBoxVideo .feedback__item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: unset;
+    opacity: 0;
+    transition: all .75s;
+}
+
+.feedback__item:hover::before {
+    left: 125%;
+}
+
+.feedback__item:hover::after {
+    opacity: 1;
+}
+
+.feedback__item i {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 15px;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.feedback__item:hover i {
+    opacity: 1;
+    margin-top: 0;
+}
+
+
+.feedback__item.videoBox__item i {
+    opacity: 1;
+    margin-top: 0;
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    -webkit-text-fill-color: white;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.feedback__item.videoBox__item:hover i {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.feedback__item.videoBox__item::before {
+    opacity: 0;
+}
+
+.feedback__item.videoBox__style2 i{
+    border-color: #f4f4f4;
+    -webkit-text-fill-color: #f4f4f4;
+}
+
+
+@media screen and (max-width:767.98px) {
+    .feedback__item {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .feedback__item {
+        margin-top: 25px;
+    }
+}

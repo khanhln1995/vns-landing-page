@@ -1,0 +1,72 @@
+  jQuery(document).ready(function ($) {
+    $('.slides').slick({
+      infinite: true,
+      arrows: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+       $('.slides').on('swipe', function (event, slick, direction) {
+      const popRemove = document.querySelectorAll(".iconPopup");
+      if (popRemove !== undefined) {
+        popRemove.forEach((item) => {
+          item.classList.remove("active");
+        });
+      }
+      console.log(slick.currentSlide);
+      const tabsContent = document.querySelectorAll('.horizontalContent .colRight .content .item');
+      if (tabsContent !== undefined) {
+        for (let i = 0; i < tabsContent.length; i++) {
+          tabsContent[i].classList.remove('active');
+        }
+        tabsContent[slick.currentSlide].classList.add('active');
+        // left
+      }
+    });
+  });
+
+//X&#7917; lí nút popover
+const popButton = document.querySelectorAll(".iconPopup");
+// console.log(popButton);
+if (popButton !== undefined) {
+  popButton.forEach((item) => {
+    item.addEventListener("click", testClick);
+  });
+  function testClick(e) {
+    e.preventDefault();
+    // if (e.target !== e.currentTarget) {
+    //   // get the index of the hovered element here
+    //   console.log("hehe");
+    // }
+    if (e.currentTarget.classList.contains("active")) {
+      e.currentTarget.classList.remove("active");
+    } else {
+      for (i = 0; i < popButton.length; i++) {
+        popButton[i].classList.remove("active");
+      }
+      e.currentTarget.className += " active";
+    }
+  }
+
+  document.addEventListener(
+    "click",
+    function (event) {
+      // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+      if (!event.target.closest(".iconPopup")) {
+        for (z = 0; z < popButton.length; z++) {
+          popButton[z].classList.remove("active");
+        }
+        // popButton[i].classList.remove(".active");
+      }
+    },
+    false
+  );
+}
+
+
+
+function activePopUp(e) {
+  // console.log(popButton);
+  popButton.forEach((item) => {
+    item.className += " active";
+  });
+}

@@ -1,0 +1,54 @@
+.teacherAndTrainingMethod .colRight {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 992px) {
+  .teacherAndTrainingMethod .colRight {
+    width: 100%;
+  }
+}
+.teacherAndTrainingMethod .colRight .item {
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+.teacherAndTrainingMethod .colRight .item:hover i {
+  opacity: 1;
+  margin-top: 0;
+}
+.teacherAndTrainingMethod .colRight .item i {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 15px;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translate(-50%, -50%);
+}
+.teacherAndTrainingMethod .colRight .item img {
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.teacherAndTrainingMethod .colRight .item:first-child {
+  grid-column: 1/span 2;
+  grid-row: 1/span 2;
+}
+.teacherAndTrainingMethod .colRight .item:nth-child(2) {
+  grid-column: 3/span 2;
+}
+.teacherAndTrainingMethod .colRight .item:nth-child(3) {
+  grid-row: 2/span 2;
+  grid-column: 3/span 2;
+}
+.teacherAndTrainingMethod .colRight .item:nth-child(4) {
+  grid-column: 1/span 2;
+}

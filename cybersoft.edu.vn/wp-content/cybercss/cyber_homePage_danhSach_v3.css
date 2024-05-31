@@ -1,0 +1,446 @@
+.custom_quotesHome {
+  margin-top: 45px;
+  padding-bottom: 0px !important;
+}
+
+.bg-danhMucKhoaHocHome {
+  background-color: #505170 !important;
+}
+
+.customTitleDanhMuc h2 {
+  color: white !important;
+  -webkit-text-fill-color: unset !important;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+#homePage_KhoaHoc {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+#homePage_KhoaHoc .khoaHoc {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 65%;
+  flex-grow: 1;
+  background: white;
+  border-radius: 8px;
+}
+
+#homePage_KhoaHoc .khoaHoc .title {
+  padding: 30px 30px;
+  background: #272634;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#homePage_KhoaHoc .khoaHoc .title .icon {
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  flex: 0 0 70px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homePage_KhoaHoc .khoaHoc .title .icon img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#homePage_KhoaHoc .khoaHoc .title .text h3 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 35px;
+  margin: 0;
+}
+
+#homePage_KhoaHoc .khoaHoc .content {
+  background: white;
+  margin: 0 30px;
+  padding-bottom: 30px;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item:last-child {
+  border-bottom: none;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a:hover .dangKyNgay span i {
+  -webkit-animation: arrowGo 1s infinite;
+  animation: arrowGo 1s infinite;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text {
+  width: 100%;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText {
+  display: flex;
+  justify-content: space-between;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText p {
+  color: #333;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText p span {
+  padding: 0 10px;
+  border-left: 1px solid gray;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText p span:first-child {
+  padding-left: unset;
+  border-left: none;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText .dangKyNgay {
+  margin-right: 20px;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText .dangKyNgay p {
+  background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText .dangKyNgay p span {
+  margin-left: 5px;
+}
+
+#homePage_KhoaHoc .khoaHoc .content .item a .text .subText .dangKyNgay p span i {
+  -webkit-text-fill-color: #df3ef8;
+}
+
+#homePage_KhoaHoc .chuongHoc {
+  width: 35%;
+  flex-grow: 1;
+}
+
+#homePage_KhoaHoc .chuongHoc .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: white;
+  padding: 3px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item:hover {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  transition: all 0.5s;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient {
+  background: white;
+  border-radius: 8px;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a {
+  display: block;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .icon {
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  background: #272634;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .icon img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text {
+  text-align: left;
+  width: 70%;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 .tagTitle {
+  padding: 5px 10px;
+  background: #272634;
+  /* margin-left: 10px; */
+  margin-top: 10px;
+  color: white;
+  transform: translateY(-5px);
+  font-size: 12px;
+  display: inline-block;
+  line-height: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 span {
+  font-size: 15px;
+  display: block;
+  font-weight: 500;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text p {
+  color: #333;
+  opacity: 0.5;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .arrow {
+  text-align: right;
+  margin-left: 10px;
+}
+
+#homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .arrow i {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1180px) {
+  #homePage_KhoaHoc .khoaHoc .content .item a .text h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a {
+    padding: 15px 20px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .icon {
+    display: none;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text {
+    width: 80%;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 span {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #homePage_KhoaHoc .khoaHoc .title {
+    padding: 30px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content {
+    margin: 0 30px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content .item a .text h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #homePage_KhoaHoc {
+    display: block;
+  }
+
+  #homePage_KhoaHoc .khoaHoc {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc {
+    width: 100%;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .icon {
+    display: block;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .arrow i {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+
+  #homePage_KhoaHoc .khoaHoc .title .icon {
+    width: 55px;
+    height: 55px;
+    flex: 0 0 55px;
+    padding: 15px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .title .text {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content {
+    margin: 0 20px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content .item a {
+    display: block;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content .item a .text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content .item a .text h4 {
+    margin-bottom: 0;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content .item a .text .subText {
+    flex-wrap: wrap;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content .item a .text .subText p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .icon {
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 .tagTitle {
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #homePage_KhoaHoc .khoaHoc .title .icon {
+    aspect-ratio: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .title .text h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  #homePage_KhoaHoc .khoaHoc .content .item a .text .subText p {
+    font-size: 11px;
+  }
+
+  #homePage_KhoaHoc .chuongHoc .content .item .insideGradient a .text h3 .tagTitle {
+    padding: 3px 5px;
+    background: #272634;
+    color: white;
+    transform: translateY(-5px);
+    font-size: 9px;
+    display: inline-block;
+    line-height: 14px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px 0 0;
+  }
+}
+
+@-webkit-keyframes arrowGo {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes arrowGo {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1232 @@
+/* ------------------------------------ CUSTOME SPACING  ----------------------------------- */
+
+
+.cyber_spacing--top,
+.cyber_spacing--bottom {
+    padding: 25px 0;
+}
+
+.capstone__projects,
+.final__project--section,
+.cyberSection__custome,
+.certificate_work,
+.cyberSection__feedback,
+.cyberfaq,
+.cyberSection__class {
+    padding: 0 0 80px;
+}
+
+.cyber_method_learning,
+.cyberSection__calendar {
+    padding: 0 0 50px;
+}
+
+.cyber_col--spacing1 {
+    padding: 0 50px;
+}
+
+.cyberCol-custome>.znColumnElement-innerWrapper {
+    padding: 0 50px 0 50px;
+}
+
+.cyberCardBox__container {
+    padding: 60px 0 80px;
+}
+
+.cyber_mainTitle {
+    margin-top: 20px;
+}
+
+.custome_spacingHeight1.th-spacer,
+.custome_spacingHeight2.th-spacer {
+    height: 70px;
+}
+
+.courseInfo {
+    padding-bottom: 0;
+}
+
+.cyber_part--section {
+    padding: 0 0 70px;
+    margin: 0;
+}
+
+.cyber_part--section .cyber_title--style,
+.cyberSection__feedback .cyber_title--style {
+    padding: 0;
+}
+
+.courseOutputSection {
+    padding: 0 0 70px;
+}
+
+.courseOutputSection .courseOutput_col {
+    padding: 0 40px;
+}
+
+.cyberRoadmap--slick {
+    padding: 0;
+}
+
+.roadmap_container_edit {
+    padding-top: 0;
+}
+
+.cyberRoadmap--slick.zn_section {
+    padding-top: 0;
+    padding-bottom: 35px;
+}
+
+.roadmap__container {
+    padding-top: 0;
+}
+
+.cyberRoadmapSection,
+.cyberDetailSection {
+    padding-top: 0;
+}
+
+.capstone__projects .znColumnElement-innerWrapper-eluid25a98181 {
+    margin: 0;
+}
+
+.capstone__projects .cyber_title--style,
+.cyber_hexagon--smart .cyber_title--style {
+    padding-bottom: 0;
+}
+
+.final__project--section .final__project__box {
+    margin-top: 0;
+}
+
+.final__project--section .zn_custom_container,
+.cyberSection__custome .zn_custom_container,
+.cyber_method_learning .zn_custom_container,
+.certificate_work .zn_custom_container,
+.cyberSection__LogoPartner .zn_custom_container,
+.cyberfaq .zn_custom_container,
+.cyberSection__class .zn_custom_container {
+    padding-top: 0;
+}
+
+.cyberSection__LogoPartner {
+    padding: 0 0 20px;
+}
+
+.cyberfaq .cyber_title--style .tbk__title,
+.cyberSection__calendar .cyber_title--style .tbk__title {
+    margin-bottom: 0;
+}
+
+.cyberfaq .cyber_title--style .tbk__title {
+    color: #fff;
+}
+
+.custome_spacingHeight3.th-spacer {
+    height: 240px;
+}
+
+.cyberSection__LogoPartner .custome_spacingHeight3.th-spacer {
+    height: 200px;
+}
+
+.custome_spacingHeight4.th-spacer {
+    height: 250px;
+}
+
+.cyber_bgFixed {
+    min-height: 400px;
+}
+
+.cyberSection_banner {
+    padding: 0 0 200px;
+}
+
+.banner__container {
+    z-index: 4;
+    padding-bottom: 30px;
+}
+
+.targetCourseSection_col {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cyberbtn-group .btn-custom-color {
+    margin-right: 1em;
+}
+
+.cyber_custome_col1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cyber_custome_col1>.znColumnElement-innerWrapper,
+.final__main--column {
+    padding-right: 50px;
+    padding-left: 70px;
+}
+
+.custome_spacingHeight5.th-spacer {
+    height: 55px;
+}
+
+.cyber_pd-0 {
+    padding: 0;
+}
+
+.home_special #hive_menu {
+    margin-top: -5vw;
+}
+
+.home_special .title-special {
+    margin-top: -3vw;
+}
+
+.cyber-notify-col {
+    margin: auto;
+}
+
+
+
+
+.cyber-notify-main ul,
+.cyber-notify-main li {
+    list-style-type: disc;
+}
+
+.cyber-notify-main ol li {
+    list-style-type: decimal;
+}
+
+.cyber-notify-main .tdSTK a {
+    word-break: break-all;
+}
+
+.cyber-notify-main a {
+    color: #227df9 !important;
+}
+
+.cyber-notify-main a:hover {
+    text-decoration: underline;
+}
+
+.cyber-padx-0 .znColumnElement-innerWrapper {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.cyber-padx-0 .logoTechnical {
+    margin: 0;
+}
+
+
+
+
+/* -------------------------------- RESPONSIVE SPACING -------------------------------- */
+@media screen and (min-width:768px) {
+    .cyber-notify-main .zn_col_container-smart_container {
+        display: flex;
+    }
+
+    .cybervideo--height .introduce_course_right {
+        padding: 75px 100px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .cyber_mainTitle {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .cyber_custome_col1>.znColumnElement-innerWrapper,
+    .final__main--column {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .courseInfoCol .znColumnElement-innerWrapper {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .home_special .title-special,
+    .home_special #hive_menu {
+        margin-top: 0;
+    }
+
+
+
+    .cyberSection__custome,
+    .capstone__projects,
+    .final__project--section,
+    .cyber_method_learning,
+    .certificate_work,
+    .cyberSection__feedback,
+    .cyberfaq,
+    .cyberSection__class {
+        padding: 0 0 50px;
+    }
+
+    .custome_spacingHeight1.th-spacer {
+        height: 50px;
+    }
+
+    .custome_spacingHeight3.th-spacer {
+        height: 200px;
+    }
+
+    .cyberSection__LogoPartner .custome_spacingHeight3.th-spacer {
+        height: 150px;
+    }
+
+    .cyberRoadmap--slick.zn_section {
+        padding-bottom: 50px;
+    }
+
+    .courseOutputSection {
+        padding: 0 0 30px;
+    }
+
+    .cyber_part--section {
+        padding: 0;
+    }
+
+    .shapeCustomArrow {
+        margin-bottom: 80px;
+    }
+
+    .cyberDetailSection {
+        padding-bottom: 30px;
+    }
+
+    .cyberDetails .rowDetails:first-of-type {
+        margin-bottom: 50px;
+    }
+
+    .rowDetails {
+        margin-top: 0px;
+    }
+
+    .zn_section .cyber_space {
+        height: 65px;
+    }
+
+    .final__main--column {
+        padding: 0 15px 0;
+    }
+
+    .cyberSection__LogoPartner,
+    .eluid97d26f14,
+    .cyberfaq .zn_custom_container {
+        padding: 0;
+    }
+
+    .custome_spacingHeight4.th-spacer {
+        height: 175px;
+    }
+
+    .cyberSection_banner {
+        padding: 0 0 200px;
+    }
+
+    .custome_spacingHeight5.th-spacer {
+        height: 30px;
+    }
+
+
+    .tabhome.tabs_style1>ul.nav>li>a {
+        padding: 17px 15px !important;
+    }
+
+    .bestseller-item .main-menu-link span:first-of-type {
+        width: 85%;
+    }
+}
+
+/* ------------------------------ CUSTOME TITLE ----------------------------- */
+.cyber_title--style {
+    padding: 0 0 40px;
+    margin: 0;
+}
+
+.cyber_teacher_smart .cyber_title--style {
+    padding: 0 0 15px;
+
+}
+
+.cyber_title--size .tbk__title,
+.cyber_title--custome .tbk__title,
+.cyber_title--style .tbk__title,
+.courseInfo__title h2,
+.courseOutput .colLeft h2 {
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+
+}
+
+.cyber_title--size .tbk__subtitle,
+.cyber_title--custome .tbk__subtitle,
+.cyber_title--style .tbk__subtitle,
+.cyber_subtitle--style .tbk__subtitle,
+.cyber_subtitle--style2 .tbk__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.cyber_title--custome {
+    color: white;
+}
+
+.cyber_subtitle--style .tbk__title,
+.cyber_subtitle--style2 .tbk__title {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.cyber_subtitle--style,
+.cyber_subtitle--style2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+.cyber_subtitle--style2 {
+    padding-top: 30px;
+}
+
+.cyber_learning_system .cyber_subtitle--style {
+    padding-bottom: 0;
+}
+
+.cyber_subtitle--style .znColumnElement-innerWrapper,
+.cyber_subtitle--style2 .znColumnElement-innerWrapper {
+    margin-top: 0;
+}
+
+.cyber_smart_project .znColumnElement-innerWrapper {
+    margin-top: 0;
+}
+
+.cyber_mainTitle .tbk__title {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.cyber_mainTitle2 .tbk__title {
+    font-size: 18px;
+}
+
+.cyber_title--style {
+    padding: 0 0 40px;
+    margin: 0;
+}
+
+.cyberheading-label {
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+    color: white;
+    padding: 3px 5px;
+}
+
+.main-menu-link .cyberheading-label {
+    padding: 1px;
+    display: inline !important;
+}
+
+.cyberheading-highlight {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/* -------------------------------- RESPONSIVE TITLE -------------------------------- */
+
+@media screen and (max-width:1200px) {
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 38px;
+        line-height: 50px;
+
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 28px;
+        line-height: 35px;
+
+    }
+
+    .cyber_subtitle--style .tbk__title,
+    .cyber_subtitle--style2 .tbk__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .break-heading {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 26px;
+        line-height: 32px;
+
+    }
+
+    .cyber_mainTitle .tbk__title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .cyber_mainTitle2 .tbk__title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .cyber_col--spacing1 {
+        padding: 15px;
+    }
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .cyberCol-custome>.znColumnElement-innerWrapper {
+        padding: 0 10px 0 10px;
+    }
+
+    .customGridRealProject {
+        margin-top: 0;
+    }
+
+    .cyber_subtitle--style {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* .cyber_custome_col1 {
+        padding-left: 0;
+        padding-right: 0;
+    } */
+
+    .cyber_col--spacing1>.znColumnElement-innerWrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .cyberSection__custome .services_box--modern .services_box__title {
+        font-size: 18px;
+    }
+}
+
+/* ------------------------------ CUSTOME bcamp ----------------------------- */
+
+@media screen and (max-width:992px) {
+    .box__container_course_features {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .box__container_course_features {
+        margin-bottom: 30px;
+    }
+
+    .custome_intro_list .znListItems {
+        margin-bottom: 0;
+    }
+
+    .banner__icon--top {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+}
+
+
+/* ------------------------------------ CUSTOME COLOR  ----------------------------------- */
+.cyberSection__class,
+.cyber_benefit.zn_section {
+    background-color: #f4f4f4;
+}
+
+.custome_spacingHeight2_bg {
+    background-color: #fff;
+}
+
+.cyberSection_bgWhite1.zn_section {
+    background-color: #fff;
+}
+
+.cyber-bg-gray.zn_section {
+    background-color: #F4F4F4;
+}
+
+/* ------------------------------------ CUSTOME CONTAINER  ----------------------------------- */
+
+
+
+@media screen and (min-width: 1536px) {
+    .container--xxl>.zn_section_size {
+
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .container--xxl>.zn_section_size,
+    .cyberCardBox__container.zn_section>.zn_section_size {
+        width: 1536px;
+    }
+
+    .cyber_custome_col1>.znColumnElement-innerWrapper,
+    .final__main--column {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+/* CSS specific to iOS devices */
+@supports (-webkit-touch-callout: none) {
+
+    /* Hide background-attachment on iOS devices*/
+    .bg-attach-ipad {
+        display: none;
+    }
+}
+
+/* ------------------------------------ CUSTOME SPACING  ----------------------------------- */
+
+
+.cyber_spacing--top,
+.cyber_spacing--bottom {
+    padding: 25px 0;
+}
+
+.capstone__projects,
+.final__project--section,
+.cyberSection__custome,
+.certificate_work,
+.cyberSection__feedback,
+.cyberfaq,
+.cyberSection__class {
+    padding: 0 0 80px;
+}
+
+.cyber_method_learning,
+.cyberSection__calendar {
+    padding: 0 0 50px;
+}
+
+.cyber_col--spacing1 {
+    padding: 0 50px;
+}
+
+.cyberCol-custome>.znColumnElement-innerWrapper {
+    padding: 0 50px 0 50px;
+}
+
+.cyberCardBox__container {
+    padding: 60px 0 80px;
+}
+
+.cyber_mainTitle {
+    margin-top: 20px;
+}
+
+.custome_spacingHeight1.th-spacer,
+.custome_spacingHeight2.th-spacer {
+    height: 70px;
+}
+
+.courseInfo {
+    padding-bottom: 0;
+}
+
+.cyber_part--section {
+    padding: 0 0 70px;
+    margin: 0;
+}
+
+.cyber_part--section .cyber_title--style,
+.cyberSection__feedback .cyber_title--style {
+    padding: 0;
+}
+
+.courseOutputSection {
+    padding: 0 0 70px;
+}
+
+.courseOutputSection .courseOutput_col {
+    padding: 0 40px;
+}
+
+.cyberRoadmap--slick {
+    padding: 0;
+}
+
+.roadmap_container_edit {
+    padding-top: 0;
+}
+
+.cyberRoadmap--slick.zn_section {
+    padding-top: 0;
+    padding-bottom: 35px;
+}
+
+.roadmap__container {
+    padding-top: 0;
+}
+
+.cyberRoadmapSection,
+.cyberDetailSection {
+    padding-top: 0;
+}
+
+.capstone__projects .znColumnElement-innerWrapper-eluid25a98181 {
+    margin: 0;
+}
+
+.capstone__projects .cyber_title--style,
+.cyber_hexagon--smart .cyber_title--style {
+    padding-bottom: 0;
+}
+
+.final__project--section .final__project__box {
+    margin-top: 0;
+}
+
+.final__project--section .zn_custom_container,
+.cyberSection__custome .zn_custom_container,
+.cyber_method_learning .zn_custom_container,
+.certificate_work .zn_custom_container,
+.cyberSection__LogoPartner .zn_custom_container,
+.cyberfaq .zn_custom_container,
+.cyberSection__class .zn_custom_container {
+    padding-top: 0;
+}
+
+.cyberSection__LogoPartner {
+    padding: 0 0 20px;
+}
+
+.cyberfaq .cyber_title--style .tbk__title,
+.cyberSection__calendar .cyber_title--style .tbk__title {
+    margin-bottom: 0;
+}
+
+.cyberfaq .cyber_title--style .tbk__title {
+    color: #fff;
+}
+
+.custome_spacingHeight3.th-spacer {
+    height: 240px;
+}
+
+.cyberSection__LogoPartner .custome_spacingHeight3.th-spacer {
+    height: 200px;
+}
+
+.custome_spacingHeight4.th-spacer {
+    height: 250px;
+}
+
+.cyber_bgFixed {
+    min-height: 400px;
+}
+
+.cyberSection_banner {
+    padding: 0 0 200px;
+}
+
+.banner__container {
+    z-index: 4;
+    padding-bottom: 30px;
+}
+
+.targetCourseSection_col {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cyberbtn-group .btn-custom-color {
+    margin-right: 1em;
+}
+
+.cyber_custome_col1 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cyber_custome_col1>.znColumnElement-innerWrapper,
+.final__main--column {
+    padding-right: 50px;
+    padding-left: 70px;
+}
+
+.custome_spacingHeight5.th-spacer {
+    height: 55px;
+}
+
+.cyber_pd-0 {
+    padding: 0;
+}
+
+
+/* -------------------------------- RESPONSIVE SPACING -------------------------------- */
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .cyber_mainTitle {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .cyber_custome_col1>.znColumnElement-innerWrapper,
+    .final__main--column {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .courseInfoCol .znColumnElement-innerWrapper {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+
+
+
+    .cyberSection__custome,
+    .capstone__projects,
+    .final__project--section,
+    .cyber_method_learning,
+    .certificate_work,
+    .cyberSection__feedback,
+    .cyberfaq,
+    .cyberSection__class {
+        padding: 0 0 50px;
+    }
+
+    .custome_spacingHeight1.th-spacer {
+        height: 50px;
+    }
+
+    .custome_spacingHeight3.th-spacer {
+        height: 200px;
+    }
+
+    .cyberSection__LogoPartner .custome_spacingHeight3.th-spacer {
+        height: 150px;
+    }
+
+    .cyberRoadmap--slick.zn_section {
+        padding-bottom: 50px;
+    }
+
+    .courseOutputSection {
+        padding: 0 0 30px;
+    }
+
+    .cyber_part--section {
+        padding: 0;
+    }
+
+    .shapeCustomArrow {
+        margin-bottom: 80px;
+    }
+
+    .cyberDetailSection {
+        padding-bottom: 30px;
+    }
+
+    .cyberDetails .rowDetails:first-of-type {
+        margin-bottom: 50px;
+    }
+
+    .rowDetails {
+        margin-top: 0px;
+    }
+
+    .zn_section .cyber_space {
+        height: 65px;
+    }
+
+    .final__main--column {
+        padding: 0 15px 0;
+    }
+
+    .cyberSection__LogoPartner,
+    .eluid97d26f14,
+    .cyberfaq .zn_custom_container {
+        padding: 0;
+    }
+
+    .custome_spacingHeight4.th-spacer {
+        height: 175px;
+    }
+
+    .cyberSection_banner {
+        padding: 0 0 200px;
+    }
+
+    .custome_spacingHeight5.th-spacer {
+        height: 30px;
+    }
+
+
+}
+
+/* ------------------------------ CUSTOME TITLE ----------------------------- */
+.cyber_title--style {
+    padding: 0 0 40px;
+    margin: 0;
+}
+
+.cyber_teacher_smart .cyber_title--style {
+    padding: 0 0 15px;
+
+}
+
+.cyber_title--size .tbk__title,
+.cyber_title--custome .tbk__title,
+.cyber_title--style .tbk__title,
+.courseInfo__title h2,
+.courseOutput .colLeft h2 {
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+
+}
+
+.cyber_title--size .tbk__subtitle,
+.cyber_title--custome .tbk__subtitle,
+.cyber_title--style .tbk__subtitle,
+.cyber_subtitle--style .tbk__subtitle,
+.cyber_subtitle--style2 .tbk__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.cyber_title--custome {
+    color: white;
+}
+
+.cyber_subtitle--style .tbk__title,
+.cyber_subtitle--style2 .tbk__title {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.cyber_subtitle--style,
+.cyber_subtitle--style2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+.cyber_subtitle--style2 {
+    padding-top: 30px;
+}
+
+.cyber_learning_system .cyber_subtitle--style {
+    padding-bottom: 0;
+}
+
+.cyber_subtitle--style .znColumnElement-innerWrapper,
+.cyber_subtitle--style2 .znColumnElement-innerWrapper {
+    margin-top: 0;
+}
+
+.cyber_smart_project .znColumnElement-innerWrapper {
+    margin-top: 0;
+}
+
+.cyber_mainTitle .tbk__title {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.cyber_mainTitle2 .tbk__title {
+    font-size: 18px;
+}
+
+
+/* -------------------------------- RESPONSIVE TITLE -------------------------------- */
+
+@media screen and (max-width:1200px) {
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 38px;
+        line-height: 50px;
+
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 28px;
+        line-height: 35px;
+
+    }
+
+    .cyber_subtitle--style .tbk__title,
+    .cyber_subtitle--style2 .tbk__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 26px;
+        line-height: 32px;
+
+    }
+
+    .cyber_mainTitle .tbk__title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .cyber_mainTitle2 .tbk__title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .cyber_col--spacing1 {
+        padding: 15px;
+    }
+
+    .cyber_title--size .tbk__title,
+    .cyber_title--style .tbk__title,
+    .courseInfo__title h2,
+    .courseOutput .colLeft h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .cyberCol-custome>.znColumnElement-innerWrapper {
+        padding: 0 10px 0 10px;
+    }
+
+    .customGridRealProject {
+        margin-top: 0;
+    }
+
+    .cyber_subtitle--style {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* .cyber_custome_col1 {
+        padding-left: 0;
+        padding-right: 0;
+    } */
+
+    .cyber_col--spacing1>.znColumnElement-innerWrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .cyberSection__custome .services_box--modern .services_box__title {
+        font-size: 18px;
+    }
+}
+
+/* ------------------------------ CUSTOME bcamp ----------------------------- */
+
+@media screen and (max-width:992px) {
+    .box__container_course_features {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .box__container_course_features {
+        margin-bottom: 30px;
+    }
+
+    .custome_intro_list .znListItems {
+        margin-bottom: 0;
+    }
+
+    .banner__icon--top {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+}
+
+
+/* ------------------------------------ CUSTOME COLOR  ----------------------------------- */
+.cyberSection__class,
+.cyber_benefit.zn_section {
+    background-color: #f4f4f4;
+}
+
+.custome_spacingHeight2_bg {
+    background-color: #fff;
+}
+
+.cyberSection_bgWhite1.zn_section {
+    background-color: #fff;
+}
+
+/* ------------------------------------ CUSTOME CONTAINER  ----------------------------------- */
+
+
+
+@media screen and (min-width: 1536px) {
+    .container--xxl>.zn_section_size {
+
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .container--xxl>.zn_section_size,
+    .cyberCardBox__container.zn_section>.zn_section_size {
+        width: 1536px;
+    }
+
+    .cyber_custome_col1>.znColumnElement-innerWrapper,
+    .final__main--column {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+/* CSS specific to iOS devices */
+@supports (-webkit-touch-callout: none) {
+
+    /* Hide background-attachment on iOS devices*/
+    .bg-attach-ipad {
+        display: none;
+    }
+}
+
+.menudk {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    padding: 10px 30px;
+    background-size: 250% auto;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    transition-timing-function: ease, ease;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: all 300ms ease-out 0s;
+}
+
+.menudk span {
+    display: inline-block;
+    transform: translateX(0px);
+    transition: all 300ms ease-out 0s;
+}
+
+.menudk i {
+    position: absolute;
+    width: 15px;
+    right: 10px;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 300ms ease-out 0s;
+    will-change: right, opacity;
+}
+
+.menudk:hover {
+    background-position: right center;
+}
+
+.menudk:hover span {
+    transform: translateX(-6px);
+}
+
+.menudk:hover i {
+    opacity: 1;
+    right: 10px;
+}
+
+/* ------------------------------------ CUSTOME FORM  ----------------------------------- */
+
+
+.formMainBanner .dhvc-form-container {
+    width: 85%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+/* .formBanner-w .dhvc-form-container {
+    width: 85%;
+} */
+@media screen and (max-width:576px) {
+    .formMainBanner .dhvc-form-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,197 @@
+/******************** HOME BANNER ********************/
+/* Caption */
+.home ul.tp-revslider-mainul li :nth-child(4) .tp-caption,
+.home ul.tp-revslider-mainul li :nth-child(5) .tp-caption,
+.home ul.tp-revslider-mainul li :nth-child(6) .tp-caption {
+  line-height: 85px !important;
+  -webkit-text-fill-color: transparent !important;  
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  background-clip: text !important;
+  color: unset !important;
+}
+
+.home ul.tp-revslider-mainul li :nth-child(4) .tp-caption {
+  background: linear-gradient(to bottom, #227df9, #7462f9);
+}
+
+.home ul.tp-revslider-mainul li :nth-child(5) .tp-caption {
+  background: linear-gradient(to bottom, #7462f9, #df3ef8);
+}
+
+.home ul.tp-revslider-mainul li :nth-child(6) .tp-caption {
+  background: linear-gradient(to bottom, #df3ef8, #227df9);
+}
+
+/* First button */
+.home ul.tp-revslider-mainul li :nth-child(9) .tp-caption {
+  background-size: 250% auto;
+  background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+  color: white !important;
+  transition: all 0.5s ease !important;
+}
+
+.home ul.tp-revslider-mainul li :nth-child(9) .tp-caption:hover {
+  background-position: right center;
+}
+
+
+/* Second button */
+.home ul.tp-revslider-mainul li :nth-child(10) .tp-caption {
+  color: white !important;
+  position: relative;
+  transition: all 0.5s ease !important;
+}
+
+.home ul.tp-revslider-mainul li :nth-child(10) .tp-caption::after {
+  transition: all 0.5s ease;
+  content: "";
+  position: absolute;
+  top: -2px;
+  z-index: 1;
+  left: -2px;
+  width: 0;
+  height: calc(100% + 4px);
+
+  background-image: linear-gradient(to left, #df3ef8 0%, #7462f9 50%, #227df9 100%);
+}
+
+.home ul.tp-revslider-mainul li :nth-child(10) .tp-caption > span {
+  position: relative;
+  z-index: 2;
+}
+
+.home ul.tp-revslider-mainul li :nth-child(10) .tp-caption:hover > span {
+  color: white !important;
+}
+
+.home ul.tp-revslider-mainul li :nth-child(10) .tp-caption:hover::after {
+  width: calc(100% + 4px);
+  right: -2px;
+  left: unset;
+}
+
+/* Fix button with color: black !important; */
+.home #eluid9e99509b .btn-element-0,
+.home #eluid404c8bd8 .btn-element-0 {
+  color: white !important;
+}
+
+
+
+/********* Icon *********/
+.kl-iconbox__icon::before,
+.playVideo:before,
+.kl-iconbox__inner .kl-iconbox__title {
+  -webkit-text-fill-color:transparent; 
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;  
+}
+
+
+.kl-mask--mask7 {
+  bottom: 0px;
+}
+
+/****************************************/
+/*****************Slider*****************/
+/****************************************/
+@media screen and (max-width: 993px) {
+	.home ul.tp-revslider-mainul li :nth-child(9) .tp-caption,
+  .home ul.tp-revslider-mainul li :nth-child(10) .tp-caption > span {
+		font-size: 14px !important;
+    line-height: 14px !important;
+	}
+
+  .home ul.tp-revslider-mainul li :nth-child(9).tp-parallax-wrap .tp-caption,
+  .home ul.tp-revslider-mainul li :nth-child(10).tp-parallax-wrap .tp-caption {
+    padding: 8px 13px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	.home ul.tp-revslider-mainul li :nth-child(4) .tp-caption,
+	.home ul.tp-revslider-mainul li :nth-child(5) .tp-caption,
+	.home ul.tp-revslider-mainul li :nth-child(6) .tp-caption {
+		font-size: 46px !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(7) .tp-caption,
+	.home ul.tp-revslider-mainul li :nth-child(8) .tp-caption,
+	.home ul.tp-revslider-mainul li :nth-child(10) .tp-caption > span,
+	.home ul.tp-revslider-mainul li :nth-child(9) .tp-caption {
+		font-size: 18px !important;
+		line-height: 18px !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(9) .tp-caption {
+		line-height: 18px !important;
+	}
+
+	.home ul.tp-revslider-mainul li .tp-parallax-wrap {
+		left: 25px !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(2).tp-parallax-wrap {
+		left: 0 !important;
+	}
+
+	.home .rev_slider.fullwidthabanner,
+	.home .rev_slider_wrapper.fullwidthbanner-container,
+	.home ul.tp-revslider-mainul .fullwidthbanner-container .fullwidthabanner,
+	.home ul.tp-revslider-mainul li :nth-child(2).tp-parallax-wrap .tp-caption {
+    min-height: 400px !important;
+		height: 65vh !important;
+    max-height: 650px !important;
+	}
+
+	.home .rs-background-video-layer iframe {
+		top: 0;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(2).tp-parallax-wrap {
+		top: 0 !important;
+	}
+
+  .home ul.tp-revslider-mainul li :nth-child(4).tp-parallax-wrap {
+		top: calc(0px + 30px) !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(5).tp-parallax-wrap {
+		top: calc(57px + 30px) !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(6).tp-parallax-wrap {
+		top: calc(113px + 30px) !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(7).tp-parallax-wrap {
+		top: calc(186px + 30px) !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(8).tp-parallax-wrap {
+		top: calc(210px + 30px) !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(9).tp-parallax-wrap {
+		top: calc(242px + 50px) !important;
+	}
+
+	.home ul.tp-revslider-mainul li :nth-child(10).tp-parallax-wrap {
+		top: calc(286px + 50px) !important;
+	}
+
+  .home ul.tp-revslider-mainul li :nth-child(9).tp-parallax-wrap .tp-caption,
+  .home ul.tp-revslider-mainul li :nth-child(10).tp-parallax-wrap .tp-caption {
+    padding: 8px 25px !important;
+  }
+}
+
+@media screen and (min-width: 994px) {
+  .home ul.tp-revslider-mainul li :nth-child(9).tp-parallax-wrap .tp-caption,
+  .home ul.tp-revslider-mainul li :nth-child(10).tp-parallax-wrap .tp-caption {
+    padding: 8px 25px !important;
+  }
+}

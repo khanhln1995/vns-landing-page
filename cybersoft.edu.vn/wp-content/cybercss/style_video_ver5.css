@@ -1,0 +1,117 @@
+/*****************/ 
+/** Video Blobs **/
+/*****************/
+@keyframes orbitBlobThree {
+  from { transform: rotate(0deg) translateX(15px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(15px) rotate(-360deg); }
+}
+
+@keyframes orbitBlobTwo {
+  from { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+  to   { transform: rotate(0deg) translateX(10px) rotate(-0deg); }
+}
+
+@keyframes move-two {
+  0%   { transform: scale(1.3) rotate(0deg) translateX(5px) rotate(0deg);}
+  38%  { transform: scale(1.2, 1.3) rotate(30deg); }
+  40%  { transform: scale(1.2, 1.3) rotate(30deg); }
+  78%  { transform: scale(1.3) rotate(0deg); }
+  80%  { transform: scale(1.3) rotate(0deg); }
+  100% { transform: scale(1.3) rotate(360deg) translateX(5px) rotate(-360deg);}
+}
+
+@keyframes move-one {
+  0%   { transform: scale(1);}
+  38%  { transform: scale(0.8, 1) rotate(-40deg); }
+  40%  { transform: scale(0.8, 1) rotate(-40deg); }
+  78%  { transform: scale(1) rotate(-20deg); }
+  80%  { transform: scale(1) rotate(-20deg); }
+  100% { transform: scale(1);}
+}
+
+@keyframes move-three {
+  0%   { transform: scale(1.3) }
+  38%  { transform: scale(1, 1.3) rotate(50deg); }
+  40%  { transform: scale(1, 1.3) rotate(50deg); }
+  78%  { transform: scale(1.3) rotate(0deg); }
+  80%  { transform: scale(1.3) rotate(0deg); }
+  100% { transform: scale(1.3)}
+}
+
+.zn_section .zn_section_size .row .znColumnElement:first-child .znColumnElement-innerWrapper {
+  position: relative;
+  z-index: 7;
+}
+
+.blob__container--video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.blob__container--video .blob__one--video {
+  position: absolute;
+  top: -25%;
+  z-index: -1;
+  left: -18%;
+  fill: #FFC368;
+  display: none;
+  width: 70%;
+  width: 600px;
+  transform: translate(-50%, -50%);
+  animation: move-one 14s ease-in-out infinite;
+}
+
+.blob__container--video .blob__two--video {
+  position: absolute;
+  z-index: -1;
+  top: 0%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  width: 550px;
+  animation: move-two 18s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+.blob__container--video .blob__three--video {
+  width: 1px;
+  height: 1px;
+  padding: 14%;
+  max-width: 200px;
+  max-height: 200px;
+  background: #ffb648ab;
+  position: absolute;
+  
+  pointer-events:none;
+  transition: top 0.1s ease, left 0.1s ease, transform 1.8s ease,
+    background 1.5s ease;
+  animation: blobRadius 15s ease-in-out infinite,
+    blobBackground 15s ease infinite,
+    orbitBlobThree 6s linear infinite;
+  right: 5%;
+  bottom: 0;
+
+}
+
+
+/* blob--bcampfe */
+.blob--bcampfe .zn_pb_el_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.blob__container--video .blob__two--video,
+.blob__container--video .blob__three--video {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .blob__container--video .blob__two--video,
+  .blob__container--video .blob__three--video {
+    display: block;
+  }
+}

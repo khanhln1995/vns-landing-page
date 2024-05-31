@@ -1,0 +1,473 @@
+.btn-camNhan {
+  text-align: center;
+}
+.btn-camNhan a {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  padding: 10px 30px;
+  background-size: 250% auto;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500px;
+  transition-timing-function: ease, ease;
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+}
+.btn-camNhan a span {
+  transition: all 300ms ease-out 0s;
+}
+.btn-camNhan a:hover {
+  background-position: right center;
+}
+.btn-camNhan a:hover span {
+  display: inline-block;
+  transform: translateX(-6px);
+}
+.btn-camNhan a:hover i {
+  opacity: 1;
+  right: 10px;
+}
+.btn-camNhan a i {
+  position: absolute;
+  width: 15px;
+  right: 10px;
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 300ms ease-out 0s;
+  will-change: right, opacity;
+}
+
+.storyAndFeedback {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 30px;
+}
+.storyAndFeedback #loading {
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin: 20px auto 0;
+  border: solid 2px #2575fc;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  -webkit-transition: all 0.5s ease-in;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  transition: all 0.5s ease-in;
+  animation-name: rotate;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.storyAndFeedback .moreItem {
+  text-align: center;
+}
+.storyAndFeedback .moreItem button {
+  display: inline-block;
+  margin: 30px 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-text-fill-color: transparent;
+  background-size: 250% auto;
+  background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+  -webkit-background-clip: text;
+}
+.storyAndFeedback .moreItem button:hover {
+  background-position: right center;
+}
+.storyAndFeedback .storyAndCompany {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 0px 20px 20px 20px;
+}
+.storyAndFeedback .storyAndCompany .storyStudent {
+  margin-bottom: 30px;
+  height: 10%;
+}
+.storyAndFeedback .storyAndCompany .storyStudent h3 {
+  font-weight: 700;
+  margin-top: 0px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item:hover .itemIcon {
+  background: black;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item:hover .itemIcon .borderGradient {
+  box-shadow: inset 0 0 0 40px #7462f9;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item:hover .itemIcon .borderGradient i {
+  background: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemIcon {
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemIcon .borderGradient {
+  width: 55px;
+  height: 55px;
+  background: white;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-out;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemIcon .borderGradient i {
+  font-size: 35px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+  transition: all 0.5s ease-out;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemText {
+  margin-left: 10px;
+}
+.storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemText h4 {
+  font-size: 35px;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+}
+.storyAndFeedback .storyAndCompany .logoCompany {
+  height: 85%;
+}
+.storyAndFeedback .storyAndCompany .logoCompany h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.storyAndFeedback .storyAndCompany .logoCompany .logoContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.storyAndFeedback .storyAndCompany .logoCompany .logoContent .imgContainer {
+  width: calc(33.3333333333% - 30px);
+  height: 50px;
+}
+.storyAndFeedback .storyAndCompany .logoCompany .logoContent .imgContainer img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+.storyAndFeedback .feedbackStudent {
+  width: 60%;
+  padding: 10px 0;
+}
+.storyAndFeedback .feedbackStudent .reviewList {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.storyAndFeedback .feedbackStudent .reviewList .imgContainer {
+  width: calc(33.3333333333% - 30px);
+  position: relative;
+}
+.storyAndFeedback .feedbackStudent .reviewList .imgContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all 0.75s;
+  border-radius: 16px;
+}
+.storyAndFeedback .feedbackStudent .reviewList .imgContainer:hover::after {
+  opacity: 1;
+}
+.storyAndFeedback .feedbackStudent .reviewList .imgContainer:hover i {
+  opacity: 1;
+  margin-top: 0;
+}
+.storyAndFeedback .feedbackStudent .reviewList .imgContainer i {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 15px;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.storyAndFeedback .feedbackStudent .reviewList .imgContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.storyAndFeedback .feedbackStudentMobile {
+  display: none;
+  margin: 0 auto;
+  position: relative;
+}
+.storyAndFeedback .feedbackStudentMobile .mySlides {
+  padding: 0 5px;
+  position: relative;
+}
+.storyAndFeedback .feedbackStudentMobile .mySlides a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all 0.75s;
+  border-radius: 16px;
+}
+.storyAndFeedback .feedbackStudentMobile .mySlides:hover::after {
+  opacity: 1;
+}
+.storyAndFeedback .feedbackStudentMobile .mySlides:hover i {
+  opacity: 1;
+  margin-top: 0;
+}
+.storyAndFeedback .feedbackStudentMobile .mySlides i {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 15px;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.storyAndFeedback .feedbackStudentMobile .mySlides img {
+  width: 100%;
+  border-radius: 8px;
+}
+.storyAndFeedback .feedbackStudentMobile .slick-arrow {
+  position: absolute;
+  -webkit-text-fill-color: unset;
+}
+.storyAndFeedback .feedbackStudentMobile .slick-prev {
+  left: -15px;
+  z-index: 5;
+}
+.storyAndFeedback .feedbackStudentMobile .slick-prev i {
+  font-size: 25px;
+}
+.storyAndFeedback .feedbackStudentMobile .slick-prev:before {
+  color: black;
+}
+.storyAndFeedback .feedbackStudentMobile .slick-next {
+  right: -15px;
+  z-index: 5;
+}
+.storyAndFeedback .feedbackStudentMobile .slick-next:before {
+  color: black;
+}
+.storyAndFeedback .tech-slideshow {
+  max-height: 100%;
+  height: 90%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+.storyAndFeedback .tech-slideshow > .mover-1 {
+  height: 4186px;
+  background: url("../uploads/2022/10/logoIcon-1-1-2.png");
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.storyAndFeedback .tech-slideshow .mover-1 {
+  -webkit-animation: moveSlideshowY 90s linear infinite;
+          animation: moveSlideshowY 90s linear infinite;
+}
+
+@media screen and (max-width: 1460px) {
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemIcon {
+    width: 45px;
+    height: 45px;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemIcon .borderGradient {
+    width: 30px;
+    height: 30px;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemText h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemText p {
+    font-size: 14px;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemIcon .borderGradient i {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .storyAndFeedback {
+    display: block;
+    padding: 0 15px;
+  }
+  .storyAndFeedback .moreItem {
+    min-height: 90px;
+  }
+  .storyAndFeedback .storyAndCompany {
+    width: 100%;
+  }
+  .storyAndFeedback .feedbackStudent {
+    width: 100%;
+  }
+  .storyAndFeedback .tech-slideshow-mobile {
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  .storyAndFeedback .tech-slideshow-mobile > .mover-mobile {
+    width: 4296px;
+    background: url("../uploads/2022/10/logoIcon-2.png");
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .storyAndFeedback .tech-slideshow-mobile .mover-mobile {
+    -webkit-animation: moveSlideshow 90s linear infinite;
+            animation: moveSlideshow 90s linear infinite;
+  }
+  .storyAndFeedback .tech-slideshow {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .storyAndFeedback .storyAndCompany {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent {
+    align-items: baseline;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent .item {
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 33.3333333333%;
+  }
+  .storyAndFeedback .storyAndCompany .storyStudent .storyContent .item .itemText {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .storyAndFeedback .storyAndCompany .logoCompany h3 {
+    margin-top: 0;
+  }
+  .storyAndFeedback .scrollingLogo {
+    height: 250px;
+  }
+  .storyAndFeedback .scrollingLogo .scrollingLogoItem {
+    height: 55px;
+  }
+  .storyAndFeedback .feedbackStudent .reviewList {
+    gap: 15px;
+  }
+  .storyAndFeedback .feedbackStudent .reviewList .imgContainer {
+    width: calc(50% - 10px);
+  }
+  .storyAndFeedback .feedbackStudentMobile {
+    display: block;
+  }
+  .storyAndFeedback .feedbackStudentMobile .mySlides i {
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 0;
+  }
+}
+@-webkit-keyframes moveSlideshowY {
+  100% {
+    transform: translateY(-66.6666%);
+  }
+}
+@keyframes moveSlideshowY {
+  100% {
+    transform: translateY(-66.6666%);
+  }
+}
+@-webkit-keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}

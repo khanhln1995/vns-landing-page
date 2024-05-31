@@ -1,0 +1,160 @@
+.capstone__main--column,
+.final__main--column {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#wow-modal-overlay-1,
+#wow-modal-overlay-2 {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#wow-modal-overlay-1 .wow-modal-window,
+#wow-modal-overlay-2 .wow-modal-window {
+  padding: 0px !important;
+}
+
+#wow-modal-overlay-1 #wow-modal-close-1.mw-close-btn.text:before,
+#wow-modal-overlay-2 #wow-modal-close-2.mw-close-btn.text:before {
+  content: "X";
+  background: transparent;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: all .4s ease;
+}
+
+#wow-modal-overlay-1 #wow-modal-close-1.mw-close-btn.text:hover:before,
+#wow-modal-overlay-2 #wow-modal-close-2.mw-close-btn.text:hover:before {
+  opacity: 0.4;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__header,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__header {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__header > h4,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__header > h4 {
+  padding: 0 20px;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #e5e5e5;
+  word-break: break-word;
+  font-weight: 700;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content {
+  padding: 20px;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box {
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  margin-top: -1px;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box:first-child,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box:last-child,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box > h4,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box > h4 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  word-break: break-word;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul {
+  padding: 0;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul > li,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul > li {
+  font-size: 1.4rem;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: -1px;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul > li:first-child,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul > li:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#wow-modal-overlay-1.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul > li:last-child,
+#wow-modal-overlay-2.wow-modal-overlay .wow-modal__content .capstone__curri__box > ul > li:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.capstone__projects .capstone__project--summary,
+.final__project--section .capstone__project--summary {
+  margin-top: 3rem;
+}
+
+.capstone__projects .capstone__project--summary > h3.tbk__title,
+.final__project--section .capstone__project--summary > h3.tbk__title {
+  width: fit-content;
+  background: #835ef7;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.capstone__projects .capstone__project--summary .capstone__project--detail,
+.final__project--section .capstone__project--summary .capstone__project--detail {
+  padding-left: 0;
+  font-size: 1.8rem;
+  width: fit-content;
+}
+
+.capstone__projects .capstone__project__box,
+.final__project--section .capstone__project__box {
+  background: #F8F8F8;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  padding: 20px 40px;
+  margin-bottom: 3rem;
+}
+
+.capstone__projects .capstone__project__box h5.capstone__project__box--heading,
+.final__project--section .capstone__project__box h5.capstone__project__box--heading {
+  font-weight: 700;
+  line-height: 6rem;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #4e4e4e;
+}
+
+.capstone__projects .capstone__project__box h6.capstone__project__box--title,
+.final__project--section .capstone__project__box h6.capstone__project__box--title {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.capstone__projects .capstone__project__box .capstone__project__box--desc li,
+.final__project--section .capstone__project__box .capstone__project__box--desc li {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+

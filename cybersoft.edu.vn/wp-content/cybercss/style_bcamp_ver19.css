@@ -1,0 +1,284 @@
+/******************/
+/* Banner Styling */
+/******************/
+/* .banner__container  */
+.blob__video--container, .banner__container--right, .banner__icon--top, .banner__icon--top--box {
+  position: relative;
+}
+
+.media--video__container .zn-bgSource-image {
+  background-size: 120% !important;
+}
+
+.media--video__container {
+  transform: none;
+}
+
+.banner__icon--top {
+  z-index: 3;
+}
+
+.banner__icon--top .kl-iconbox__inner {
+  display: flex;
+  align-items: center;
+}
+
+.banner__icon--top .kl-iconbox__inner .kl-iconbox__icon-wrapper {
+  margin-right: 25px;
+  margin-left: 8px;
+}
+
+.banner__icon--top .znListItems {
+  margin-bottom: 25px;
+}
+
+.banner__icon--top .kl-iconbox, .banner__icon--top--box {
+  margin-bottom: 0;
+  z-index: 3;
+}
+
+.banner__icon--bottom .kl-iconbox__icon-wrapper {
+  margin-bottom: 8px;
+}
+
+.banner__icon--bottom .kl-iconbox__title {
+  font-size: 12px !important;
+}
+
+
+.banner__icon--bottom .znColumnElement br {
+  display: none;
+}
+
+
+
+
+
+.banner__container .zn_buttons_element a.btn-element {
+  margin-right: 0px !important;
+  width: fit-content;
+}
+
+.circleanim-svg, .circleanim-svg:before, .circleanim-svg:after {
+  width: 100px;
+  height: 100px;
+  min-width: unset;
+  max-width: unset;
+  max-height: unset;
+  min-height: unset;
+}
+
+.circleanim-svg svg path {
+  transform: translate(-5%, -4%);
+}
+
+@media screen and (min-width: 768px) {
+  .circleanim-svg, .circleanim-svg:before, .circleanim-svg:after {
+    width: 120px;
+    height: 120px;
+  }
+
+  .circleanim-svg svg path {
+    transform: translate(4%, 6%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .circleanim-svg, .circleanim-svg:before, .circleanim-svg:after {
+    width: 135px;
+    height: 135px;
+  }
+
+  .circleanim-svg svg path {
+    transform: translate(9%, 10%);
+  }
+}
+
+.circleanim-svg svg {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .media--video__container .zn-bgSource-image {
+    background-size: cover !important;
+  }
+
+  .media--video__container {
+    transform: unset;
+  }
+
+  .banner__container .kl-iconbox__inner {
+    display: unset;
+  }
+  
+  .banner__container .kl-iconbox__inner .kl-iconbox__icon-wrapper {
+    margin-right: 20px;
+  }
+
+  .banner__icon--top .znListItems {
+    margin-bottom: 10px;
+  }
+
+  .banner__icon--top .kl-iconbox {
+    margin-bottom: 0px;
+  }
+
+  .banner__icon--bottom .kl-iconbox__icon-wrapper {
+    margin-bottom: 8px;
+  }
+
+  .banner__container .zn_buttons_element {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .banner__container .zn_buttons_element a.btn-element:first-child {
+    margin-bottom: unset;
+    margin-right: 1em !important;
+    padding: 20px 18px;
+    font-size: 18px;
+  }
+
+  .banner__container .zn_buttons_element a.btn-element:nth-child(2) {
+    padding-right: 0em;
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 14px;
+  }
+
+  .banner__container .zn_buttons_element a.btn-element-1 {
+    margin-right: 1em !important;
+  }
+
+  .banner__icon--bottom .kl-iconbox__title {
+    font-size: 15px !important;
+  }
+}
+
+
+/******************/
+/* Box Container Styling */
+/******************/
+.box__container--blob .zn_section_size .row .znColumnElement:first-child .tbk__title {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .box__container--blob .zn_section_size .row .znColumnElement:first-child .tbk__title {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+}
+
+.znListItems-item {
+    font-size: 14px;
+}
+
+.kl-iconbox__title-wrapper{
+    margin-bottom: 0px;
+}
+
+.kl-iconbox__inner .kl-iconbox__title{
+ font-size: 14px;
+  line-height: 20px;
+}
+.box__container_course_features{
+background: #2562be12;
+    padding: 15px;
+padding-bottom: 0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.kl-iconbox__icon-wrapper {
+    margin-bottom: 0px;
+}
+
+span.kl-iconbox__icon {
+    font-size: 20px !important;
+}
+
+/* ALL: Section banner top blob--bcampfe */
+.banner__container .blob--bcampfe + .zn_custom_container > .row > .znColumnElement {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.banner__container .blob--bcampfe + .zn_custom_container > .row > .znColumnElement > .znColumnElement-innerWrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ALL: Col-sm-9 */
+@media screen and (max-width: 991px) {
+  .zn_section > .zn_section_size > .row > .col-sm-9 {
+    width: 100%;
+  }
+}
+
+/* ALL: Section real project */
+.real--project--title__container > .zn_section_size > .row > .col-md-9.znColumnElement .tbk__title {
+  text-align: left;
+}
+
+
+.real--project__container > .zn_section_size > .row > .col-md-9.znColumnElement .znColumnElement-innerWrapper .tbk__title {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .real--project__container > .zn_section_size > .row > .col-md-9.znColumnElement .znColumnElement-innerWrapper .tbk__title {
+    font-size: 25px;
+  }
+}
+
+/* JAVA: Tag banner .java-tags__container blob--bcampfe */
+.java-tags__container > .znColumnElement-innerWrapper {
+  padding-left: 0;
+}
+
+
+.banner__container .zn_buttons_element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner__container .zn_buttons_element a.btn-element:first-child {
+  margin-right: 0px !important;
+  margin-bottom: 10px;
+  font-size: 15px;
+  white-space: nowrap;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.banner__container .zn_buttons_element a.btn-element:nth-child(2) {
+  padding-right: 0em;
+  font-size: 12px;
+  white-space: nowrap;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 576px) {
+  .banner__container .zn_buttons_element {
+    flex-direction: row;
+  }
+  .banner__container .zn_buttons_element a.btn-element:first-child {
+    margin-right: 10px !important;
+    margin-bottom: 0px;
+  }
+  .banner__container .zn_buttons_element a.btn-element:nth-child(2) {
+    margin-bottom: 0px;
+  }
+}
+

@@ -1,0 +1,207 @@
+.roadmap__container {
+    padding: 30px 15px;
+    position: relative;
+  }
+  .roadmap_mobie {
+    font-size: 14px;
+    background: rgb(243, 243, 243);
+  }
+  .roadmap__list {
+    width: 100%;
+    position: relative;
+  }
+  #container__list {
+    height: max-content;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .item__container {
+    border-radius: 50%;
+    padding: 5%;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    display: flex;
+  }
+  .img__cotainer {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  .active .img__cotainer {
+    /* background: #4ca7dc; */
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  }
+  .roadmap__item {
+    padding: 5px;
+    position: relative;
+  }
+  .roadmap__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    background: white;
+  }
+  .item__titleeeee {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -20px;
+  }
+  /* .active .item__titleeeee {
+    color: #4ca7dc;
+    font-size: 12px;
+    font-weight: bold;
+  } 
+  h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+  }
+  */
+  
+  .active .item__titleeeee {
+    /* color: #4ca7dc; */
+    font-size: 12px;
+    font-weight: bold;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* 20*4 +2 = 82   => 18 */
+  
+  /* start line */
+  
+  /* end line */
+  
+  .roadmap__line {
+    height: 4px;
+    width: 95%;
+    position: absolute;
+  
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 15px;
+    top: 50%;
+    z-index: 1;
+    height: 13px;
+    background: white;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .roadmap__line i {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .line__container {
+    border-radius: 15px;
+  
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  .roadmap__line .line {
+    /* background: #4ca7dc; */
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    height: 100%;
+  }
+  .btn-next {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .item__introduce {
+    margin-top: 10px;
+    padding: 20px;
+    transform: translateY(-40px);
+  }
+  .introduce__container {
+    background: white;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+  }
+  .introduce__title {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .introduce__content {
+    margin: 10px 0;
+    color: #73777b;
+  }
+  .introduce__triangle {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 2px;
+    left: 0;
+    transition: 0.3s;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+  .introduce__triangle .triangle {
+    position: absolute;
+    background-color: white;
+  }
+  .introduce__triangle .triangle:before,
+  .introduce__triangle .triangle:after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+  }
+  .introduce__triangle .triangle,
+  .introduce__triangle .triangle:before,
+  .introduce__triangle .triangle:after {
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 15%;
+  }
+  
+  .introduce__triangle .triangle {
+    transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+  }
+  .introduce__triangle .triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+      translate(0, -50%);
+  }
+  .introduce__triangle .triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+  }
+  
+  
+  .roadmap_cyber .slick-dots {
+      display: flex !important;
+      justify-content: center;
+  }
+  @media screen and (max-width: 992px) {
+    .roadmap__line i {
+      display: none;
+    }
+  }

@@ -1,0 +1,152 @@
+.courseOutputSection {
+    background-color: #505170;
+}
+
+.courseOutput .znColumnElement {
+    animation-delay: 0s !important;
+}
+
+.courseOutput {
+    /*display: flex;
+    align-items: center;*/
+}
+
+.courseOutput .colRight {
+    position: relative;
+
+    /* width:40%; */
+}
+
+.courseOutput .colRight .blueSquare {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background: #5364FF;
+    border-radius: 8px;
+    top: 55%;
+    right: -10%;
+    /*transform: translate(-100%,-15%);*/
+}
+
+.courseOutput .colRight img {
+    width: 100%;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.courseOutput .colRight .imageContent {
+    position: relative;
+}
+
+
+.courseOutput .colRight .imageShow {
+    position: relative;
+    z-index: 5;
+}
+
+.courseOutput .checkbox-list {
+    position: relative;
+}
+
+.courseOutput .checkbox-list svg[data-v-3d2b47e7] {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+.courseOutput .checkbox-list .mouseClick {
+    fill: #5364FF;
+}
+
+.courseOutput .customCheckbox .checkIcon {
+    display: none;
+    stroke: #5364FF;
+    font-size: 16px;
+}
+
+.courseOutput .colLeft {
+
+    /*width: 60%;*/
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+.courseOutput .colLeft h2 {
+    font-size: 40px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.courseOutput .colLeft h2,
+.courseOutput .colLeft span {
+    color: white;
+}
+
+.courseOutput .colLeft span {
+    margin-left: 10px;
+}
+
+.courseOutput .customCheckbox {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #434343;
+    background: white;
+}
+
+.courseOutput label {
+    display: flex;
+    gap: 10px;
+    height: 52px;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.courseOutput label input[data-v-7da42960] {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .courseOutput .colRight {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .courseOutput .colRight {
+        display: none;
+    }
+
+    .courseOutput label {
+        height: 70px;
+    }
+
+    .courseOutput .colLeft {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .courseOutput .colLeft {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .courseOutput .colLeft span {
+        font-size: 14px;
+    }
+
+    .courseOutput .colLeft h2 {
+        font-size: 35px;
+    }
+
+    .courseOutput label {
+        height: 70px;
+    }
+}

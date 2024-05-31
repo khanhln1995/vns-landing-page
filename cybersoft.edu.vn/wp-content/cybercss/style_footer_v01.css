@@ -1,0 +1,32 @@
+/* footer */
+footer#footer.site-footer .container .btn.btn-fullcolor,
+footer#footer.site-footer .container .button.dhvc-form-submit {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .site-footer .kl-newsletter-submit {
+    width: fit-content;
+  }
+  .site-footer .kl-newsletter-field {
+    width: calc(100% - 150px);
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .site-footer .kl-newsletter-submit {
+    width: fit-content;
+  }
+  .site-footer .kl-newsletter-field {
+    width: calc(100% - 167px);
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .site-footer .kl-newsletter-submit {
+    width: fit-content;
+  }
+}
+

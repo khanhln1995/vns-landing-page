@@ -1,0 +1,51 @@
+
+.customGridHomeGallery .imageItem {
+  position: relative;
+}
+
+.customGridHomeGallery .imageItem:hover i {
+  opacity: 1;
+  margin-top: 0;
+}
+
+.customGridHomeGallery .customGridContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.customGridHomeGallery .customGridContent .imageItem {
+  width: calc(100% / 3);
+}
+
+
+
+.customGridHomeGallery .customGridContent .imageItem img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.customGridHomeGallery .imageItem i {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 15px;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translate(-50%, -50%);
+}
+
+.customGridHomeGallery .imageItem img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: brightness(0.9);
+}

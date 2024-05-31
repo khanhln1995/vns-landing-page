@@ -1,0 +1,266 @@
+/***************** 1. Lined button ******************/
+.btn-element.btn-lined.lined-custom.btn--square {
+  color: #000;
+  border:none !important;
+  position: relative;
+  transition: all 0.5s ease;
+    background-image: linear-gradient(90deg, #2d7af9 30%, #a752f8 80%);
+
+}
+
+.btn-element.btn-lined.lined-custom.btn--square::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background-color: #fff;
+}
+.btn-element.btn-lined.lined-custom.btn--square::after {
+  transition: all 0.5s ease;
+  content: "";
+  position: absolute;
+  top: -2px;
+  z-index: 1;
+  left: -2px;
+  width: 0;
+  height: calc(100% + 4px);
+
+  background-image: linear-gradient(to left, #df3ef8 0%, #7462f9 50%, #227df9 100%);
+}
+
+.btn-element.btn-lined.lined-custom.btn--square > span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-element.btn-lined.lined-custom.btn--square:hover > span {
+  color: white;
+}
+
+.btn-element.btn-lined.lined-custom.btn--square:hover::after {
+  width: calc(100% + 4px);
+  right: -2px;
+  left: unset;
+}
+
+/***************** 2. Square full button ******************/
+.btn.btn-fullcolor,
+.btn.btn-element.btn-fullcolor,
+.btn-element.btn-custom-color.btn-fullcolor.btn--square {
+  background-size: 250% auto;
+  background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+
+  transition: all 0.5s ease;
+  transition-timing-function: ease, ease;
+}
+
+.btn.btn-element.btn-fullcolor:hover,
+.btn.btn-fullcolor:hover {
+  background-position: right center;
+}
+
+
+/***************** 3. Circle play button ******************/
+.circleanim-svg,
+.circleanim-svg:before,
+.circleanim-svg:after {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background-color: rgba(244,68,56,.8);
+
+  background-size: 200% auto;
+  /* background-image: linear-gradient(90deg, #227df9, #df3ef8, #227df9); */
+  background-image: linear-gradient(90deg,#227df9 0%, #df3ef8 51%,#227df9 100%);
+  color: white;
+
+  box-shadow: 0 0 0 0 rgba(115, 98, 249, 0.35);
+  animation: ripple-anim 1.5s infinite;
+}
+
+.circleanim-svg:after,
+.circleanim-svg:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.circleanim-svg:before {
+  animation-delay: 0.5s;
+}
+
+.circleanim-svg:after {
+  animation-delay: 0.7s;
+}
+
+.circleanim-svg svg {
+  z-index: 2;
+  position: relative;
+}
+
+.circleanim-svg svg .circleanim-svg__circle-back,
+.circleanim-svg svg .circleanim-svg__circle-front {
+  stroke: none;
+}
+
+a.media-container__link--btn {
+  transition: all 0.5s ease;
+}
+
+a.media-container__link--btn:hover .circleanim-svg,
+a.media-container__link--btn:hover .circleanim-svg::before,
+a.media-container__link--btn:hover .circleanim-svg::after {
+ filter: drop-shadow(0px 0px 5px rgba(255,255,255,.3));
+}
+
+
+
+/***************** 4. Hover card ******************/
+/* Default styling */
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1 {
+  overflow: hidden;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1 .image-boxes-holder {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1 .image-boxes-img {
+  transition: all 0.5s ease;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1,
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1 h3,
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1 .coursetag {
+  z-index: 3;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+
+/* Background gradient */
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1 .bgOverlay-hover {
+  position: absolute;
+  transition: height 0.5s ease;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(300deg, #227df9, #7462f9, #df3ef8);
+}
+
+
+/* Two circle blob */
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1::before,
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1::after {
+  content: "";
+  position: absolute;
+  transition: all 0.5s ease;
+  max-height: 150px;
+  max-width: 150px;
+
+  width: 0%;
+  height: 45%;  
+  opacity: 0.3;
+  z-index: 2;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1::before {
+  top: -10%;
+  right: -15%;
+  background: #8a0086;
+  border-radius: 40% 50% 55% 70% / 75% 45% 65% 50%;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1::after {
+  bottom: -10%;
+  left: -10%;
+  background: #00429d;
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+
+/* Hover effect */
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1:hover {
+  box-shadow: rgb(184 196 255 / 65%) 0px 8px 15px 0px;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1:hover .coursetag {
+  background-color: white;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1:hover .bgOverlay-hover{
+  height: 100%;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1:hover h3 {
+  color: white;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1:hover::before,
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1:hover::after { 
+  width: 60%;
+}
+
+.box__container--blob .znColumnElement-innerContent .image-boxes.image-boxes--1:hover .image-boxes-holder .image-boxes-img {
+  transform: scale(1.1);
+  /* opacity: 0.7; */
+  filter: brightness(0.8);
+}
+
+/***************** 5. Sidebar hover ******************/
+.menufrontend .zn_sbs .menu>li, .menugioithieu .zn_sbs .menu>li {
+  position: relative;
+}
+
+.menufrontend .zn_sbs .menu>li a, .menugioithieu .zn_sbs .menu>li a {
+  position: relative;
+  z-index: 3;
+}
+
+.menufrontend .zn_sbs .menu>li:hover, .menugioithieu .zn_sbs .menu>li:hover {
+  background: transparent;
+  border-right: none !important;
+}
+
+.menufrontend .zn_sbs .menu>li::after, .menugioithieu .zn_sbs .menu>li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  transition: width 0.5s ease;
+  height: 100%;
+  background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+}
+
+.menufrontend .zn_sbs .menu>li:hover::after, 
+.menugioithieu .zn_sbs .menu>li:hover::after {
+  width: 100%;
+}
+
+/*image trong box chu de can noi len tren */
+.image-boxes-link, .image-boxes-holder{
+ z-index:1;
+}
+
+/*icon trang chu */
+.fa-home,.fa-envelope, .site-header .topnav.social-icons .social-icons-item {
+    font-size: 18px;
+    background-image: linear-gradient(90deg, #4550f8 0%, #fd632f 100%);
+    background-image: linear-gradient(90deg, #4550f8 0%, #fd632f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}

@@ -1,0 +1,99 @@
+.timeline_box.timeline-box .timeline-box-icon::before {
+    color: white;
+  }
+  
+  .timeline_box.timeline-box .timeline-box-icon {
+    background-size: 250% auto;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    transition: all 0.5s ease;
+  }
+  
+  .timeline-bar--right .timeline-box-date, .timeline-box-date {
+    background: #227df9 !important;
+    color: white;
+  }
+  
+  .timeline_box.timeline-box:hover .timeline-box-icon {
+    background-position: right center;
+  }
+  
+  @media (max-width: 767px) {
+    .timeline-bar--right .timeline-box-date, .timeline-box-date {
+      background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    }
+  
+    .timeline_box.timeline-box .timeline-box-icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+
+/* Icon hover shadow shows gradient */
+.services_box--gradient .services_box--modern .services_box__icon {
+  box-shadow: inset 0 0 0 2px #7462f9;
+} 
+
+.services_box--gradient .services_box--modern:hover .services_box__icon {
+  box-shadow: inset 0 0 0 40px #7462f9;
+}
+
+.services_box--gradient .services_box.servicebox-sch--light.services_box--modern .services_box__fonticon {
+  color: white;
+}
+
+.services_box--gradient [data-zn_icon]:before {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent; 
+}
+
+.services_box--gradient .services_box--modern:hover [data-zn_icon]:before {
+  background: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+/* Equal row glass box */
+.images__box--gradient .row.zn_col_container-smart_container {
+  display: initial;
+}
+
+.znColumnElement-innerWrapper {
+  height: 100%;
+}
+
+.images__box--gradient .row.zn_col_container-smart_container .znColumnElement-innerWrapper .znColumnElement-innerContent {
+  display: flex;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+ .images__box--gradient .row.zn_col_container-smart_container {
+   display: flex;
+ }
+}
+
+
+/* Historic element gradient style */
+.historic__element--gradient .timeline-edge-text {
+  background: #3e8aff;
+}
+
+.home .services_box--gradient .tbk__title {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.home li.hr-tabs-nav-item:before {
+  background: linear-gradient(to right, #227df9, #7462f9, #df3ef8) !important;
+}

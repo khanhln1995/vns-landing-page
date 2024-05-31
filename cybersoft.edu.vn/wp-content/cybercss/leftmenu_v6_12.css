@@ -1,0 +1,279 @@
+#menu-frontendnav .zn_sbs .menu>li,
+#menu-gioi-thieu .zn_sbs .menu {
+    float: none;
+}
+
+.menufrontend .zn_sbs .menu>li,
+.menugioithieu .zn_sbs .menu>li,
+.cyberLeftMenu .zn_sbs .menu>li,
+.cyberLeftIntro .zn_sbs .menu>li,
+.cyberThankYou .zn_sbs .menu>li,
+.cyberLeftBusiness .zn_sbs .menu>li {
+    width: 100%;
+}
+
+.menufrontend .zn_sbs .menu>li a:before,
+.menugioithieu .zn_sbs .menu>li a:before,
+.cyberLeftMenu .zn_sbs .menu>li a:before,
+.cyberLeftIntro .zn_sbs .menu>li a:before,
+.cyberThankYou .zn_sbs .menu>li a:before,
+.cyberLeftBusiness .zn_sbs .menu>li a:before {
+    display: none;
+}
+
+.menufrontend .zn_sbs .menu>li a,
+.menugioithieu .zn_sbs .menu>li a,
+.cyberLeftMenu .zn_sbs .menu>li a,
+.cyberLeftIntro .zn_sbs .menu>li a,
+.cyberThankYou .zn_sbs .menu>li a,
+.cyberLeftBusiness .zn_sbs .menu>li a {
+    padding: 5px 20px 5px 35px;
+    color: white;
+}
+
+.menufrontend .zn_sbs .menu>li:hover a,
+.menugioithieu .zn_sbs .menu>li:hover a,
+.cyberLeftMenu .zn_sbs .menu>li:hover a,
+.cyberLeftIntro .zn_sbs .menu>li:hover a,
+.cyberThankYou .zn_sbs .menu>li:hover a,
+.cyberLeftBusiness .zn_sbs .menu>li:hover a {
+    color: white;
+}
+
+.menufrontend,
+.menugioithieu,
+.cyberLeftMenu,
+.cyberLeftIntro,
+.cyberThankYou,
+.cyberLeftBusiness {
+    background: #272634;
+    height: 100%;
+    border-radius: 0;
+    display: table-cell;
+    overflow: hidden;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.menufrontend .menu-item.active,
+.menugioithieu .menu-item.active {
+    border-right: 6px solid #d4b03c !important;
+    color: white;
+}
+
+.menufrontend .zn_sbs .menu>li:hover,
+.menugioithieu .zn_sbs .menu>li:hover {
+    background: #1f2022;
+    border-right: 6px solid #d4b03c !important;
+}
+
+.menufrontend .zn_sbs .menu>li.active>a,
+.menugioithieu .zn_sbs .menu>li.active>a,
+.cyberLeftMenu .zn_sbs .menu>li.active>a,
+.cyberLeftIntro .zn_sbs .menu>li.active>a,
+.cyberThankYou .zn_sbs .menu>li.active>a,
+.cyberLeftBusiness .zn_sbs .menu>li.active>a {
+    color: white;
+}
+
+.menufrontend .menu-item.active a,
+.menugioithieu .menu-item.active a,
+.cyberLeftMenu .menu-item.active a,
+.cyberLeftIntro .menu-item.active a,
+.cyberThankYou .menu-item.active a,
+.cyberLeftBusiness .menu-item.active a {
+    color: white;
+}
+
+.zn_sidebar {
+    height: 100vh !important
+}
+
+
+/* CUSTOME LEFT MENU */
+.cyberLeftMenu,
+.cyberLeftIntro,
+.cyberThankYou,
+.cyberLeftBusiness {
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    ;
+    /*margin-top: 0 !important;*/
+    width: 210px !important;
+    z-index: 100 !important;
+    /* left: 0 !important; */
+    background: white;
+    color: #1f2022;
+    position: relative;
+    height: auto !important;
+    /* transform: translateX(35%); */
+    /* transform: translate(35%, 5%); */
+}
+
+.cyberLeftMenu {
+
+    padding: 20px 0px 8px !important;
+}
+
+.cyberLeftMenu .zn-sidebar-widget,
+.cyberLeftIntro .zn-sidebar-widget,
+.cyberThankYou .zn-sidebar-widget,
+.cyberLeftBusiness .zn-sidebar-widget {
+    margin-bottom: 0;
+}
+
+.cyberLeftMenu.element-is-not-sticky,
+.cyberLeftIntro.element-is-not-sticky {
+    /* left: 34% !important; */
+}
+
+.cyberLeftMenu .zn_sbs .menu>li a,
+.cyberLeftIntro .zn_sbs .menu>li a,
+.cyberThankYou .zn_sbs .menu>li a,
+.cyberLeftBusiness .zn_sbs .menu>li a {
+    font-size: 14px;
+    color: #1f2022;
+    line-height: 22px;
+}
+
+.cyberLeftMenu .zn_sbs .menu>li a {
+    line-height: 21px;
+}
+
+.cyberLeftMenu .zn_sbs .menu>li,
+.cyberLeftIntro .zn_sbs .menu>li,
+.cyberThankYou .zn_sbs .menu>li,
+.cyberLeftBusiness .zn_sbs .menu>li {
+    position: relative;
+    z-index: 3;
+}
+
+.cyberLeftMenu .zn_sbs .menu>li a.mPS2id-highlight,
+.cyberLeftMenu .zn_sbs .menu>li:hover a,
+.cyberLeftIntro .zn_sbs .menu>li a.mPS2id-highlight,
+.cyberLeftIntro .zn_sbs .menu>li:hover a,
+.cyberThankYou .zn_sbs .menu>li a.mPS2id-highlight,
+.cyberThankYou .zn_sbs .menu>li:hover a,
+.cyberLeftBusiness .zn_sbs .menu>li a.mPS2id-highlight,
+.cyberLeftBusiness .zn_sbs .menu>li:hover a {
+    color: white;
+    z-index: 4;
+}
+
+.cyberLeftMenu .zn_sbs .menu>li::after,
+.cyberLeftIntro .zn_sbs .menu>li::after,
+.cyberThankYou .zn_sbs .menu>li::after,
+.cyberLeftBusiness .zn_sbs .menu>li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    transition: width 0.5s ease;
+    height: 100%;
+    background: linear-gradient(to right, #7462f9 35%, #df3ef8 100%);
+}
+
+.cyberLeftMenu .zn_sbs .menu>li:hover::after,
+.cyberLeftIntro .zn_sbs .menu>li:hover::after,
+.cyberThankYou .zn_sbs .menu>li:hover::after,
+.cyberLeftBusiness .zn_sbs .menu>li:hover::after {
+    width: 100%;
+}
+
+.menufrontendparent {
+    position: relative;
+    z-index: 10;
+}
+
+.cyberLeftMenu .zn_sbs #menu-item-1888:hover::after {
+    width: 0;
+}
+
+.cyberLeftMenu .zn_sbs #menu-item-1888 a {
+    width: 75%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 12px 10px;
+    background-size: 250% auto;
+    background-image: linear-gradient(to left, #227df9 0%, #7462f9 25%, #df3ef8 50%, #7462f9 75%, #227df9 100%);
+    transition: all 0.5s ease;
+    transition-timing-function: ease, ease;
+    color: white;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.cyberLeftMenu .zn_sbs #menu-item-1888:hover a {
+    background-position: right center;
+}
+
+.cyberLeftMenu #sbs_nav_menu-4 {
+    position: relative;
+}
+
+.cyberLeftMenu #sbs_nav_menu-4::before,
+.cyberLeftMenu #sbs_nav_menu-4::after {
+    content: "";
+    background-image: url(../uploads/2022/09/banner-sidebar-v2.jpg);
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.cyberLeftMenu #sbs_nav_menu-4::before {
+    top: -30px;
+    right: -60px;
+    background-position: right;
+}
+
+.cyberLeftMenu #sbs_nav_menu-4::after {
+    background-position: left;
+    bottom: -35px;
+    left: -160px;
+    transform: rotate(180deg);
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .cyberLeftMenu,
+    .cyberLeftIntro,
+    .cyberThankYou,.cyberLeftBusiness {
+        left: 0% !important;
+        transform: translateX(10%);
+    }
+}
+
+@media screen and (min-width:1300.98px)and (max-width:1535.98px) {
+
+    .cyberLeftMenu,
+    .cyberLeftIntro,
+    .cyberThankYou,.cyberLeftBusiness {
+        left: 1% !important;
+        transform: translateX(35%);
+    }
+}
+
+@media screen and (min-width:1536px) {
+
+    /* .cyberLeftMenu,
+    .cyberLeftIntro,
+    .cyberThankYou {
+        left: auto;
+        transform: translateX(0%);
+    } */
+}
+
+/* @media screen and (max-width:1024px) {
+
+    .cyberLeftMenu,
+    .cyberLeftIntro,
+    .cyberThankYou {
+        left: 0% !important;
+        transform: translateX(10%);
+    }
+
+} */

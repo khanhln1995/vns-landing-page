@@ -1,0 +1,71 @@
+.banner_custom .znListItems-icon::before {
+    /* color: #227df9; */
+   
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+
+@media screen and (min-width: 993px) {
+
+
+    .banner_custom .newCourseBegin .content {
+        justify-content: space-around;
+    }
+
+    .banner_custom .newCourseBegin .content .item {
+        width: 30%;
+    }
+
+    .banner_custom .newCourseBegin .content .item:last-child {
+        width: 40%;
+    }
+
+    .box__container--blob {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+
+    .banner_custom .newCourseBegin .content {
+        width: 92%;
+        flex-wrap: nowrap;
+    }
+
+    .banner_custom .newCourseBegin .content .item {
+        width: 30%;
+        justify-content: space-between;
+    }
+
+    .banner_custom .newCourseBegin .content .item:last-child {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+   
+
+    .banner_custom .newCourseBegin {
+        height: 200px;
+    }
+
+    .banner_custom .newCourseBegin .content {
+        flex-wrap: wrap;
+    }
+
+    .banner_custom .newCourseBegin .content .item {
+        width: 100%;
+    }
+
+    .banner_custom .newCourseBegin .content .item:last-child {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+}
